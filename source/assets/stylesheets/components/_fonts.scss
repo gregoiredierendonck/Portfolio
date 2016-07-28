@@ -1,0 +1,68 @@
+body {
+  font-family: $primary-font;
+  font-size: $font-s-m;
+  line-height: $line-height-xl;
+  font-weight: $font-m;
+  .text-center {text-align: center;}
+}
+
+a {
+  color: $c1;
+  text-decoration: underline;
+}
+
+i {
+  opacity: .6;
+}
+
+.visuallyhidden {display: none;}
+
+.center {text-align: center;}
+
+h1, h2, h3, h4 {
+  font-family: $secondary-font;
+  line-height: $line-height-s;
+  color: $c1;
+}
+
+h2, .h2 {
+	font-size: 68px;
+  line-height: $line-height-s;
+	margin-bottom: 30px;
+	span.small {
+    display: block;
+		font-size: 36px;
+    line-height: $line-height-l;
+		font-style: italic;
+    // white-space: nowrap;
+	}
+  @media screen and (max-width: $media-m) {
+    font-size: 54px;
+    margin-bottom: 20px;
+    span.small {
+      font-size: 28px;
+    }
+  }
+  @media screen and (max-width: $media-s) {
+    font-size: 42px;
+    margin-bottom: 15px;
+    span.small {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+p + h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.ul-list {
+  list-style: disc;
+  display: inline-block;
+  position: relative;
+  padding-left: 40px;
+  margin-top: 10px;
+
+}

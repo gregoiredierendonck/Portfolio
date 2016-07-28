@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+  position: relative;
+	background-color: $white;
+  display: inline-block;
+
+  section {
+    width: 100%;
+    max-width: $max-width;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: -5vh auto;
+    padding: 5vh 5%;
+    overflow: hidden;
+  }
+
+  .box {
+  	width: 100%;
+    display: inline-block;
+  	padding: $section-padding;
+  	box-shadow: $box-shadow-xl;
+  	background: $white;
+    position: relative;
+    @media screen and (max-width: $media-m) {
+      padding: $section-padding / 1.5;
+    }
+  }
+
+  .row {display: flex;}
+  .full-width {width: 100%; max-width: 100%;}
+  .auto {width: auto;}
+
+  .no-margin {margin: 0;}
+  .top-negativ {margin-top: - $section-padding / 2;}
+  .bottom-negativ {margin-bottom: - $section-padding / 2;}
+
+  .left-align {align-self: flex-start;}
+  .margin-left {margin-left: $section-padding;}
+
+  .depth-1 {z-index: 10;}
+  .depth-2 {z-index: 9;}
+
+}

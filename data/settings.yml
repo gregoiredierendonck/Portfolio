@@ -1,0 +1,22 @@
+site:
+  title: "Labo 3G"
+  introduction: Test
+  i18n: fr
+  url: http://www.labo3g.fr/
+  domain: www.labo3g.fr/
+  author: Grégoire Dierendonck
+  email: "bonjour@labo3g.fr"
+  mapspath: "https://www.google.fr/maps/place/Galerie+Labo3g/@50.6335118,3.0889856,17z/data=!3m1!4b1!4m5!3m4!1s0x47c2d5f9611731c3:0x859536423bf1e42b!8m2!3d50.6335084!4d3.0911743"
+
+footer:
+  copyright: "© Labo3G 2016"
+  tel: "06 09 36 05 09"
+  mentions: "Mentions légales"
+  mentionspath: "mentionslegales.html"
+  credit: "Site réalisé par "
+  creditlinktext: "Grégoire Dierendonck"
+  creditlinkpath: "http://www.gregoiredierendonck.fr"
+  image: "image-newsletter.jpg"
+
+logowhite: "logo-white.svg"
+mailchimp: "//labo3g.us13.list-manage.com/subscribe/post?u=e92f638fb544c13bcafde929d&amp;id=844d038368"
