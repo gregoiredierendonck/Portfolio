@@ -1,7 +1,1 @@
 #= require "jquery.min"
-#= require "header"
-#= require "stellar"
-#= require "featherlight"
-#= require "form"
-#= require "footer"
-#= require "analytics"
