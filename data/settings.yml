@@ -1,7 +1,0 @@
-site:
-  title: "Lorem ipsum"
-  i18n: fr
-  url: http://www.gregoiredierendonck.fr/
-  domain: www.gregoiredierendonck.fr/
-  author: Grégoire Dierendonck
-  email: "bonjour@gregoiredierendonck.fr"
