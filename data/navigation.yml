@@ -1,0 +1,7 @@
+nav:
+  -
+    title: "Entrée 1"
+    link: "http://www.google.com"
+  -
+    title: "Entrée 2"
+    link: "http://www.google.com"
