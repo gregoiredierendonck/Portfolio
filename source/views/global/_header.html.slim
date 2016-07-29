@@ -1,2 +1,8 @@
 header
-	h1 Header
+	div class="wrapper"
+		h1 = link_to "Grégoire <br/>Dierendonck", "index.html" 
+		nav
+			h1 class="visuallyhidden" Navigation principale
+			ul
+				- data.navigation.nav.each_with_index do |menuentrie|
+						li = link_to menuentrie.title, menuentrie.link

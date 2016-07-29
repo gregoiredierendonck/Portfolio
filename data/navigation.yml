@@ -1,7 +1,19 @@
 nav:
   -
-    title: "Entrée 1"
-    link: "http://www.google.com"
+    title: Guidelines
+    link: guidelines.html
   -
-    title: "Entrée 2"
-    link: "http://www.google.com"
+    title: Accueil
+    link: index.html
+  -
+    title: Compétences
+    link: competences.html
+  -
+    title: Profil
+    link: profil.html
+  -
+    title: Références
+    link: references.html
+  -
+    title: Contactez-moi
+    link: contact.html

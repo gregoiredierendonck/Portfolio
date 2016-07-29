@@ -1,0 +1,17 @@
+---
+title: Profil - Portfolio de Grégoire Dierendonck
+description: "Lorem ipsum"
+keywords: "Lorem ipsum"
+changefreq: "monthly"
+priority: "0.8"
+---
+
+div class="wrapper"
+
+  section
+    h1 = data.content.profil.title
+    p class="intro" = data.content.profil.intro
+    - data.content.profil.article.each_with_index do |article|
+      article
+        h1 class="h2" = article.title
+        p = article.p
