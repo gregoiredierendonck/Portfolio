@@ -1,0 +1,42 @@
+
+// COMPETENCES
+.competences {
+  .grid {
+    margin-bottom: 60px;
+    h1 {margin-top: 0;}
+
+    &:nth-of-type(even) {
+      .g2 {
+        &:nth-of-type(even) {order: -1;}
+        img {
+          &:nth-of-type(odd) {align-self: flex-end; margin-bottom: 30px;}
+          &:nth-of-type(even) {align-self: flex-start;}
+        }
+      }
+    }
+
+    .g2 {
+      img {
+        &:nth-of-type(odd) {align-self: flex-start; margin-bottom: 30px;}
+        &:nth-of-type(even) {align-self: flex-end;}
+      }
+    }
+
+  }
+}
+
+// PROFIL
+.profil {
+  h1 {
+    text-align: center;
+  }
+  p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  article {
+    margin-top: 100px;
+    &:first-of-type {margin-bottom: 50px;}
+  }
+}
