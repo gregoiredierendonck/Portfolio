@@ -1,23 +1,28 @@
 ---
-title: Compétences - Portfolio de Grégoire Dierendonck
-description: "Lorem ipsum"
-keywords: "Lorem ipsum"
-changefreq: "monthly"
-priority: "0.8"
+title: Compétences
+description: Lorem ipsum
+keywords: Lorem ipsum
+changefreq: monthly
+priority: 0.8
 ---
 
 div class="wrapper"
 
   section
+
     h1 = data.content.competences.title
     p class="intro" = data.content.competences.intro
-    - data.content.competences.article.each_with_index do |article|
-      article
-        h1 class="h2" = article.title
-        - article.content.each_with_index do |content|
-          div class="altern-elements"
-            div class="altern"
-              h2 class="h3" = content.title
-              p = content.p
-            div class="altern"
-              = image_tag "#{content.image}", alt: "Grégoire Dierendonck - #{content.title}"
+
+    - data.content.competences.sections.each_with_index do |section|
+      section class="grid"
+
+        div class="g2"
+          - section.images.each_with_index do |image|
+            = image_tag "#{image.path}", alt: "#{image.alt}"
+
+        div class="g2"
+          h1 class="h2" = section.title
+          - section.articles.each_with_index do |article|
+            article
+              h2 class="h3" = article.title
+              p = article.p
