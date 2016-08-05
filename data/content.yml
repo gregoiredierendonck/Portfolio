@@ -6,10 +6,10 @@ competences:
       title: Étude de l’expérience utilisateur
       images:
         -
-          path: "http://placehold.it/400x500"
+          path: "http://placehold.it/500x400"
           alt: "Lorem ipsum"
         -
-          path: "http://placehold.it/400x500"
+          path: "http://placehold.it/500x400"
           alt: "Lorem ipsum"
       articles:
         -
@@ -22,10 +22,10 @@ competences:
       title: Conception d’interfaces performantes
       images:
         -
-          path: "http://placehold.it/400x500"
+          path: "http://placehold.it/500x400"
           alt: "Lorem ipsum"
         -
-          path: "http://placehold.it/400x500"
+          path: "http://placehold.it/500x400"
           alt: "Lorem ipsum"
       articles:
         -
@@ -38,10 +38,10 @@ competences:
       title: Optimisation, audit et conseil
       images:
         -
-          path: "http://placehold.it/400x500"
+          path: "http://placehold.it/500x400"
           alt: "Lorem ipsum"
         -
-          path: "http://placehold.it/400x500"
+          path: "http://placehold.it/500x400"
           alt: "Lorem ipsum"
       articles:
         -
