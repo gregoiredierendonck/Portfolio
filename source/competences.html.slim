@@ -16,7 +16,7 @@ div class="wrapper"
     - data.content.competences.sections.each_with_index do |section|
       section class="grid"
 
-        div class="g2"
+        div class="g2 twoimg"
           - section.images.each_with_index do |image|
             = image_tag "#{image.path}", alt: "#{image.alt}"
 

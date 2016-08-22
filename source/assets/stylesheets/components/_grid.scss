@@ -16,3 +16,7 @@
 .g3 {width: calc(33.33% - 40px);}
 .g4 {width: calc(25% - 40px);}
 .g5 {width: calc(20% - 40px);}
+
+@media screen and (max-width: $m-l) {
+  .g2 {width: 100%;}
+}

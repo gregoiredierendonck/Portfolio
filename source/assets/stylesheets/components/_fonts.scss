@@ -20,7 +20,10 @@ a {
   text-decoration: underline;
   color: $c1;
   &:hover, &:focus {
-    background-color: $c1-ll;
+    color: $c1-l;
+  }
+  &:active {
+    color: $c1-d;
   }
 }
 
