@@ -6,6 +6,7 @@ require 'slim'
 require 'builder'
 activate :livereload
 
+# Relative paths
 set :js_dir, 'assets/javascripts'
 set :css_dir, 'assets/stylesheets'
 set :images_dir, 'assets/images'

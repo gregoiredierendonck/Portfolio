@@ -1,8 +1,16 @@
+$maxwidth: 1400px;
+
 .wrapper {
   width: 100%;
-  max-width: 1400px;
+  max-width: $maxwidth;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   padding: 0 40px;
+}
+
+.smallcontent {
+  width: 100%;
+  max-width: calc(#{$maxwidth} / 2);
+  margin: 0 auto;
 }

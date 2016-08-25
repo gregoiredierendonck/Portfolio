@@ -6,10 +6,16 @@ competences:
       title: Étude de l’expérience utilisateur
       images:
         -
-          path: "http://placehold.it/500x400"
+          retinapath: "assets/images/i-r-1.jpg"
+          normalpath: "assets/images/i-d-1.jpg"
+          mobilepath: "assets/images/i-m-1.jpg"
+          path: "assets/images/i-d-1.jpg"
           alt: "Lorem ipsum"
         -
-          path: "http://placehold.it/500x400"
+          retinapath: "assets/images/i-r-1.jpg"
+          normalpath: "assets/images/i-d-1.jpg"
+          mobilepath: ""
+          path: "assets/images/i-d-1.jpg"
           alt: "Lorem ipsum"
       articles:
         -
@@ -22,10 +28,16 @@ competences:
       title: Conception d’interfaces performantes
       images:
         -
-          path: "http://placehold.it/500x400"
+          retinapath: "assets/images/i-r-1.jpg"
+          normalpath: "assets/images/i-d-1.jpg"
+          mobilepath: "assets/images/i-m-1.jpg"
+          path: "assets/images/i-d-1.jpg"
           alt: "Lorem ipsum"
         -
-          path: "http://placehold.it/500x400"
+          retinapath: "assets/images/i-r-1.jpg"
+          normalpath: "assets/images/i-d-1.jpg"
+          mobilepath: ""
+          path: "assets/images/i-d-1.jpg"
           alt: "Lorem ipsum"
       articles:
         -
@@ -38,10 +50,16 @@ competences:
       title: Optimisation, audit et conseil
       images:
         -
-          path: "http://placehold.it/500x400"
+          retinapath: "assets/images/i-r-1.jpg"
+          normalpath: "assets/images/i-d-1.jpg"
+          mobilepath: "assets/images/i-m-1.jpg"
+          path: "assets/images/i-d-1.jpg"
           alt: "Lorem ipsum"
         -
-          path: "http://placehold.it/500x400"
+          retinapath: "assets/images/i-r-1.jpg"
+          normalpath: "assets/images/i-d-1.jpg"
+          mobilepath: ""
+          path: "assets/images/i-d-1.jpg"
           alt: "Lorem ipsum"
       articles:
         -

@@ -18,7 +18,11 @@ div class="wrapper"
 
         div class="g2 twoimg"
           - section.images.each_with_index do |image|
-            = image_tag "#{image.path}", alt: "#{image.alt}"
+            picture
+              source srcset="#{image.retinapath}" media="(min-width: 1000px)"
+              source srcset="#{image.normalpath}" media="(min-width: 800px)"
+              source srcset="#{image.mobilepath}" media="(min-width: 500px)"
+              img srcset="#{image.path}" alt="#{image.alt}"
 
         div class="g2"
           h1 class="h2" = section.title
