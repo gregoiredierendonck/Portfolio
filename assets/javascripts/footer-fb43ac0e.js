@@ -1,0 +1,1 @@
+!function(){document.createElement("picture")}.call(this);
