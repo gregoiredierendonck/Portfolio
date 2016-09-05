@@ -2,11 +2,41 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:300,400,400i,600,800';
 $font-p: "Raleway", "Helvetica Neue", helvetica, arial, sans-serif;
 
+// RESPONSIVE TYPE
+body {
+  font-family: $font-p;
+  line-height: 160%;
+  font-weight: 400;
+  color: $black;
+}
+b {font-weight: 600;}
+i {font-style: italic;color: $grey-d;}
+p + p {margin-top: 30px;}
+
+@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+  @each $property in $properties {
+    #{$property}: $min-value;
+  }
+  @media screen and (min-width: $min-vw) {
+    @each $property in $properties {
+      #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * (100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)});
+    }
+  }
+  @media screen and (min-width: $max-vw) {
+    @each $property in $properties {
+      #{$property}: $max-value;
+    }
+  }
+}
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+/* Single property */html {@include fluid-type(font-size, 320px, 1366px, 15px, 19px);}
+/* Multiple properties with same values */h1 {@include fluid-type(padding-bottom padding-top, 20em, 70em, 2em, 4em);}
+
 // DEFINE FONTS STYLES
 body {
   font-family: $font-p;
-  font-size: 16px;
-  line-height: 180%;
   font-weight: 400;
   color: $black;
 }
@@ -29,7 +59,6 @@ a {
 
 .intro {
   width: 100%;
-  font-size: 18px;
   text-align: center;
   color: $grey;
   margin-bottom: 60px;
@@ -50,7 +79,6 @@ ol {
     &:before {
       content: counter(ol-counter)".";
       counter-increment: ol-counter;
-      font-size: 20px;
       font-weight: 600;
       margin-right: 10px;
     }
@@ -58,55 +86,55 @@ ol {
 }
 
 // TITLES
-h1, .h1 {
-  font-size: 50px;
-  line-height: 120%;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin: 30px 0;
-  text-align: center;
-}
-
-h2, .h2 {
-  text-transform: uppercase;
-  font-size: 30px;
-  line-height: 140%;
-  font-weight: 600;
-  margin: 30px 0;
-  text-align: left;
-}
-
-h3, .h3 {
-  text-transform: none;
-  font-size: 22px;
-  line-height: 160%;
-  font-weight: 600;
-  margin: 30px 0;
-  text-align: left;
-}
-
-h4, .h4 {
-  text-transform: none;
-  font-size: 20px;
-  line-height: 160%;
-  margin: 30px 0;
-  text-align: left;
-}
-
-h5, .h5 {
-  text-transform: none;
-  font-size: 18px;
-  line-height: 160%;
-  font-weight: 600;
-  margin: 30px 0;
-  text-align: left;
-}
-
-h6, .h6 {
-  text-transform: none;
-  font-size: 16px;
-  line-height: 160%;
-  font-weight: 600;
-  margin: 30px 0;
-  text-align: left;
-}
+// h1, .h1 {
+//   font-size: 50px;
+//   line-height: 120%;
+//   font-weight: 600;
+//   text-transform: uppercase;
+//   margin: 30px 0;
+//   text-align: center;
+// }
+//
+// h2, .h2 {
+//   text-transform: uppercase;
+//   font-size: 30px;
+//   line-height: 140%;
+//   font-weight: 600;
+//   margin: 30px 0;
+//   text-align: left;
+// }
+//
+// h3, .h3 {
+//   text-transform: none;
+//   font-size: 22px;
+//   line-height: 160%;
+//   font-weight: 600;
+//   margin: 30px 0;
+//   text-align: left;
+// }
+//
+// h4, .h4 {
+//   text-transform: none;
+//   font-size: 20px;
+//   line-height: 160%;
+//   margin: 30px 0;
+//   text-align: left;
+// }
+//
+// h5, .h5 {
+//   text-transform: none;
+//   font-size: 18px;
+//   line-height: 160%;
+//   font-weight: 600;
+//   margin: 30px 0;
+//   text-align: left;
+// }
+//
+// h6, .h6 {
+//   text-transform: none;
+//   font-size: 16px;
+//   line-height: 160%;
+//   font-weight: 600;
+//   margin: 30px 0;
+//   text-align: left;
+// }
