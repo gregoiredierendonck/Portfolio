@@ -1,5 +1,1 @@
 #= require "jquery.min"
-#= require "picturefill"
-#= require "headroom"
-#= require "header"
-#= require "footer"

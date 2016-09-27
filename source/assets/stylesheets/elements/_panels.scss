@@ -1,0 +1,11 @@
+.panel--white {
+  width: 100%;
+  border: 1px solid $grey-light;
+  background-color: $white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  &.space-between {
+    justify-content: space-between;
+  }
+}

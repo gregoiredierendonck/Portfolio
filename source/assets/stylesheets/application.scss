@@ -1,14 +1,10 @@
 @charset "UTF-8";
 
 @import "variables";
-@import "components/reset";
-@import "components/colors";
-@import "components/structure";
-@import "components/grid";
-@import "components/fonts";
-@import "components/images";
 
-@import "modules/navigation";
-@import "modules/footer";
-
-@import "specific/specific";
+@import "elements/reset";
+@import "elements/structure";
+@import "elements/grid";
+@import "elements/fonts";
+@import "elements/buttons";
+@import "elements/panels";
