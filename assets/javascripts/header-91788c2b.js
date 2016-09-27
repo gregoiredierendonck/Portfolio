@@ -1,1 +1,0 @@
-!function(){var e;e=function(){var e,n;return e=document.querySelector("#header"),n=new Headroom(e,{offset:300,tolerance:10}),n.init()},$(document).ready(function(){return e()})}.call(this);
