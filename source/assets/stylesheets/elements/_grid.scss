@@ -2,6 +2,15 @@
   display: flex;
   flex-wrap: wrap;
 
+  .grid--two {
+    width: 50%;
+    margin-bottom: 40px;
+    &.grid--margin {
+      width: 48%;
+      margin-right: 4%;
+      &:nth-of-type(even) {margin-right: 0;}
+    }
+  }
   .grid--three {
     width: 33%;
     margin-bottom: 40px;

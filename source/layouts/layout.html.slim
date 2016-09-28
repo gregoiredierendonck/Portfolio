@@ -17,7 +17,6 @@ html lang="#{data.settings.site.i18n}"
         h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
         = partial 'views/global/header'
         == yield
-        = partial 'views/global/footer'
 
         = javascript_include_tag 'application'
         = yield_content :javascripts

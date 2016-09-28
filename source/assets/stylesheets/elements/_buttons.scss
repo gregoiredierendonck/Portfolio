@@ -12,4 +12,13 @@
     background-color: rgba($primary, 1);
     color: $white;
   }
+  &.button--white {
+    color: $white;
+    border: 2px solid $white;
+    background-color: rgba($white, 0);
+    &:hover, &:focus {
+      background-color: rgba($white, 1);
+      color: $primary;
+    }
+  }
 }

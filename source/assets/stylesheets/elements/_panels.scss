@@ -1,10 +1,23 @@
 .panel--white {
-  width: 100%;
-  border: 1px solid $grey-light;
+  width: calc(100% - 2px);
+  box-shadow: 0 0 0 1px $grey-light;
   background-color: $white;
   padding: 30px;
   display: flex;
   flex-direction: column;
+  &.space-between {
+    justify-content: space-between;
+  }
+}
+
+.panel--blue {
+  width: 100%;
+  background-color: $primary;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  p, .p, h1, .h1, h2, .h2, h3, .h3 {color: white;}
   &.space-between {
     justify-content: space-between;
   }

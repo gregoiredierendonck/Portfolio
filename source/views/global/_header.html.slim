@@ -1,2 +1,17 @@
 header id="header"
-  h1 Header
+  div class="wrapper"
+    = link_to "#", class:"header--logo" do
+      = image_tag "logo-home.svg", alt: "Icône de retour à la page d'accueil", class:"header--logo-home"
+      = image_tag "gregoiredierendonck-logo.svg", alt: "Grégoire Dierendonck - logo"
+      p  Grégoire Dierendonck
+    div class="header--navigation"
+      label for="show-menu" class="header--menu-button" Menu
+      input type="checkbox" id="show-menu" role="button"
+      nav
+        h1 class="visuallyhidden" Navigation principale
+        ul
+          li class="header--menu-forsmall" = link_to "Accueil", "#"
+          li = link_to "Compétences", "#"
+          li = link_to "Profil", "#"
+          li = link_to "Références", "#"
+          li = link_to "Contact", "#"

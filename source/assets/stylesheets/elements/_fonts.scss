@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Poppins:400,600';
 
-body {
+body, p, .p {
   font-family: 'Poppins', 'Helvetica Neue', helvetica, arial, sans-serif;
   font-size: 14px;
   line-height: 190%;
@@ -9,14 +9,23 @@ body {
   color: $black;
 }
 
-.visuallyhidden {
-  display: none;
-}
+.visuallyhidden {display: none;}
 
 p, h2, h3 {
   width: 100%;
   max-width: 630px;
   margin: 0 auto;
+}
+
+p + p {margin-top: 20px;}
+p + .button--primary {margin-top: 20px;}
+p.p--small {color: $grey;}
+.uppercase {text-transform: uppercase;}
+.center {text-align: center;}
+
+a {
+  text-decoration: underline;
+  color: $primary;
 }
 
 h1, .h1 {
@@ -48,10 +57,3 @@ h3, .h3 {
   color: $primary;
   margin-bottom: 10px;
 }
-
-p.p--small {color: $grey;}
-.uppercase {text-transform: uppercase;}
-.center {text-align: center;}
-
-p + p {margin-top: 20px;}
-p + .button--primary {margin-top: 20px;}

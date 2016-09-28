@@ -1,0 +1,72 @@
+.m-crossnavigation {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .subtitle, p, .p {
+    width: 100%;
+    max-width: 375px;
+    margin: 0;
+  }
+  .subtitle {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    &:nth-of-type(even) {align-items: flex-end;}
+    &:nth-of-type(odd) {
+      padding-left: 115px;
+      &:after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border-left: 2px solid $primary;
+        border-bottom: 2px solid $primary;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 50%;
+        left: 50px;
+        margin-top: -6px;
+      }
+      &:before {
+        content: '';
+        width: 17px;
+        height: 2px;
+        background-color: $primary;
+        position: absolute;
+        top: 50%;
+        left: 50px;
+        margin-top: -1px;
+      }
+    }
+    &:nth-of-type(even) {
+      padding-right: 115px;
+      &:after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border-right: 2px solid $primary;
+        border-top: 2px solid $primary;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        margin-top: -6px;
+      }
+      &:before {
+        content: '';
+        width: 17px;
+        height: 2px;
+        background-color: $primary;
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        margin-top: -1px;
+      }
+    }
+  }
+}
