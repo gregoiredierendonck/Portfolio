@@ -1,0 +1,30 @@
+---
+title: "Profil"
+description: ""
+keywords: ""
+changefreq: "monthly"
+priority: "0.8"
+---
+h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
+= partial 'views/global/header'
+section class="content"
+
+  h1 = data.content.profil.title
+  div class="wrapper profil--entries grid"
+    - data.content.profil.profilentry.each_with_index do |entry|
+      article class="grid--three grid--margin panel--white"
+        = image_tag "#{entry.icon}", alt: "#{data.settings.site.title} - #{entry.title}"
+        h1 class="h4" = entry.title
+        p = entry.text
+
+section class="wrapper grid m-crossnavigation"
+  h1 class="m-crossnavigation--title" = data.content.crossnav.title
+  = link_to "#{data.content.crossnav.competences.linkpath}", class:"grid--two panel--white" do
+    p class="subtitle" = data.content.crossnav.competences.title
+    p = data.content.crossnav.competences.text
+  = link_to "#{data.content.crossnav.references.linkpath}", class:"grid--two panel--white" do
+    p class="subtitle" = data.content.crossnav.references.title
+    p = data.content.crossnav.references.text
+    
+= partial 'views/contactbox'
+= partial 'views/footer'

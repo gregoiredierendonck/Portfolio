@@ -1,0 +1,58 @@
+crossnav:
+  title: "Vous voulez en savoir plus sur moi&nbsp;?"
+  competences:
+    title: "Compétences"
+    text: "Les acquis et connaissances que je met en œuvre dans mon quotidien."
+    linkpath: "competences.html"
+    linktext: "Mes compétences"
+  profil:
+    title: "Profil"
+    text: "Les traits de personnalité, les centres d’intérêts qui constituent mon profil propre."
+    linkpath: "profil.html"
+    linktext: "Mon profil"
+  references:
+    title: "Références"
+    text: "Quelques références sélectionnées pour vous donner une idée plus précise de mon travail."
+    linkpath: "references.html"
+    linktext: "Références"
+
+contactbox:
+  p: "Intéressé par mon profil&nbsp;? <br/>Je suis actuellement disponible&nbsp;!"
+  cvlinktext: "Téléchargez mon CV"
+  cvlinkpath: "#"
+  contactlinktext: "Contactez-moi"
+  contactlinkpath: "contact.html"
+
+footer:
+  text: 'Grégoire Dierendonck • UI/UX designer à Lille, France • 06 11 70 39 58 • <a href="mailto:bonjour@gregoiredierendonck.fr">bonjour@gregoiredierendonck.fr</a>'
+
+homepage:
+  h1: 'Étude de <b class="keyword">l’expérience utilisateur</b> <br/><b class="keyword">Conception d’interfaces</b> performantes'
+
+profil:
+  title: "Profil"
+  profilentry:
+    -
+      title: "Une expérience de 7 annèes au service du web"
+      text: "J’évolue depuis 7 ans dans le secteur du web en tant que web designer, développeur front-end puis UX / UI designer au sein d’agences web ou directement chez l’annonceur."
+      icon: ""
+    -
+      title: "Passionné d’expérience utilisateur, d’ergonomie et d’accessibilité"
+      text: "Passionné par les problématiques visant à simplifier l’expérience utilisateur, au travers de l’ergonomie, du design ou de l’accessibilité, je me suis naturellement orienté vers le métier d’UX / UI designer que j’occupe aujourd’hui."
+      icon: ""
+    -
+      title: "Un intérêt pour la technique, afin de mieux concevoir"
+      text: "Initialement designer web, j’ai rapidement réalisé mes design en Html5, Css3 et Javascript. La manière dont le web se construit me passionne, parce que cet intérêt, sans cesse nourrit par l’expérience et la veille, me permet de concevoir des solutions plus efficaces et plus modernes."
+      icon: ""
+    -
+      title: "Un goût pour l’organisation, le partage et le travail en équipe"
+      text: "Le fil conducteur inhérent à mes expériences passées est sans aucun doute mon goût pour le travail en équipe, le partage d’idées et ma capacités à motiver un groupe autour d’idées et de projets communs."
+      icon: ""
+    -
+      title: "Un goût certain pour la découverte et l’ouverture des compétences"
+      text: "Parce que passionné par mon métier et par le web, je me plaît à apprendre et à découvrir de nouvelles choses sans cesse"
+      icon: ""
+    -
+      title: "Un profil social, dynamique et motivé"
+      text: "Lorem ipsum dolore amet set acterem lorem ipsum dolore amet set acterem lorem ipsum dolore amet set acterem lorem ipsum dolore amet set acterem lorem ipsum dolore amet set acterem."
+      icon: ""

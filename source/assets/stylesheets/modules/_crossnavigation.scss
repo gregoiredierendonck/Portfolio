@@ -1,6 +1,15 @@
 .m-crossnavigation {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  .m-crossnavigation--title {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: $grey;
+    margin-bottom: 20px;
+  }
   .subtitle, p, .p {
     width: 100%;
     max-width: 375px;
@@ -15,6 +24,7 @@
     display: flex;
     align-items: flex-start;
     position: relative;
+    margin-bottom: 0 !important;
     &:nth-of-type(even) {align-items: flex-end;}
     &:nth-of-type(odd) {
       padding-left: 115px;

@@ -1,4 +1,22 @@
+title: "Navigation principale"
 nav:
   -
-    title: Guidelines
-    link: guidelines.html
+    title: "Guidelines"
+    link: "guidelines.html"
+    name: "guidelines"
+  -
+    title: "Compétences"
+    link: "competences.html"
+    name: "competences"
+  -
+    title: "Profil"
+    link: "profil.html"
+    name: "profil"
+  -
+    title: "Références"
+    link: "references.html"
+    name: "references"
+  -
+    title: "Contact"
+    link: "contact.html"
+    name: "contact"

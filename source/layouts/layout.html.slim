@@ -13,9 +13,7 @@ html lang="#{data.settings.site.i18n}"
         = stylesheet_link_tag 'application'
 
     body class='#{page_classes}'
-
-        h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
-        = partial 'views/global/header'
+        
         == yield
 
         = javascript_include_tag 'application'

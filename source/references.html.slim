@@ -1,0 +1,24 @@
+---
+title: "Références"
+description: ""
+keywords: ""
+changefreq: "monthly"
+priority: "0.8"
+---
+h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
+= partial 'views/global/header'
+section class="content"
+
+
+
+section class="wrapper grid m-crossnavigation"
+  h1 class="m-crossnavigation--title" = data.content.crossnav.title
+  = link_to "#{data.content.crossnav.competences.linkpath}", class:"grid--two panel--white" do
+    p class="subtitle" = data.content.crossnav.competences.title
+    p = data.content.crossnav.competences.text
+  = link_to "#{data.content.crossnav.profil.linkpath}", class:"grid--two panel--white" do
+    p class="subtitle" = data.content.crossnav.profil.title
+    p = data.content.crossnav.profil.text
+    
+= partial 'views/contactbox'
+= partial 'views/footer'

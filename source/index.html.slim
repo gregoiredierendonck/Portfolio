@@ -1,7 +1,31 @@
 ---
-title: ""
+title: "Accueil"
 description: ""
 keywords: ""
 changefreq: "monthly"
 priority: "1"
 ---
+
+h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
+= partial 'views/global/header'
+section class="content"
+
+  h1 class="homepage--title" = data.content.homepage.h1
+
+  section class="wrapper--medium grid"
+    h1 class="visuallyhidden" = data.content.crossnav.title
+    article class="grid--three grid--margin panel--white center space-between"
+      h1 class="subtitle" = data.content.crossnav.competences.title
+      p class="center" = data.content.crossnav.competences.text
+      =link_to "#{data.content.crossnav.competences.linktext}", "#{data.content.crossnav.competences.linkpath}", class:"button--primary"
+    article class="grid--three grid--margin panel--white center space-between"
+      h1 class="subtitle" = data.content.crossnav.profil.title
+      p class="center" = data.content.crossnav.profil.text
+      =link_to "#{data.content.crossnav.profil.linktext}", "#{data.content.crossnav.profil.linkpath}", class:"button--primary"
+    article class="grid--three grid--margin panel--white center space-between"
+      h1 class="subtitle" = data.content.crossnav.references.title
+      p class="center" = data.content.crossnav.references.text
+      =link_to "#{data.content.crossnav.references.linktext}", "#{data.content.crossnav.references.linkpath}", class:"button--primary"
+
+= partial 'views/contactbox'
+= partial 'views/footer'
