@@ -5,11 +5,27 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>Lorem ipsumreferences.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>Lorem ipsumprofil.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>Lorem ipsumcompetences.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>Lorem ipsumindex.html</loc>
     <priority>1</priority>
   </url>
   <url>
     <loc>Lorem ipsumguidelines.html</loc>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>Lorem ipsumcontact.html</loc>
+    <priority>0.8</priority>
   </url>
 </urlset>
