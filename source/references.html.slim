@@ -9,7 +9,15 @@ h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.t
 = partial 'views/global/header'
 section class="content"
 
-
+  h1 = data.content.references.title
+  div class="wrapper grid"
+    - data.content.references.projects.each_with_index do |project|
+      article class="grid--two"
+        = link_to "#{project.linkpath}" do
+          = image_tag "#{project.logo}", alt: "#{project.logoalt}"
+          h1 = project.clientname
+          h2 = project.title
+          = image_tag "#{project.image}", alt: "#{project.imagealt}", class:"reference--img"
 
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnav.title

@@ -9,7 +9,38 @@ h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.t
 = partial 'views/global/header'
 section class="content"
 
-
+  h1 = data.content.competences.title
+  div class="wrapper"
+    article class="grid"
+      div class="grid--two grid--margin"
+        = image_tag "#{data.content.competences.ux.image}", alt: "#{data.content.competences.ux.imagealt}", class:"img"
+      div class="grid--two grid--margin"
+        p class="subtitle" = data.content.competences.ux.subtitle 
+        h1 class="h2" = data.content.competences.ux.firsttitle
+        h2 class="h3" = data.content.competences.ux.titleone
+        p = data.content.competences.ux.textone
+        h2 class="h3" = data.content.competences.ux.titletwo
+        p = data.content.competences.ux.texttwo
+    article class="grid"
+      div class="grid--two grid--margin"
+        p class="subtitle" = data.content.competences.ui.subtitle 
+        h1 class="h2" = data.content.competences.ui.firsttitle
+        h2 class="h3" = data.content.competences.ui.titleone
+        p = data.content.competences.ui.textone
+        h2 class="h3" = data.content.competences.ui.titletwo
+        p = data.content.competences.ui.texttwo  
+      div class="grid--two grid--margin"
+        = image_tag "#{data.content.competences.ui.image}", alt: "#{data.content.competences.ui.imagealt}", class:"img"
+    article class="grid"
+      div class="grid--two grid--margin"
+        = image_tag "#{data.content.competences.audit.image}", alt: "#{data.content.competences.audit.imagealt}", class:"img"
+      div class="grid--two grid--margin"
+        p class="subtitle" = data.content.competences.audit.subtitle 
+        h1 class="h2" = data.content.competences.audit.firsttitle
+        h2 class="h3" = data.content.competences.audit.titleone
+        p = data.content.competences.audit.textone
+        h2 class="h3" = data.content.competences.audit.titletwo
+        p = data.content.competences.audit.texttwo
 
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnav.title

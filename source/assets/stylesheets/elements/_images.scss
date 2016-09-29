@@ -1,0 +1,7 @@
+img {
+  width: auto;
+  max-width: 100%;
+  &.img {
+    border: 2px solid $grey-light;
+  }
+}

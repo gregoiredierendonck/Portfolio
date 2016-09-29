@@ -29,6 +29,36 @@ footer:
 homepage:
   h1: 'Étude de <b class="keyword">l’expérience utilisateur</b> <br/><b class="keyword">Conception d’interfaces</b> performantes'
 
+competences:
+  title: "Compétences"
+  ux:
+    image: "http://placehold.it/504x504"
+    imagealt: ""
+    subtitle: "User experience design"
+    firsttitle: "Étude de l’expérience utilisateur"
+    titleone: "Étude de la nature, des besoins et des attentes de vos utilisateurs"
+    textone: "Basé sur des données chiffrées et sur vos connaissances existantes, j’établis une analyse de vos utilisateurs sur laquelle pourront se baser l’ensemble de vos équipes pour mettre au point des solutions plus performantes, dans le but de cibler la nature, les besoins, les attentes et les comportement de vos utilisateurs."
+    titletwo: "Organisation des contenus, architecture de l’information et sitemap"
+    texttwo: "Étude de la manière dont vos utilisateurs vont naviguer au sein de votre site, grouper et connecter entre eux vos contenus de manière à y simplifier l’exploration et la recherche. Cette étude peut se concentrer uniquement sur la manière de présenter vos contenus à l’utilisateur, mais également sur la manière d’organiser vos produits au sein de votre catalogue."
+  ui:
+    image: "http://placehold.it/504x504"
+    imagealt: ""
+    subtitle: "User interface design"
+    firsttitle: "Conception d’interfaces performantes"
+    titleone: "Conception ergonomique et fonctionnelle des interfaces : wireframing"
+    textone: "Étude de l’organisation des fonctionnalités au sein d’interfaces claires et parlantes pour vos utilisateurs, dans lesquelles votre message et vos objectifs seront atteints plus facilement. L’utilisation de wireframes papiers ou interactifs vous permettra de mieux concevoir vos solutions et de réunir vos équipes autour d’un support favorisant l’étude fonctionnelle de votre solution."
+    titletwo: "Conception et prototypage de comportements avancés"
+    texttwo: "Étude du comportement de modules ou de pages spécifiques à l’aide de protoypes interactifs poussés réalisés directement en html / css ou via des outils tiers."
+  audit:
+    image: "http://placehold.it/504x504"
+    imagealt: ""
+    subtitle: "Audit et conseil"
+    firsttitle: "Optimisation, audit et conseil"
+    titleone: "Audits de solution existantes"
+    textone: "Analyse approfondie de solutions existantes selon une grille de critères définis, ciblée par problèmatiques précises (navigation, catalogue, checkout, recherche ...). Pour chacune d’elles est allouée une note de performance UX et un document listant l’ensemble des points à améliorer est rédigé."
+    titletwo: "Préconisations d’évolutions à apporter"
+    texttwo: "Un document proposant un ensemble de chantiers à mettre en place pour améliorer significativement la santé UX de la solution est rédigé, et accompagné de wireframes des évolutions proposées."
+
 profil:
   title: "Profil"
   profilentry:
@@ -56,3 +86,63 @@ profil:
       title: "Un profil social, dynamique et motivé"
       text: "Lorem ipsum dolore amet set acterem lorem ipsum dolore amet set acterem lorem ipsum dolore amet set acterem lorem ipsum dolore amet set acterem lorem ipsum dolore amet set acterem."
       icon: ""
+
+references:
+  title: "Références"
+  projects:
+    -
+      logo: "http://placehold.it/65x65"
+      logoalt: ""
+      clientname: "Jef Chaussures"
+      title: "Refonte du checkout"
+      image: "http://placehold.it/600x400"
+      imagealt: ""
+    -
+      logo: "http://placehold.it/65x65"
+      logoalt: ""
+      clientname: "Montres & Co"
+      title: "Refonte de la page produit"
+      image: "http://placehold.it/600x400"
+      imagealt: ""
+    -
+      logo: "http://placehold.it/65x65"
+      logoalt: ""
+      clientname: "Planète Oui"
+      title: "Optimisation de la page d'accueil et du formulaire de souscription"
+      image: "http://placehold.it/600x400"
+      imagealt: ""
+    -
+      logo: "http://placehold.it/65x65"
+      logoalt: ""
+      clientname: "Jef Chaussures"
+      title: "Conception d'une application magasin"
+      image: "http://placehold.it/600x400"
+      imagealt: ""
+    -
+      logo: "http://placehold.it/65x65"
+      logoalt: ""
+      clientname: "La Redoute"
+      title: "Conception du site corporate"
+      image: "http://placehold.it/600x400"
+      imagealt: ""
+    -
+      logo: "http://placehold.it/65x65"
+      logoalt: ""
+      clientname: "Zukunfthaus"
+      title: "Conception d'une application"
+      image: "http://placehold.it/600x400"
+      imagealt: ""
+    -
+      logo: "http://placehold.it/65x65"
+      logoalt: ""
+      clientname: "France machines outils"
+      title: "Conception d'une interface d'administration"
+      image: "http://placehold.it/600x400"
+      imagealt: ""
+    -
+      logo: "http://placehold.it/65x65"
+      logoalt: ""
+      clientname: "Delcourt"
+      title: "Audit de l'expérience utiilsateur du site"
+      image: "http://placehold.it/600x400"
+      imagealt: ""
