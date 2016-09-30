@@ -1,0 +1,28 @@
+.contact {
+  .content {
+    .panel--white {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 32px;
+      &:first-of-type {margin-bottom: 30px;}
+      a {
+        text-decoration: none;
+        color: $black;
+        &:hover, &:focus {text-decoration: underline;}
+      }
+    }
+    .panel--blue {
+      padding-top: 40px;
+      padding-bottom: 50px;
+      margin-bottom: 100px;
+      h1 {
+        font-weight: 400;
+        margin-bottom: 30px;
+        font-size: 20px;
+      }
+    }
+  }
+}

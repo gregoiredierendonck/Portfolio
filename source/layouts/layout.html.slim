@@ -11,6 +11,8 @@ html lang="#{data.settings.site.i18n}"
 
         = partial 'views/global/favicon'
         = stylesheet_link_tag 'application'
+        / Picturefill init
+        <script>document.createElement( "picture" );</script>
 
     body class='#{page_classes}'
         

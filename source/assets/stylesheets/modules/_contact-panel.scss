@@ -1,7 +1,9 @@
 .m-panel--contact {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  .panel--blue {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
   .p {
     width: auto;
     margin: 0 10% 0 0;

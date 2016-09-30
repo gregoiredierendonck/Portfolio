@@ -1,7 +1,18 @@
 img {
   width: auto;
   max-width: 100%;
+  vertical-align: bottom;
+  align-self: flex-start;
   &.img {
-    border: 2px solid $grey-light;
+    box-shadow: 0 0 0 1px $grey-light;
+  }
+}
+
+picture {
+  display: flex;
+  width: auto;
+  max-width: 100%;
+  &.img {
+    box-shadow: 0 0 0 1px $grey-light;
   }
 }

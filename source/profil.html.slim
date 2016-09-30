@@ -14,7 +14,7 @@ section class="content"
     - data.content.profil.profilentry.each_with_index do |entry|
       article class="grid--three grid--margin panel--white"
         = image_tag "#{entry.icon}", alt: "#{data.settings.site.title} - #{entry.title}"
-        h1 class="h4" = entry.title
+        h1 class="h4 center" = entry.title
         p = entry.text
 
 section class="wrapper grid m-crossnavigation"

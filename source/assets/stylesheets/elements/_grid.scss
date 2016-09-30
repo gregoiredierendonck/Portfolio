@@ -4,11 +4,27 @@
 
   .grid--two {
     width: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     &.grid--margin {
       width: 48%;
       margin-right: 4%;
       &:nth-of-type(even) {margin-right: 0;}
+    }
+  }
+  .grid--two--special {
+    &:nth-child(odd) {width: 42%;}
+    &:nth-child(even) {width: 53%;}
+    margin-bottom: 40px;
+    &.grid--margin {
+      &:nth-child(odd) {margin-right: 5%;}
+      &:nth-child(even) {margin-right: 0;}
+    }
+  }
+  &:nth-of-type(even) {
+    .grid--two--special {
+      &:nth-child(even) {width: 42%;}
+      &:nth-child(odd) {width: 53%;}
+      margin-bottom: 40px;
     }
   }
   .grid--three {

@@ -1,12 +1,14 @@
-
 .index {
+  header {
+    margin-bottom: 0;
+  }
   .homepage--title {
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     max-height: 400px;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    padding: 40px 0 100px;
+    padding: 100px 0;
   }
 }

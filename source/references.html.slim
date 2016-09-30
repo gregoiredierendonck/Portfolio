@@ -12,12 +12,17 @@ section class="content"
   h1 = data.content.references.title
   div class="wrapper grid"
     - data.content.references.projects.each_with_index do |project|
-      article class="grid--two"
+      article class="grid--two grid--margin panel--white"
         = link_to "#{project.linkpath}" do
-          = image_tag "#{project.logo}", alt: "#{project.logoalt}"
-          h1 = project.clientname
-          h2 = project.title
-          = image_tag "#{project.image}", alt: "#{project.imagealt}", class:"reference--img"
+          picture class="reference--img"
+            source srcset="#{project.imagebig}" media="(min-width: 1000px)"
+            source srcset="#{project.imagemedium}" media="(min-width: 800px)"
+            img srcset="#{project.imagesmall}" alt="#{project.imagealt}"
+          div class="reference--content"
+            = image_tag "#{project.logo}", alt: "#{project.logoalt}", class:"img"
+            div class="reference--text"
+              h1 class="subtitle" = project.clientname
+              h2 = project.title
 
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnav.title

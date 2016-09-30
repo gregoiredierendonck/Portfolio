@@ -1,0 +1,32 @@
+.references {
+  .content {
+    .panel--white {padding: 0;}
+    article {
+      a {text-decoration: none;}
+      .reference--content {
+        padding: 15px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        img {
+          align-self: flex-start;
+        }
+      }
+      .reference--text {
+        padding-left: 15px;
+        .subtitle {
+          font-size: 13px;
+          text-align: left;
+          font-weight: 400;
+          margin-bottom: 0;
+        }
+        h2 {
+          margin-bottom: 0;
+        font-weight: 400;
+        color: $black;
+        font-size: 20px;
+        }
+      }
+    }
+  }
+}

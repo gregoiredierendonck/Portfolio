@@ -22,7 +22,6 @@ section class="content"
     h2 Nous avons ici un titre H2 qui est assez long pour tester l’interlignage
     p class="p--small" Nous avons également un paragraphe small pour certaines utilisations
 section class="wrapper--medium grid"
-  h1 class="m-crossnavigation--title" = data.content.crossnav.title
   article class="grid--three grid--margin panel--white center space-between"
     h1 class="subtitle" = data.content.crossnav.competences.title
     p class="center" = data.content.crossnav.competences.text
@@ -35,7 +34,6 @@ section class="wrapper--medium grid"
     h1 class="subtitle" = data.content.crossnav.references.title
     p class="center" = data.content.crossnav.references.text
     =link_to "#{data.content.crossnav.references.linktext}", "#{data.content.crossnav.references.linkpath}", class:"button--primary"
-= partial 'views/contactbox'
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnav.title
   = link_to "#{data.content.crossnav.competences.linkpath}", class:"grid--two panel--white" do
@@ -44,6 +42,7 @@ section class="wrapper grid m-crossnavigation"
   = link_to "#{data.content.crossnav.references.linkpath}", class:"grid--two panel--white" do
     p class="subtitle" = data.content.crossnav.references.title
     p = data.content.crossnav.references.text
+= partial 'views/contactbox'
 = partial 'views/footer'
   
   
