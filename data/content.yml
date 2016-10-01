@@ -167,15 +167,3 @@ references:
       imagemedium: "http://placehold.it/461x307"
       imagesmall: "http://placehold.it/367x295"
       imagealt: "alt"
-
-contact:
-  title: "Contact"
-  contact:
-    title: "Vous êtes intéressé par mon profil&nbsp;? Discutons ensemble&nbsp;!"
-    secondtitleone: "Par téléphone"
-    textone: "06&nbsp;11&nbsp;70&nbsp;39&nbsp;58"
-    secondtitletwo: "Par email"
-    texttwo: '<a href="mailto:bonjour@gregoiredierendonck.fr">bonjour@gregoiredierendonck.fr</a>'
-  cv:
-    title: "Vous voulez en apprendre plus sur moi&nbsp;?"
-    button: "Téléchargez mon CV"
