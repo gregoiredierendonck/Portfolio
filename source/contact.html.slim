@@ -5,4 +5,19 @@ keywords: ""
 changefreq: "monthly"
 priority: "0.8"
 ---
-h1 Contact
+h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
+= partial 'views/global/header'
+section class="content"
+  
+  h1 = data.content.contact.title
+  article class="wrapper--small"
+    div class="panel--white"
+      h1 class="h2 center" = data.content.contact.contact.title
+      h2 class="subtitle center" = data.content.contact.contact.secondtitleone
+      p class="center" = data.content.contact.contact.textone
+      h2 class="subtitle center" = data.content.contact.contact.secondtitletwo
+      p class="center" = data.content.contact.contact.texttwo
+  article class="wrapper--small"
+    div class="panel--blue"
+      h1 class="h2 center" = data.content.contact.cv.title
+      = link_to "#{data.content.contact.cv.button}", "#{data.settings.site.cvpath}", class:"button--primary button--white"
