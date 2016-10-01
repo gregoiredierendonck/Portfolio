@@ -1,102 +1,122 @@
 $logo-size: 50px;
-header {
-  width: 100%;
-  position: relative;
-  padding: 30px;
-  margin-bottom: 60px;
-  z-index: 10;
-  background-color: $white;
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .header--logo {
-    text-decoration: none;
-    display: flex;
-    width: auto;
-    flex-direction: row;
+$headderpadding: 30px;
+$headdermargin: 60px;
+$headertotalsize: ($logo-size + ($headderpadding * 2));
+body {
+  header {
+    width: 100%;
     position: relative;
-    p {
-      font-size: 16px;
-      font-weight: 600;
-      color: $primary;
-      width: auto;
-      height: $logo-size;
-      margin: 0;
+    padding: $headderpadding;
+    margin-bottom: $headdermargin;
+    z-index: 10;
+    background-color: $white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0);
+    transform: translateY(0);
+    transition: transform .5s ease-in-out,
+                box-shadow .5s ease-in-out;
+    &.headroom--not-top {
+      padding: ($headderpadding / 3) $headderpadding;
+      position: fixed;
+      top: -$headertotalsize;
+      left: 0;
+    }
+    &.slideUp {
+      transform: translateY(-100%);
+    }
+    &.slideDown {
+      top: 0;
+      transform: translateY(0);
+      box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
+    }
+    &.headroom--top {
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0);
+    }
+    &.menu--open {
+      padding: $headderpadding !important;
+      top: 0 !important;
+      transform: translateY(0) !important;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0) !important;
+    }
+    .wrapper {
       display: flex;
-      justify-content: center;
+      flex-direction: row;
+      justify-content: space-between;
       align-items: center;
-      padding-left: calc(#{$logo-size} + 15px);
-      margin-right: 20px;
+    }
+
+    .header--logo {
+      text-decoration: none;
+      display: flex;
+      width: auto;
+      flex-direction: row;
       position: relative;
-      z-index: 1;
-      &:before {
-        content: '';
-        width: $logo-size;
+      p {
+        font-size: 16px;
+        font-weight: 600;
+        white-space: nowrap;
+        color: $primary;
+        width: auto;
         height: $logo-size;
-        display: inline-block;
-        background-color: $primary;
-        position: absolute;
-        top: 0;
-        left: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: calc(#{$logo-size} + 15px);
+        margin-right: 20px;
+        position: relative;
+        z-index: 1;
+        transition: color .2s ease-in-out;
+        &:before {
+          content: '';
+          width: $logo-size;
+          height: $logo-size;
+          display: inline-block;
+          background-color: $primary;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
       }
-    }
-    img {
-      position: absolute;
-      z-index: 2;
-      width: 30px;
-      top: 50%;
-      left: 10px;
-      margin-top: -15px;
-      opacity: 1;
-      transform: scale(1);
-      transition: all .2s ease-in-out;
-      &.header--logo-home {
-        width: 20px;
-        margin-top: -13px;
-        left: 15px;
-        opacity: 0;
-        transform: scale(0);
-        transition: all .2s ease-in-out;
-        transition-delay: .15s;
-      }
-    }
-    &:hover, &:focus {
       img {
-        opacity: 0;
-        transform: scale(0);
-        transition-delay: .15s;
+        position: absolute;
+        z-index: 2;
+        width: 30px;
+        top: 50%;
+        left: 10px;
+        margin-top: -15px;
+        opacity: 1;
+        transform: scale(1);
+        transition: all .2s ease-in-out;
         &.header--logo-home {
-          opacity: 1;
-          transform: scale(1);
-          transition-delay: 0;
+          width: 20px;
+          margin-top: -13px;
+          left: 15px;
+          opacity: 0;
+          transform: scale(0);
+          transition: all .2s ease-in-out;
+          transition-delay: .15s;
+        }
+      }
+      &:hover, &:focus {
+        img {
+          opacity: 0;
+          transform: scale(0);
+          transition-delay: .15s;
+          &.header--logo-home {
+            opacity: 1;
+            transform: scale(1);
+            transition-delay: 0;
+          }
         }
       }
     }
-  }
-  .header--navigation {
+    .header--navigation {
     display: flex;
     flex-direction: row;
-    label {
-      display: none;
-      font-size: 16px;
-      text-transform: uppercase;
-      color: $black;
-      padding: 5px 15px;
-      border: 2px solid $black;
-      cursor: pointer;
-    }
-    input[type=checkbox] {
-      display: none;
-      &:checked ~ nav {
-        top: 0;
-      }
-    }
-    nav {
+    background-color: transparent;
+    position: relative;
       ul {
+        width: 100%;
         display: flex;
         flex-direction: row;
         li {
@@ -117,53 +137,136 @@ header {
         }
       }
     }
-  }
-}
-@media screen and (max-width: 950px) {
-  body {padding-top: calc(#{$logo-size} + 40px);}
-  header {
-    padding: 10px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 0 2px 7px rgba($black, .1);
-    .header--navigation {
-      label {
-        display: flex;
-        position: relative;
+    .menu-button {
+        display: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: $black;
+        padding: 5px 20px;
+        box-shadow: 0 0 0 2px $black;
+        cursor: pointer;
+        outline: none;
         z-index: 2;
-      }
-      input[type=checkbox] {
-        display: flex;
-        position: relative;
-        z-index: 2;
-      }
-      nav {
-        width: 100%;
+    }
+    @media screen and (max-width: $max-width-menu-extended) {
+      .menu-button {display: flex;}
+      .header--navigation {
+        width: 100vw;
         height: 100vh;
+        overflow: scroll;
+        background-color: $primary;
         position: fixed;
-        z-index: 1;
         top: -100vh;
         left: 0;
-        transition: top .2s ease-in-out;
+        opacity: 0;
+        transform: scale(.8);
+        transition: opacity .2s ease-in-out,
+                    transform .2s ease-in-out;
         ul {
+          width: 100%;
+          height: calc(100% - $headertotalsize);
           flex-direction: column;
           justify-content: center;
-          width: 100%;
-          height: 100%;
-          background-color: $white;
+          margin-top: $headertotalsize;
+          overflow: scroll;
           li {
-            &.header--menu-forsmall {display: inline-block;}
+            &.header--menu-forsmall {
+              display: flex;
+            }
+            width: 100%;
             a {
+              color: $white;
               font-size: 18px;
+              font-weight: 400;
+              width: 100%;
               height: 60px;
+              &:hover {color: $primary-light;}
+            }
+          }
+        }
+      }
+      @media screen and (max-height: 420px) {
+        .header--navigation {
+          ul {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            li {
+              width: auto;
             }
           }
         }
       }
     }
+    &.menu--open {
+      .header--navigation {
+        opacity: 1;
+        transform: scale(1);
+        top: 0;
+      }
+      .header--logo {
+        p {
+          color: $white;
+        }
+      }
+      .menu-button {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: $white;
+        padding: 5px 20px;
+        box-shadow: 0 0 0 2px $white;
+        cursor: pointer;
+        z-index: 2;
+      }
+    }
   }
 }
-input[type=checkbox]:checked ~ nav {
-  top: 0;
-}
+
+// @media screen and (max-width: 950px) {
+//   body {padding-top: calc(#{$logo-size} + 40px);}
+//   header {
+//     padding: 10px 0;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     box-shadow: 0 2px 7px rgba($black, .1);
+//     .header--navigation {
+//       label {
+//         display: flex;
+//         position: relative;
+//         z-index: 2;
+//       }
+//       input[type=checkbox] {
+//         display: flex;
+//         position: relative;
+//         z-index: 2;
+//       }
+//       nav {
+//         width: 100%;
+//         height: 100vh;
+//         position: fixed;
+//         z-index: 1;
+//         top: -100vh;
+//         left: 0;
+//         transition: top .2s ease-in-out;
+//         ul {
+//           flex-direction: column;
+//           justify-content: center;
+//           width: 100%;
+//           height: 100%;
+//           background-color: $white;
+//           li {
+//             &.header--menu-forsmall {display: inline-block;}
+//             a {
+//               font-size: 18px;
+//               height: 60px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// input[type=checkbox]:checked ~ nav {
+//   top: 0;
+// }
