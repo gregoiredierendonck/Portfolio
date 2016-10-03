@@ -17,7 +17,7 @@ crossnav:
     linktext: "Références"
 
 contactbox:
-  p: "Intéressé par mon profil&nbsp;? <br/>Je suis actuellement disponible&nbsp;!"
+  p: "Intéressé par mon profil&nbsp;? Je suis actuellement disponible&nbsp;!"
   cvlinktext: "Téléchargez mon CV"
   contactlinktext: "Contactez-moi"
   contactlinkpath: "contact.html"
@@ -32,8 +32,8 @@ competences:
   title: "Compétences"
   ux:
     imagebig: "http://placehold.it/504x504"
-    imagemedium: "http://placehold.it/304x304"
-    imagesmall: "http://placehold.it/104x104"
+    imagemedium: "http://placehold.it/630x385"
+    imagesmall: "http://placehold.it/450x300"
     imagealt: "alt"
     subtitle: "User experience design"
     firsttitle: "Étude de l’expérience utilisateur"
@@ -43,8 +43,8 @@ competences:
     texttwo: "Étude de la manière dont vos utilisateurs vont naviguer au sein de votre site, grouper et connecter entre eux vos contenus de manière à y simplifier l’exploration et la recherche. Cette étude peut se concentrer uniquement sur la manière de présenter vos contenus à l’utilisateur, mais également sur la manière d’organiser vos produits au sein de votre catalogue."
   ui:
     imagebig: "http://placehold.it/504x504"
-    imagemedium: "http://placehold.it/304x304"
-    imagesmall: "http://placehold.it/104x104"
+    imagemedium: "http://placehold.it/630x385"
+    imagesmall: "http://placehold.it/630x300"
     imagealt: "alt"
     subtitle: "User interface design"
     firsttitle: "Conception d’interfaces performantes"
@@ -54,8 +54,8 @@ competences:
     texttwo: "Étude du comportement de modules ou de pages spécifiques à l’aide de protoypes interactifs poussés réalisés directement en html / css ou via des outils tiers."
   audit:
     imagebig: "http://placehold.it/504x504"
-    imagemedium: "http://placehold.it/304x304"
-    imagesmall: "http://placehold.it/104x104"
+    imagemedium: "http://placehold.it/630x385"
+    imagesmall: "http://placehold.it/630x300"
     imagealt: "alt"
     subtitle: "Audit et conseil"
     firsttitle: "Optimisation, audit et conseil"
@@ -102,7 +102,8 @@ references:
       title: "Refonte du checkout"
       imagebig: "http://placehold.it/576x384"
       imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/367x295"
+      imagesmall: "http://placehold.it/598x300"
+      imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
     -
       logo: "http://placehold.it/65x65"
@@ -111,7 +112,8 @@ references:
       title: "Refonte de la page produit"
       imagebig: "http://placehold.it/576x384"
       imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/367x295"
+      imagesmall: "http://placehold.it/598x300"
+      imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
     -
       logo: "http://placehold.it/65x65"
@@ -120,7 +122,8 @@ references:
       title: "Optimisation de la page d'accueil et du formulaire de souscription"
       imagebig: "http://placehold.it/576x384"
       imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/367x295"
+      imagesmall: "http://placehold.it/598x300"
+      imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
     -
       logo: "http://placehold.it/65x65"
@@ -129,7 +132,8 @@ references:
       title: "Conception d'une application magasin"
       imagebig: "http://placehold.it/576x384"
       imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/367x295"
+      imagesmall: "http://placehold.it/598x300"
+      imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
     -
       logo: "http://placehold.it/65x65"
@@ -138,7 +142,8 @@ references:
       title: "Conception du site corporate"
       imagebig: "http://placehold.it/576x384"
       imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/367x295"
+      imagesmall: "http://placehold.it/598x300"
+      imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
     -
       logo: "http://placehold.it/65x65"
@@ -147,7 +152,8 @@ references:
       title: "Conception d'une application"
       imagebig: "http://placehold.it/576x384"
       imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/367x295"
+      imagesmall: "http://placehold.it/598x300"
+      imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
     -
       logo: "http://placehold.it/65x65"
@@ -156,7 +162,8 @@ references:
       title: "Conception d'une interface d'administration"
       imagebig: "http://placehold.it/576x384"
       imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/367x295"
+      imagesmall: "http://placehold.it/598x300"
+      imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
     -
       logo: "http://placehold.it/65x65"
@@ -165,7 +172,8 @@ references:
       title: "Audit de l'expérience utilisateur du site"
       imagebig: "http://placehold.it/576x384"
       imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/367x295"
+      imagesmall: "http://placehold.it/598x300"
+      imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
 
 contact:

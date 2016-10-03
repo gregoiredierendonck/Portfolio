@@ -4,13 +4,25 @@
       padding-top: 70px;
       padding-bottom: 70px;
       margin-bottom: 20px;
+      @media screen and (max-width:$media-m) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+    }
+    h1 {
+      @media screen and (max-width:$media-s) {font-size: 16px;}
     }
     p {
       font-size: 32px;
       &:first-of-type {margin-bottom: 30px;}
+      @media screen and (max-width:$media-m) {
+        font-size: 26px;
+        &:first-of-type {margin-bottom: 10px;}
+      }
       a {
         text-decoration: none;
         color: $black;
+        word-break: break-all;
         &:hover, &:focus {text-decoration: underline;}
       }
     }

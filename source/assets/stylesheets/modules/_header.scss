@@ -1,38 +1,46 @@
 $logo-size: 50px;
 $headderpadding: 30px;
+$headderpadding-xs: 10px;
 $headdermargin: 60px;
-$headertotalsize: ($logo-size + ($headderpadding * 2));
+$headdermargin-xs: 0;
+$headertotalsize: ( $headderpadding * 2 + $logo-size );
 body {
+  padding-top: $headertotalsize + $headdermargin;
+  @media screen and (max-width: $media-m) {padding-top: $headertotalsize + $headdermargin-xs;}
   header {
     width: 100%;
-    position: relative;
-    padding: $headderpadding;
-    margin-bottom: $headdermargin;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: $headderpadding 0;
+    @media screen and (max-width: $media-m) {padding: $headderpadding-xs 0;}
     z-index: 10;
     background-color: $white;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0);
-    transform: translateY(0);
-    transition: transform .5s ease-in-out,
+    transition: top .2s  ease-in-out,
+                transform .5s ease-in-out,
                 box-shadow .5s ease-in-out;
     &.headroom--not-top {
-      padding: ($headderpadding / 3) $headderpadding;
       position: fixed;
-      top: -$headertotalsize;
+      top: 0;
       left: 0;
+      padding: ($headderpadding / 3) 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+      transform: translateY(0);
     }
     &.slideUp {
       transform: translateY(-100%);
-    }
-    &.slideDown {
-      top: 0;
-      transform: translateY(0);
-      box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
-    }
-    &.headroom--top {
       box-shadow: 0 3px 5px rgba(0, 0, 0, 0);
     }
+    &.slideDown {
+      transform: translateY(0);
+    }
+    &.headroom--top {
+      transform: translateY(0);
+    }
     &.menu--open {
-      padding: $headderpadding !important;
+      padding: $headderpadding 0 !important;
+      @media screen and (max-width: $media-m) {padding: $headderpadding-xs 0 !important;}
       top: 0 !important;
       transform: translateY(0) !important;
       box-shadow: 0 3px 5px rgba(0, 0, 0, 0) !important;
@@ -76,20 +84,20 @@ body {
           top: 0;
           left: 0;
         }
+        @media screen and (max-width: $media-xs) {white-space: normal;width: 170px;line-height: 140%;}
       }
       img {
         position: absolute;
         z-index: 2;
         width: 30px;
-        top: 50%;
-        left: 10px;
-        margin-top: -15px;
+        top: 11px;
+        left: 11px;
         opacity: 1;
         transform: scale(1);
         transition: all .2s ease-in-out;
         &.header--logo-home {
           width: 20px;
-          margin-top: -13px;
+          top: 12px;
           left: 15px;
           opacity: 0;
           transform: scale(0);

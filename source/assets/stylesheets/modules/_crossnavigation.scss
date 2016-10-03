@@ -1,6 +1,7 @@
 .m-crossnavigation {
   margin-top: 70px;
   margin-bottom: 40px;
+  @media screen and (max-width: $media-s) {margin-top: 30px;}
   .m-crossnavigation--title {
     width: 100%;
     font-size: 14px;
@@ -19,15 +20,25 @@
     text-align: left;
     margin-bottom: 5px;
   }
+  p {
+    font-size: 14px;
+    @media screen and (max-width: $media-s) {font-size: 12px;}
+  }
   a {
     text-decoration: none;
     display: flex;
     align-items: flex-start;
+    @media screen and (max-width: $media-s) {align-items: center;}
     position: relative;
     margin-bottom: 0 !important;
-    &:nth-of-type(even) {align-items: flex-end;}
+    @media screen and (max-width: $media-s) {padding-left: 70px;padding-right: 70px;}
+    &:nth-of-type(even) {
+      align-items: flex-end;
+      @media screen and (max-width: $media-s) {align-items: center;}
+    }
     &:nth-of-type(odd) {
       padding-left: 115px;
+      @media screen and (max-width: $media-l) {padding-left: 70px;}
       &:after {
         content: '';
         width: 10px;
@@ -39,6 +50,7 @@
         position: absolute;
         top: 50%;
         left: 50px;
+        @media screen and (max-width: $media-l) {left: 30px;}
         margin-top: -6px;
       }
       &:before {
@@ -49,11 +61,14 @@
         position: absolute;
         top: 50%;
         left: 50px;
+        @media screen and (max-width: $media-l) {left: 30px;}
         margin-top: -1px;
       }
     }
     &:nth-of-type(even) {
       padding-right: 115px;
+      @media screen and (max-width: $media-l) {padding-right: 70px;}
+      @media screen and (max-width: $media-s) {padding-right: 70px;}
       &:after {
         content: '';
         width: 10px;
@@ -65,6 +80,7 @@
         position: absolute;
         top: 50%;
         right: 50px;
+        @media screen and (max-width: $media-l) {right: 30px;}
         margin-top: -6px;
       }
       &:before {
@@ -75,6 +91,7 @@
         position: absolute;
         top: 50%;
         right: 50px;
+        @media screen and (max-width: $media-l) {right: 30px;}
         margin-top: -1px;
       }
     }

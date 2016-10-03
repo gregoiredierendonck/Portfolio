@@ -3,6 +3,7 @@
   box-shadow: 0 0 0 1px $grey-light;
   background-color: $white;
   padding: 30px;
+  @media screen and (max-width: $media-xs) {padding: 30px 20px;}
   display: flex;
   flex-direction: column;
   &.space-between {

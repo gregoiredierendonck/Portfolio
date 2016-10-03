@@ -9,8 +9,9 @@ priority: "1"
 h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
 = partial 'views/global/header'
 section class="content"
-
-  h1 class="homepage--title" = data.content.homepage.h1
+  
+  div class="wrapper"
+    h1 class="homepage--title" = data.content.homepage.h1
 
   section class="wrapper--medium grid"
     h1 class="visuallyhidden" = data.content.crossnav.title
