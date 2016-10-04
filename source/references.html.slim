@@ -13,7 +13,7 @@ section class="content"
   div class="wrapper grid"
     - data.content.references.projects.each_with_index do |project|
       article class="grid--two grid--margin panel--white"
-        = link_to "#{project.linkpath}" do
+        = link_to "projects/#{project.linkpath}" do
           picture class="reference--img"
             source srcset="#{project.imagebig}" media="(min-width: 1000px)"
             source srcset="#{project.imagemedium}" media="(min-width: 650px)"

@@ -26,7 +26,8 @@ footer:
   text: 'Grégoire Dierendonck • UI/UX designer à Lille, France • 06 11 70 39 58 • <a href="mailto:bonjour@gregoiredierendonck.fr">bonjour@gregoiredierendonck.fr</a>'
 
 homepage:
-  h1: 'Étude de <b class="keyword">l’expérience utilisateur</b> <br/><b class="keyword">Conception d’interfaces</b> performantes'
+  subtitle: "Grégoire Dierendonck, UI/UX designer"
+  h1: 'Étude de l&rsquo;<b class="keyword revealer">expérience</b> utilisateur <br/><b class="keyword timetwo revealer">Conception</b> d&rsquo;interfaces performantes'
 
 competences:
   title: "Compétences"
@@ -36,10 +37,10 @@ competences:
     imagesmall: "http://placehold.it/450x300"
     imagealt: "alt"
     subtitle: "User experience design"
-    firsttitle: "Étude de l’expérience utilisateur"
-    titleone: "Étude de la nature, des besoins et des attentes de vos utilisateurs"
+    firsttitle: 'Étude de l’expérience utilisateur'
+    titleone: 'Étude de la <b class="keyword revealer">nature</b>, des <b class="keyword revealer">besoins</b> et des <b class="keyword revealer">attentes</b> de vos utilisateurs'
     textone: "Basé sur des données chiffrées et sur vos connaissances existantes, j’établis une analyse de vos utilisateurs sur laquelle pourront se baser l’ensemble de vos équipes pour mettre au point des solutions plus performantes, dans le but de cibler la nature, les besoins, les attentes et les comportement de vos utilisateurs."
-    titletwo: "Organisation des contenus, architecture de l’information et sitemap"
+    titletwo: '<b class="keyword revealer timetwo">Organisation</b> des contenus, <b class="keyword revealer">architecture</b> de l’information et sitemap'
     texttwo: "Étude de la manière dont vos utilisateurs vont naviguer au sein de votre site, grouper et connecter entre eux vos contenus de manière à y simplifier l’exploration et la recherche. Cette étude peut se concentrer uniquement sur la manière de présenter vos contenus à l’utilisateur, mais également sur la manière d’organiser vos produits au sein de votre catalogue."
   ui:
     imagebig: "http://placehold.it/504x504"
@@ -47,10 +48,10 @@ competences:
     imagesmall: "http://placehold.it/630x300"
     imagealt: "alt"
     subtitle: "User interface design"
-    firsttitle: "Conception d’interfaces performantes"
-    titleone: "Conception ergonomique et fonctionnelle des interfaces&nbsp;: wireframing"
+    firsttitle: 'Conception d’interfaces performantes'
+    titleone: 'Conception <b class="keyword revealer">ergonomique et fonctionnelle</b> des interfaces&nbsp;: wireframing'
     textone: "Étude de l’organisation des fonctionnalités au sein d’interfaces claires et parlantes pour vos utilisateurs, dans lesquelles votre message et vos objectifs seront atteints plus facilement. L’utilisation de wireframes papiers ou interactifs vous permettra de mieux concevoir vos solutions et de réunir vos équipes autour d’un support favorisant l’étude fonctionnelle de votre solution."
-    titletwo: "Conception et prototypage de comportements avancés"
+    titletwo: 'Conception et <b class="keyword revealer timetwo">prototypage</b> de comportements avancés'
     texttwo: "Étude du comportement de modules ou de pages spécifiques à l’aide de protoypes interactifs poussés réalisés directement en html / css ou via des outils tiers."
   audit:
     imagebig: "http://placehold.it/504x504"
@@ -58,7 +59,7 @@ competences:
     imagesmall: "http://placehold.it/630x300"
     imagealt: "alt"
     subtitle: "Audit et conseil"
-    firsttitle: "Optimisation, audit et conseil"
+    firsttitle: 'Optimisation, audit et conseil'
     titleone: "Audits de solution existantes"
     textone: "Analyse approfondie de solutions existantes selon une grille de critères définis, ciblée par problèmatiques précises (navigation, catalogue, checkout, recherche ...). Pour chacune d’elles est allouée une note de performance UX et un document listant l’ensemble des points à améliorer est rédigé."
     titletwo: "Préconisations d’évolutions à apporter"
@@ -105,6 +106,7 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
+      linkpath: "jef-checkout.html"
     -
       logo: "http://placehold.it/65x65"
       logoalt: "alt"
@@ -115,6 +117,7 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
+      linkpath: ""
     -
       logo: "http://placehold.it/65x65"
       logoalt: "alt"
@@ -125,6 +128,7 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
+      linkpath: ""
     -
       logo: "http://placehold.it/65x65"
       logoalt: "alt"
@@ -135,6 +139,7 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
+      linkpath: ""
     -
       logo: "http://placehold.it/65x65"
       logoalt: "alt"
@@ -145,6 +150,7 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
+      linkpath: ""
     -
       logo: "http://placehold.it/65x65"
       logoalt: "alt"
@@ -155,6 +161,7 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
+      linkpath: ""
     -
       logo: "http://placehold.it/65x65"
       logoalt: "alt"
@@ -165,6 +172,7 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
+      linkpath: ""
     -
       logo: "http://placehold.it/65x65"
       logoalt: "alt"
@@ -175,6 +183,7 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
+      linkpath: ""
 
 contact:
   title: "Contact"

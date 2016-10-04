@@ -1,10 +1,6 @@
 title: "Navigation principale"
 nav:
   -
-    title: "Guidelines"
-    link: "guidelines.html"
-    name: "guidelines"
-  -
     title: "Compétences"
     link: "competences.html"
     name: "competences"

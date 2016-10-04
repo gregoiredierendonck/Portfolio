@@ -1,0 +1,24 @@
+---
+title: "Projet JEF Chaussures - Refonte du checkout"
+description: ""
+keywords: ""
+changefreq: "monthly"
+priority: "1"
+---
+
+h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
+= partial 'views/global/projects-header'
+section class="content"
+  
+  div class="wrapper"
+    p class="subtitle center" = data.projectsjefcheckout.subtitle
+    h1 = data.projectsjefcheckout.title
+    
+  section class="wrapper grid m-crossnavigation"
+    h1 class="m-crossnavigation--title" = data.projectscrossnav.crossnav.title
+    = link_to "#{data.projectscrossnav.crossnav.mcopageproduit.linkpath}", class:"grid--two panel--white" do
+      p class="subtitle" = data.projectscrossnav.crossnav.mcopageproduit.title
+      p = data.projectscrossnav.crossnav.mcopageproduit.text
+    = link_to "#{data.projectscrossnav.crossnav.delcourt.linkpath}", class:"grid--two panel--white" do
+      p class="subtitle" = data.projectscrossnav.crossnav.delcourt.title
+      p = data.projectscrossnav.crossnav.delcourt.text

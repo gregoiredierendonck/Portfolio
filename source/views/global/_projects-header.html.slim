@@ -1,0 +1,13 @@
+header id="header"
+  div class="wrapper" id="header-menu"
+    = link_to "../index.html", class:"header--logo", id:"header-logo" do
+      = image_tag "logo-home.svg", alt: "Icône de retour à la page d'accueil", class:"header--logo-home"
+      = image_tag "#{data.settings.site.logo}", alt: "#{data.settings.site.title} - logo"
+      p  = data.settings.site.title
+    nav class="header--navigation"
+      h1 class="visuallyhidden" = data.navigation.title
+      ul id="header-menu-list"
+        li class="header--menu-forsmall" = link_to "Accueil", "index.html"
+        - data.navigation.nav.each_with_index do |entry|
+          li class="#{entry.name}" = link_to "#{entry.title}", "../#{entry.link}"
+    button type="button" class="menu-button" id="header-menu-button" Menu

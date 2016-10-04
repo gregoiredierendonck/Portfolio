@@ -11,7 +11,9 @@ h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.t
 section class="content"
   
   div class="wrapper"
-    h1 class="homepage--title" = data.content.homepage.h1
+    div class="homepage--title"
+      h2 class="subtitle center" = data.content.homepage.subtitle
+      h1 = data.content.homepage.h1
 
   section class="wrapper--medium grid"
     h1 class="visuallyhidden" = data.content.crossnav.title
