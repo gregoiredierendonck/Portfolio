@@ -1,13 +1,18 @@
 .m-panel--contact {
+  margin-top: -30px;
+  max-width: 600px !important;
+  position: relative;
   .panel--blue {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
   }
   .p {
-    width: auto;
-    max-width: 220px;
-    margin: 0 8% 0 0;
+    width: 100%;
+    margin: 0 0 20px;
+    text-align: center;
   }
   a {
     white-space: nowrap;
@@ -27,3 +32,8 @@
     a {margin-right: 5%;margin-left: 5%;margin-top: 20px;}
   }
 }
+
+// Relativ to negativ margin-top (+40px)
+.competences {.content {.grid {&:last-of-type {padding-bottom: 150px;}}}}
+.profil {.profil--entries {.panel--white:nth-last-of-type(3n) {padding-bottom: 80px;}}}
+.index {.m-panel--contact{margin-top: 0;}}

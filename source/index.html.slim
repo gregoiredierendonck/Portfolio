@@ -12,20 +12,20 @@ section class="content"
   
   div class="wrapper"
     div class="homepage--title"
-      h2 class="subtitle center" = data.content.homepage.subtitle
-      h1 = data.content.homepage.h1
+      h1 class="subtitle center" = data.content.homepage.subtitle
+      h2 class="h1" = data.content.homepage.h1
 
   section class="wrapper--medium grid"
     h1 class="visuallyhidden" = data.content.crossnav.title
-    article class="grid--three grid--margin panel--white center space-between"
+    article class="grid--three panel--white center space-between"
       h1 class="subtitle" = data.content.crossnav.competences.title
       p class="center" = data.content.crossnav.competences.text
       =link_to "#{data.content.crossnav.competences.linktext}", "#{data.content.crossnav.competences.linkpath}", class:"button--primary"
-    article class="grid--three grid--margin panel--white center space-between"
+    article class="grid--three panel--white center space-between"
       h1 class="subtitle" = data.content.crossnav.profil.title
       p class="center" = data.content.crossnav.profil.text
       =link_to "#{data.content.crossnav.profil.linktext}", "#{data.content.crossnav.profil.linkpath}", class:"button--primary"
-    article class="grid--three grid--margin panel--white center space-between"
+    article class="grid--three panel--white center space-between"
       h1 class="subtitle" = data.content.crossnav.references.title
       p class="center" = data.content.crossnav.references.text
       =link_to "#{data.content.crossnav.references.linktext}", "#{data.content.crossnav.references.linkpath}", class:"button--primary"

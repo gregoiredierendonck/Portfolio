@@ -1,9 +1,9 @@
 .competences {
   .content {
+    .wrapper {box-shadow: 0 0 0 1px $grey-light;}
     .grid {
-      margin-bottom: 100px;
-      @media screen and (max-width:$media-l) {margin-bottom: 40px;}
-      &:last-of-type {margin-bottom: 0;}
+      box-shadow: none;
+      .grid--margin {margin-bottom: 0;}
     }
     picture {justify-content: center;}
   }

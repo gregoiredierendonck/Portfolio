@@ -5,10 +5,10 @@
   padding: 30px;
   @media screen and (max-width: $media-xs) {padding: 30px 20px;}
   display: flex;
-  flex-direction: column;
   &.space-between {
     justify-content: space-between;
   }
+  &.big--padding {padding: 60px;}
 }
 
 .panel--blue {
@@ -16,10 +16,10 @@
   background-color: $primary;
   padding: 30px;
   display: flex;
-  flex-direction: column;
   color: white;
   p, .p, h1, .h1, h2, .h2, h3, .h3 {color: white;}
   &.space-between {
     justify-content: space-between;
   }
+  &.big--padding {padding: 60px;}
 }

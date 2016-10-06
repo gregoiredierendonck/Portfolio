@@ -11,7 +11,7 @@ section class="content"
 
   h1 = data.content.competences.title
   div class="wrapper"
-    article class="grid"
+    article class="grid panel--white big--padding"
       div class="grid--two--special grid--margin"
         picture
           source srcset="#{data.content.competences.ux.imagebig}" media="(min-width: 950px)" class="img"
@@ -24,7 +24,7 @@ section class="content"
         p = data.content.competences.ux.textone
         h2 class="h3" = data.content.competences.ux.titletwo
         p = data.content.competences.ux.texttwo
-    article class="grid"
+    article class="grid panel--white big--padding"
       div class="grid--two--special grid--margin"
         p class="subtitle" = data.content.competences.ui.subtitle 
         h1 class="h2" = data.content.competences.ui.firsttitle
@@ -37,7 +37,7 @@ section class="content"
           source srcset="#{data.content.competences.ui.imagebig}" media="(min-width: 1000px)" class="img"
           source srcset="#{data.content.competences.ui.imagemedium}" media="(min-width: 800px)" class="img"
           img srcset="#{data.content.competences.ui.imagesmall}" alt="#{data.content.competences.ui.imagealt}" class="img"
-    article class="grid"
+    article class="grid panel--white big--padding"
       div class="grid--two--special grid--margin"
         picture
           source srcset="#{data.content.competences.audit.imagebig}" media="(min-width: 1000px)" class="img"
@@ -51,14 +51,14 @@ section class="content"
         h2 class="h3" = data.content.competences.audit.titletwo
         p = data.content.competences.audit.texttwo
 
-section class="wrapper grid m-crossnavigation"
-  h1 class="m-crossnavigation--title" = data.content.crossnav.title
-  = link_to "#{data.content.crossnav.profil.linkpath}", class:"grid--two panel--white" do
-    p class="subtitle" = data.content.crossnav.profil.title
-    p = data.content.crossnav.profil.text
-  = link_to "#{data.content.crossnav.references.linkpath}", class:"grid--two panel--white" do
-    p class="subtitle" = data.content.crossnav.references.title
-    p = data.content.crossnav.references.text
+/ section class="wrapper grid m-crossnavigation"
+/   h1 class="m-crossnavigation--title" = data.content.crossnav.title
+/   = link_to "#{data.content.crossnav.profil.linkpath}", class:"grid--two panel--white" do
+/     p class="subtitle" = data.content.crossnav.profil.title
+/     p = data.content.crossnav.profil.text
+/   = link_to "#{data.content.crossnav.references.linkpath}", class:"grid--two panel--white" do
+/     p class="subtitle" = data.content.crossnav.references.title
+/     p = data.content.crossnav.references.text
     
 = partial 'views/contactbox'
 = partial 'views/footer'

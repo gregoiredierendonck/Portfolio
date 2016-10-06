@@ -11,8 +11,8 @@ Menubuttontext = ->
 # Launch scripts
 $(document).ready ->
   $('header').headroom
-    'offset': 0
-    'tolerance': 0
+    'offset': 30
+    'tolerance': 50
     'classes':
       'initial': 'animated'
       'pinned': 'slideDown'

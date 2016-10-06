@@ -1,20 +1,58 @@
-.wrapper {
-  width: 92%;
-  max-width: $max-width;
-  margin-left: auto;
-  margin-right: auto;
-}
+html {
 
-.wrapper--medium {
-  width: 92%;
-  max-width: $max-width--medium;
-  margin-left: auto;
-  margin-right: auto;
-}
+  background-color: $white;
+  padding: 1vw;
+  &:before, &:after {
+    content: '';
+    width: 1vw;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $white;
+    z-index: 11;
+  }
+  &:after {left: auto; right: 0;}
 
-.wrapper--small {
-  width: 92%;
-  max-width: $max-width--small;
-  margin-left: auto;
-  margin-right: auto;
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: $grey-lighter;
+    z-index: 1;
+    &:before, &:after {
+      content: '';
+      width: 100%;
+      height: 1vw;
+      display: inline-block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: $white;
+      z-index: 11;
+    }
+    &:after {top: auto; bottom: 0;}
+
+    .wrapper {
+      width: 92%;
+      max-width: $max-width;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .wrapper--medium {
+      width: 92%;
+      max-width: $max-width--medium;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .wrapper--small {
+      width: 92%;
+      max-width: $max-width--small;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  }
 }

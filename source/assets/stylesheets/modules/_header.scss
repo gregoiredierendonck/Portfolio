@@ -1,4 +1,4 @@
-$logo-size: 50px;
+$logo-size: 40px;
 $headderpadding: 30px;
 $headderpadding-xs: 10px;
 $headdermargin: 60px;
@@ -8,32 +8,33 @@ body {
   padding-top: $headertotalsize + $headdermargin;
   @media screen and (max-width: $media-m) {padding-top: $headertotalsize + $headdermargin-xs;}
   header {
-    width: 100%;
+    width: 98vw;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 1vw;
+    left: 1vw;
     padding: $headderpadding 0;
     @media screen and (max-width: $media-m) {padding: $headderpadding-xs 0;}
     z-index: 10;
-    background-color: $white;
+    background-color: $grey-lighter;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0);
-    transition: top .2s  ease-in-out,
-                transform .5s ease-in-out,
-                box-shadow .5s ease-in-out;
-    &.headroom--not-top {
-      position: fixed;
-      top: 0;
-      left: 0;
-      padding: ($headderpadding / 3) 0;
-      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-      transform: translateY(0);
-    }
     &.slideUp {
-      transform: translateY(-100%);
+      transform: translateY(-110%);
       box-shadow: 0 3px 5px rgba(0, 0, 0, 0);
+    }
+    &.headroom--not-top {
+      background-color: $white;
+      position: fixed;
+      top: 1vw;
+      left: 1vw;
+      padding: 0 0 ($headderpadding / 3) 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+      transform: translateY(-110%);
     }
     &.slideDown {
       transform: translateY(0);
+      transition: transform .5s ease-in-out,
+                  background-color .5s ease-in-out,
+                  box-shadow .5s ease-in-out;
     }
     &.headroom--top {
       transform: translateY(0);
@@ -58,6 +59,19 @@ body {
       width: auto;
       flex-direction: row;
       position: relative;
+      padding-left: $headderpadding;
+      // &:after {
+      //   content: '';
+      //   width: $logo-size;
+      //   height: $logo-size;
+      //   display: inline-block;
+      //   position: absolute;
+      //   top: 0;
+      //   left: $headderpadding;
+      //   box-shadow: inset 0 0 0 3px red;
+      //   border-radius: 100%;
+      //   z-index: 2;
+      // }
       p {
         font-size: 16px;
         font-weight: 600;
@@ -74,31 +88,18 @@ body {
         position: relative;
         z-index: 1;
         transition: color .2s ease-in-out;
-        &:before {
-          content: '';
-          width: $logo-size;
-          height: $logo-size;
-          display: inline-block;
-          background-color: $primary;
-          position: absolute;
-          top: 0;
-          left: 0;
-        }
         @media screen and (max-width: $media-xs) {white-space: normal;width: 170px;line-height: 140%;}
       }
       img {
         position: absolute;
         z-index: 2;
-        width: 30px;
-        top: 11px;
-        left: 11px;
+        width: $logo-size;
+        top: 0;
+        left: $headderpadding;
         opacity: 1;
         transform: scale(1);
         transition: all .2s ease-in-out;
         &.header--logo-home {
-          width: 20px;
-          top: 12px;
-          left: 15px;
           opacity: 0;
           transform: scale(0);
           transition: all .2s ease-in-out;
@@ -137,7 +138,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 10px 30px;
+            padding: 10px $headderpadding;
             &:hover {
               color: $primary;
             }

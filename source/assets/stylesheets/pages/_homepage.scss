@@ -12,6 +12,12 @@
     .subtitle {margin-bottom: 40px;}
     @media screen and (max-width: $media-s) {font-size: 22px;}
   }
+  .grid {
+    .grid--three {
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+  }
   @media screen and (max-width: $media-xl) {
     .grid {
       .grid--three {
