@@ -1,10 +1,11 @@
+$externborder: 1vw;
 html {
 
   background-color: $white;
-  padding: 1vw;
+  padding: $externborder;
   &:before, &:after {
     content: '';
-    width: 1vw;
+    width: $externborder;
     height: 100%;
     display: inline-block;
     position: fixed;
@@ -23,7 +24,7 @@ html {
     &:before, &:after {
       content: '';
       width: 100%;
-      height: 1vw;
+      height: $externborder;
       display: inline-block;
       position: fixed;
       top: 0;

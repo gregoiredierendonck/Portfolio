@@ -117,7 +117,7 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
-      linkpath: ""
+      linkpath: "mco-pageproduit.html"
     -
       logo: "http://placehold.it/65x65"
       logoalt: "alt"

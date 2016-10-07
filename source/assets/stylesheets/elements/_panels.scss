@@ -1,25 +1,28 @@
+$panelpadding: 30px;
+$panelbigpadding: 60px;
+
 .panel--white {
   width: calc(100% - 2px);
-  box-shadow: 0 0 0 1px $grey-light;
+  box-shadow: $panelwhiteborder;
   background-color: $white;
-  padding: 30px;
+  padding: $panelpadding;
   @media screen and (max-width: $media-xs) {padding: 30px 20px;}
   display: flex;
   &.space-between {
     justify-content: space-between;
   }
-  &.big--padding {padding: 60px;}
+  &.big--padding {padding: $panelbigpadding;}
 }
 
 .panel--blue {
   width: 100%;
   background-color: $primary;
-  padding: 30px;
+  padding: $panelpadding;
   display: flex;
   color: white;
   p, .p, h1, .h1, h2, .h2, h3, .h3 {color: white;}
   &.space-between {
     justify-content: space-between;
   }
-  &.big--padding {padding: 60px;}
+  &.big--padding {padding: $panelbigpadding;}
 }

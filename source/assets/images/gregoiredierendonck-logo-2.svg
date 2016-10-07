@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+<g>
+	<path fill="#4A90E2" d="M20.807,3.057c9.377,0,16.183,6.91,16.183,16.43c0,9.788-7.108,17.455-16.183,17.455
+		c-9.43,0-17.702-8.157-17.702-17.455C3.105,10.428,11.046,3.057,20.807,3.057 M20.807,0C9.761,0,0.048,8.3,0.048,19.487
+		C0.048,30.674,9.761,40,20.807,40c11.046,0,19.241-9.326,19.241-20.513C40.048,8.3,31.853,0,20.807,0L20.807,0z"/>
+</g>
+<line fill="none" stroke="#4A90E2" stroke-width="2.8813" stroke-linecap="square" stroke-miterlimit="10" x1="20.048" y1="37.993" x2="20.048" y2="21.993"/>
+<line fill="none" stroke="#4A90E2" stroke-width="2.9252" stroke-linecap="square" stroke-miterlimit="10" x1="11.143" y1="21.993" x2="20.009" y2="21.993"/>
+<g>
+	<path fill="none" stroke="#4A90E2" stroke-width="3" stroke-miterlimit="10" d="M31.048,15.993c0-2.209-1.791-4-4-4s-4,1.791-4,4"
+		/>
+	<path fill="none" stroke="#4A90E2" stroke-width="3" stroke-miterlimit="10" d="M17.048,15.993c0-2.209-1.791-4-4-4s-4,1.791-4,4"
+		/>
+</g>
+</svg>

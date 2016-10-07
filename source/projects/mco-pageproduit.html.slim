@@ -1,0 +1,65 @@
+---
+title: "Projet : Montres&Co - Optimisation de la page produit"
+description: ""
+keywords: ""
+changefreq: "monthly"
+priority: "1"
+---
+
+h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
+= partial 'views/global/projects-header'
+section class="content"
+      
+  div class="wrapper"
+    
+    div class="projects--title"
+      p class="subtitle center" = data.projectsmcopageproduit.subtitle
+      h1 = data.projectsmcopageproduit.title
+      
+    div class="contener"
+
+      div class="projects--primaryimg image-full"
+        = image_tag "#{data.projectsmcopageproduit.imagefirst}", alt: "#{data.projectsmcopageproduit.subtitle} - #{data.projectsmcopageproduit.title}"
+      
+      div class="grid panel--white big--padding"
+        h2 class="subtitle center" Contexte
+        p class="intro center" = data.projectsmcopageproduit.intro
+      
+      div class="grid panel--white big--padding" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.content.competences.ux.imagebig}" media="(min-width: 950px)" class="img"
+            source srcset="#{data.content.competences.ux.imagemedium}" media="(min-width: 490px)" class="img"
+            img srcset="#{data.content.competences.ux.imagesmall}" alt="#{data.content.competences.ux.imagealt}" class="img"
+        div class="grid--two grid--margin"
+          h1 class="h2" = data.projectsmcopageproduit.titleone
+          p = data.projectsmcopageproduit.textone
+
+      div class="grid panel--white big--padding" 
+        div class="grid--two grid--margin"
+          h1 class="h2" = data.projectsmcopageproduit.titletwo
+          p = data.projectsmcopageproduit.texttwo
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.content.competences.ux.imagebig}" media="(min-width: 950px)" class="img"
+            source srcset="#{data.content.competences.ux.imagemedium}" media="(min-width: 490px)" class="img"
+            img srcset="#{data.content.competences.ux.imagesmall}" alt="#{data.content.competences.ux.imagealt}" class="img"
+            
+      div class="grid panel--white big--padding" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.content.competences.ux.imagebig}" media="(min-width: 950px)" class="img"
+            source srcset="#{data.content.competences.ux.imagemedium}" media="(min-width: 490px)" class="img"
+            img srcset="#{data.content.competences.ux.imagesmall}" alt="#{data.content.competences.ux.imagealt}" class="img"
+        div class="grid--two grid--margin"
+          h1 class="h2" = data.projectsmcopageproduit.titlethree
+          p = data.projectsmcopageproduit.textthree
+    
+section class="wrapper grid m-crossnavigation"
+  h1 class="m-crossnavigation--title" = data.projectscrossnav.crossnav.title
+  = link_to "#{data.projectscrossnav.crossnav.jefcheckout.linkpath}", class:"grid--two panel--white" do
+    p class="subtitle" = data.projectscrossnav.crossnav.jefcheckout.title
+    p = data.projectscrossnav.crossnav.jefcheckout.text
+  = link_to "#{data.projectscrossnav.crossnav.planeteoui.linkpath}", class:"grid--two panel--white" do
+    p class="subtitle" = data.projectscrossnav.crossnav.planeteoui.title
+    p = data.projectscrossnav.crossnav.planeteoui.text

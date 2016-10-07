@@ -1,0 +1,23 @@
+.projects {
+
+  .contener {
+    box-shadow: $panelwhiteborder;
+  }
+
+  .projects--title {
+    .subtitle {
+      margin-top: $h1margintop;
+    }
+    h1 {
+      margin-top: 0;
+    }
+  }
+
+  .panel--white {
+    box-shadow: none;
+    &.big--padding .image-full {
+      margin-bottom: 0;
+    }
+  }
+
+}

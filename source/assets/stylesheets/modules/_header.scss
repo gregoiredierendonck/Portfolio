@@ -5,13 +5,13 @@ $headdermargin: 60px;
 $headdermargin-xs: 0;
 $headertotalsize: ( $headderpadding * 2 + $logo-size );
 body {
-  padding-top: $headertotalsize + $headdermargin;
+  padding-top: $headertotalsize + 1px;
   @media screen and (max-width: $media-m) {padding-top: $headertotalsize + $headdermargin-xs;}
   header {
     width: 98vw;
     position: absolute;
-    top: 1vw;
-    left: 1vw;
+    top: $externborder;
+    left: $externborder;
     padding: $headderpadding 0;
     @media screen and (max-width: $media-m) {padding: $headderpadding-xs 0;}
     z-index: 10;
@@ -24,8 +24,8 @@ body {
     &.headroom--not-top {
       background-color: $white;
       position: fixed;
-      top: 1vw;
-      left: 1vw;
+      top: $externborder;
+      left: $externborder;
       padding: 0 0 ($headderpadding / 3) 0;
       box-shadow: 0 0 10px rgba(0, 0, 0, .1);
       transform: translateY(-110%);
@@ -60,18 +60,6 @@ body {
       flex-direction: row;
       position: relative;
       padding-left: $headderpadding;
-      // &:after {
-      //   content: '';
-      //   width: $logo-size;
-      //   height: $logo-size;
-      //   display: inline-block;
-      //   position: absolute;
-      //   top: 0;
-      //   left: $headderpadding;
-      //   box-shadow: inset 0 0 0 3px red;
-      //   border-radius: 100%;
-      //   z-index: 2;
-      // }
       p {
         font-size: 16px;
         font-weight: 600;
@@ -138,7 +126,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 10px $headderpadding;
+            padding: 0 $headderpadding;
             &:hover {
               color: $primary;
             }

@@ -16,3 +16,17 @@ picture {
     box-shadow: 0 0 0 1px $grey-light;
   }
 }
+
+.panel--white {
+  &.big--padding {
+    .image-full {
+      width: calc(100% + #{$panelbigpadding * 2});
+      height: auto;
+      position: relative;
+      top: -$panelbigpadding;
+      left: -$panelbigpadding;
+      margin-bottom: -$panelbigpadding;
+      flex: 1 0 auto;
+    }
+  }
+}
