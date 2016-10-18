@@ -14,10 +14,24 @@
   }
 
   .panel--white {
-    box-shadow: none;
     &.big--padding .image-full {
       margin-bottom: 0;
     }
   }
+
+  b {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: $primary;
+    font-weight: 600;
+    margin-bottom: 20px;
+    &.keynumber {
+      font-size: 38px;
+      margin-top: 30px;
+      margin-bottom: 0;
+    }
+  }
+
 
 }

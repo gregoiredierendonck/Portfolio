@@ -12,6 +12,7 @@ $panelbigpadding: 60px;
     justify-content: space-between;
   }
   &.big--padding {padding: $panelbigpadding;}
+  &.no--border {box-shadow: none;}
 }
 
 .panel--blue {

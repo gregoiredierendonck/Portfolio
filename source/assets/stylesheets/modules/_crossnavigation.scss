@@ -1,15 +1,19 @@
 .m-crossnavigation {
-  margin-top: 70px;
-  margin-bottom: 40px;
-  @media screen and (max-width: $media-s) {margin-top: 30px;}
+  margin-top: -30px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 900px;
   .m-crossnavigation--title {
     width: 100%;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    color: $grey;
-    margin-bottom: 20px;
+    color: $white;
+    margin-bottom: 30px;
+    margin-top: 0;
   }
   .subtitle, p, .p {
     width: 100%;
@@ -22,7 +26,6 @@
   }
   p {
     font-size: 14px;
-    @media screen and (max-width: $media-s) {font-size: 12px;}
   }
   a {
     text-decoration: none;
@@ -30,70 +33,60 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    @media screen and (max-width: $media-s) {align-items: center;}
+    box-shadow: 0 0 0 1px $white;
     position: relative;
     margin-bottom: 0 !important;
-    @media screen and (max-width: $media-s) {padding-left: 70px;padding-right: 70px;}
-    &:nth-of-type(even) {
-      align-items: flex-end;
-      @media screen and (max-width: $media-s) {align-items: center;}
-    }
+    background-color: $primary;
     &:nth-of-type(odd) {
-      padding-left: 115px;
-      @media screen and (max-width: $media-l) {padding-left: 70px;}
+      padding: 20px 40px 20px 75px;
       &:after {
         content: '';
         width: 10px;
         height: 10px;
         display: inline-block;
-        border-left: 2px solid $primary;
-        border-bottom: 2px solid $primary;
+        border-left: 2px solid $white;
+        border-bottom: 2px solid $white;
         transform: rotate(45deg);
         position: absolute;
         top: 50%;
-        left: 50px;
-        @media screen and (max-width: $media-l) {left: 30px;}
+        left: 30px;
         margin-top: -6px;
       }
       &:before {
         content: '';
         width: 17px;
         height: 2px;
-        background-color: $primary;
+        background-color: $white;
         position: absolute;
         top: 50%;
-        left: 50px;
-        @media screen and (max-width: $media-l) {left: 30px;}
+        left: 30px;
         margin-top: -1px;
       }
     }
     &:nth-of-type(even) {
-      padding-right: 115px;
-      @media screen and (max-width: $media-l) {padding-right: 70px;}
-      @media screen and (max-width: $media-s) {padding-right: 70px;}
+      align-items: flex-end;
+      padding: 20px 75px 20px 40px;
       &:after {
         content: '';
         width: 10px;
         height: 10px;
         display: inline-block;
-        border-right: 2px solid $primary;
-        border-top: 2px solid $primary;
+        border-right: 2px solid $white;
+        border-top: 2px solid $white;
         transform: rotate(45deg);
         position: absolute;
         top: 50%;
-        right: 50px;
-        @media screen and (max-width: $media-l) {right: 30px;}
+        right: 30px;
         margin-top: -6px;
       }
       &:before {
         content: '';
         width: 17px;
         height: 2px;
-        background-color: $primary;
+        background-color: $white;
         position: absolute;
         top: 50%;
-        right: 50px;
-        @media screen and (max-width: $media-l) {right: 30px;}
+        right: 30px;
         margin-top: -1px;
       }
     }

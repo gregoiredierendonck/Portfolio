@@ -1,13 +1,74 @@
 subtitle: "Montres&nbsp;&#38;&nbsp;Co"
 title: "Optimisation de la page produit"
-imagefirst: "http://placehold.it/1200x500"
-intro: "Dans le cadre de l'optimisation continue du site de Montres&nbsp;&#38;&nbsp;Co, une attention particulière a été apportée à l'optimisation de la page produit. Plusieurs améliorations y ont été apportées successivement et testées grâce à la mise en place de tests A/B."
+imageone: "projets-mco-1.jpg"
+intro: |
+  Dans le cadre de l'optimisation continue du site ecommerce Montres&nbsp;&#38;&nbsp;Co,
+  une attention particulière a été apportée à l'optimisation de la page produit.
+  Plusieurs améliorations y ont été apportées successivement
+  et testées grâce à la mise en place de tests A/B."
 
 titleone: "Analyse de la solution existante"
-textone: "Une analyse approfondie du comportement des utilisateurs sur la solution a été menée, et a permis d'identifier différentes failles&nbsp;:"
+textone: |
+  Une étude des comportements utilisateurs (analyse quantitative, clics, heatmaps, scroll, ...) sur la page produit a
+  permis de détecter le rôle primordial des propositions de coloris et tailles similaires d’un produit.
+  La mies en page actuelle présentait néanmoins quelques problèmes&nbsp;:
+  <ol class="list">
+    <li>Le module était présenté en pleine largeur sous le bouton d’ajout au panier, trop bas dans la page.
+        La distinction entre les coloris et les tailles disponibles était rendue complexe.</li>
+    <li>La mise en page repoussait trop loin le cross-selling, très rarement vu par les utilisateurs, et donc inutilisé.</li>
+  </ol>
+imagetwobig: "projets-mco-2-big@2x.jpg"
+imagetwomedium: "projets-mco-2-big@2x.jpg"
+imagetwosmall: "projets-mco-2-big@2x.jpg"
+imagetwoalt: "Aperçu de l'ancienne page produit du site Montres & Co"
 
-titletwo: "Propositions d'améliorations pour palier les failles détectées"
-texttwo: "Un ensemble d'améliorations a été proposé dans le but de palier les différentes failles identifiées."
+titletwo: "Propositions d'améliorations"
+texttwo: |
+  Afin de pallier ces problèmes, un certain nombre d’améliorations à été proposée&nbsp;:
+  <ol class="list">
+    <li>Les coloris disponibles sont placés au-dessus du bouton d’ajout au panier
+    et la présentation sous forme de miniature est conservée.</li>
+    <li>Les tailles disponibles, pour plus de clarté, sont présentées sous forme de texte (diamètre en cm),
+    au-dessus du bouton d’ajout au panier.</li>
+    <li>Le cross-selling est remonté directement sous le bouton d’ajout au panier,
+    en pleine largeure, à la place des éléments déplacés.</li>
+    <li>Un lien permettant d’accéder directement au détail des caractéristiques et de la description
+    est mis en avant avant le bouton d’ajout au panier.</li>
+    <li>Puisque repoussée dans la page, la zone de la description et des caractéristiques sont redesignées
+    pour en simplifier la lecture, et un bouton d’ajout au panier est ajouté à la zone.</li>
+  </ol>
+imagethreebig: "projets-mco-3-big@2x.jpg"
+imagethreemedium: "projets-mco-3-big@2x.jpg"
+imagethreesmall: "projets-mco-3-big@2x.jpg"
+imagethreealt: "Aperçu de la nouvelle page produit optimisée du site Montres & Co"
 
-titlethree: "Mise en place d'un roadmap, suivi et évolution des tests A/B"
-textthree: "Les améliorations proposées ont été découpées par lots de manière à pouvoir en évaluer l'efficacité et réajuster les améliorations succédantes."
+titlethree: "Évaluation des optimisations avec des tests A/B"
+textthree: |
+  L’ensemble des améliorations proposées à été répartie par lot afin de pouvoir effectuer des tests A/B
+  sur chacun d’eux sans impacter les résultats d’un autre test. Un roadmap a ainsi été rédigé
+  pour planifier la mise en pace de chacun des tests. Selon les résultats obtenus, les propositions d'améliorations
+  ont été modifiées et l'ordre des tests adapté.
+  <br/><br/>
+  Pour chacun des tests, des KPI ont été choisis afin d’observer le résultat des tests
+  sous différents angles et de cibler leurs effets de bords éventuels.
+  <br/><br/>
+  Voici quelques résultats obtenus&nbsp;:
+listthree:
+  -
+    text: |
+      une hausse de
+      <b class="keynumber">+28%</b>
+      <b>de pages produits consultées</b>
+      dont +234% depuis les coloris et tailles disponibles
+  -
+    text: |
+      une hausse de
+      <b class="keynumber">+1,5%</b>
+      <b>d'ajout au panier</b>
+      dont +146% depuis les coloris et tailles disponibles
+  -
+    text: |
+      une hausse de
+      <b class="keynumber">+8%</b>
+      <b>de taux de conversion</b>
+      grâce à une augmentation de +7% du nombre de transactions
