@@ -1,0 +1,78 @@
+---
+title: "Projet : Planète Oui - Optimisation de la page d&apos;accueil et du formulaire de souscription"
+description: ""
+keywords: ""
+changefreq: "monthly"
+priority: "1"
+---
+
+h1 class="visuallyhidden" = "#{current_page.data.title}"
+= partial 'views/global/projects-header'
+section class="content"
+      
+  div class="wrapper"
+    
+    div class="projects--title"
+      p class="subtitle center" Client : #{data.projectsplaneteoui.subtitle}
+      h1 = data.projectsplaneteoui.title
+      
+    div class="contener"
+
+      div class="projects--primaryimg image-full"
+        = image_tag "projets/#{data.projectsmcopageproduit.imageone}", alt: "#{data.projectsmcopageproduit.subtitle} - #{data.projectsmcopageproduit.title}"
+      
+      div class="grid panel--white big--padding no--border"
+        h2 class="subtitle center" Contexte
+        p class="intro center" = data.projectsplaneteoui.intro
+      
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagetwobig}" media="(min-width: 950px)" class="img"
+            source srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagetwomedium}" media="(min-width: 490px)" class="img"
+            img srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagetwosmall}" alt="#{data.projectsmcopageproduit.imagetwoalt}" class="img"
+        div class="grid--two grid--margin"
+          h2 = data.projectsplaneteoui.titleone
+          p = data.projectsplaneteoui.textone
+
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--one"
+          h2 class="center" = data.projectsplaneteoui.titletwo
+          p = data.projectsplaneteoui.texttwo
+        div class="grid"
+          div class="grid--three grid--margin"
+            picture
+              source srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagethreebig}" media="(min-width: 950px)" class="img"
+              source srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagethreemedium}" media="(min-width: 490px)" class="img"
+              img srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagethreesmall}" alt="#{data.projectsmcopageproduit.imagethreealt}" class="img"
+          div class="grid--three grid--margin"
+            picture
+              source srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagethreebig}" media="(min-width: 950px)" class="img"
+              source srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagethreemedium}" media="(min-width: 490px)" class="img"
+              img srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagethreesmall}" alt="#{data.projectsmcopageproduit.imagethreealt}" class="img"
+          div class="grid--three grid--margin"
+            picture
+              source srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagethreebig}" media="(min-width: 950px)" class="img"
+              source srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagethreemedium}" media="(min-width: 490px)" class="img"
+              img srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagethreesmall}" alt="#{data.projectsmcopageproduit.imagethreealt}" class="img"
+            
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.content.competences.ux.imagebig}" media="(min-width: 950px)" class="img"
+            source srcset="#{data.content.competences.ux.imagemedium}" media="(min-width: 490px)" class="img"
+            img srcset="#{data.content.competences.ux.imagesmall}" alt="#{data.content.competences.ux.imagealt}" class="img"
+        div class="grid--two grid--margin"
+          h2 = data.projectsplaneteoui.titlethree
+          p = data.projectsplaneteoui.textthree
+    
+section class="wrapper grid m-crossnavigation"
+  h1 class="m-crossnavigation--title" = data.projectscrossnav.crossnav.title
+  = link_to "#{data.projectscrossnav.crossnav.mcopageproduit.linkpath}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projectscrossnav.crossnav.mcopageproduit.title
+    p = data.projectscrossnav.crossnav.mcopageproduit.text
+  = link_to "#{data.projectscrossnav.crossnav.jefapplimagasin.linkpath}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projectscrossnav.crossnav.jefapplimagasin.title
+    p = data.projectscrossnav.crossnav.jefapplimagasin.text
+    
+= partial 'views/footer'

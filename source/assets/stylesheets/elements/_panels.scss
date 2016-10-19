@@ -2,7 +2,7 @@ $panelpadding: 30px;
 $panelbigpadding: 60px;
 
 .panel--white {
-  width: calc(100% - 2px);
+  width: 100%;
   box-shadow: $panelwhiteborder;
   background-color: $white;
   padding: $panelpadding;

@@ -22,15 +22,6 @@ section class="content"
           div class="reference--content"
               h1 class="subtitle" = project.clientname
               h2 class="h3" = project.title
-
-/ section class="wrapper grid m-crossnavigation"
-/   h1 class="m-crossnavigation--title" = data.content.crossnav.title
-/   = link_to "#{data.content.crossnav.competences.linkpath}", class:"grid--two panel--white" do
-/     p class="subtitle" = data.content.crossnav.competences.title
-/     p = data.content.crossnav.competences.text
-/   = link_to "#{data.content.crossnav.profil.linkpath}", class:"grid--two panel--white" do
-/     p class="subtitle" = data.content.crossnav.profil.title
-/     p = data.content.crossnav.profil.text
     
 = partial 'views/contactbox'
 = partial 'views/footer'

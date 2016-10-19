@@ -2,6 +2,10 @@
   display: flex;
   flex-wrap: wrap;
 
+  .grid--one {
+    width: 100%;
+  }
+
   .grid--two {
     width: 50%;
     @media screen and (max-width: $media-s) {width: 100%; margin-bottom: 20px;}

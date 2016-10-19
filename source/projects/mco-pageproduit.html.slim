@@ -13,7 +13,7 @@ section class="content"
   div class="wrapper"
     
     div class="projects--title"
-      p class="subtitle center" = data.projectsmcopageproduit.subtitle
+      p class="subtitle center" Client : #{data.projectsmcopageproduit.subtitle}
       h1 = data.projectsmcopageproduit.title
       
     div class="contener"
@@ -32,12 +32,12 @@ section class="content"
             source srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagetwomedium}" media="(min-width: 490px)" class="img"
             img srcset="../assets/images/projets/#{data.projectsmcopageproduit.imagetwosmall}" alt="#{data.projectsmcopageproduit.imagetwoalt}" class="img"
         div class="grid--two grid--margin"
-          h1 class="h2" = data.projectsmcopageproduit.titleone
+          h2 = data.projectsmcopageproduit.titleone
           p = data.projectsmcopageproduit.textone
 
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
-          h1 class="h2" = data.projectsmcopageproduit.titletwo
+          h2 = data.projectsmcopageproduit.titletwo
           p = data.projectsmcopageproduit.texttwo
         div class="grid--two grid--margin"
           picture
@@ -52,7 +52,7 @@ section class="content"
             source srcset="#{data.content.competences.ux.imagemedium}" media="(min-width: 490px)" class="img"
             img srcset="#{data.content.competences.ux.imagesmall}" alt="#{data.content.competences.ux.imagealt}" class="img"
         div class="grid--two grid--margin"
-          h1 class="h2" = data.projectsmcopageproduit.titlethree
+          h2 = data.projectsmcopageproduit.titlethree
           p = data.projectsmcopageproduit.textthree
         div class="grid--one grid--margin"
           ul class="grid"
@@ -60,11 +60,13 @@ section class="content"
               li class="grid--three grid--margin panel--white"
                 p class="center" = item.text
     
-section class="grid panel--blue m-crossnavigation"
+section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.projectscrossnav.crossnav.title
-  = link_to "#{data.projectscrossnav.crossnav.jefcheckout.linkpath}", class:"grid--two" do
+  = link_to "#{data.projectscrossnav.crossnav.jefcheckout.linkpath}", class:"panel--white grid--two" do
     p class="subtitle" = data.projectscrossnav.crossnav.jefcheckout.title
     p = data.projectscrossnav.crossnav.jefcheckout.text
-  = link_to "#{data.projectscrossnav.crossnav.planeteoui.linkpath}", class:"grid--two" do
+  = link_to "#{data.projectscrossnav.crossnav.planeteoui.linkpath}", class:"panel--white grid--two" do
     p class="subtitle" = data.projectscrossnav.crossnav.planeteoui.title
     p = data.projectscrossnav.crossnav.planeteoui.text
+    
+= partial 'views/footer'
