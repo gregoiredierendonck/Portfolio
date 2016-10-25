@@ -97,8 +97,6 @@ references:
   title: "Références"
   projects:
     -
-      logo: "http://placehold.it/65x65"
-      logoalt: "alt"
       clientname: "Jef Chaussures"
       title: "Refonte du checkout"
       imagebig: "http://placehold.it/576x384"
@@ -108,8 +106,6 @@ references:
       imagealt: "alt"
       linkpath: "jef-checkout.html"
     -
-      logo: "http://placehold.it/65x65"
-      logoalt: "alt"
       clientname: "Montres & Co"
       title: "Refonte de la page produit"
       imagebig: "http://placehold.it/576x384"
@@ -119,8 +115,6 @@ references:
       imagealt: "alt"
       linkpath: "mco-pageproduit.html"
     -
-      logo: "http://placehold.it/65x65"
-      logoalt: "alt"
       clientname: "Planète Oui"
       title: "Optimisation de la page d'accueil et du formulaire de souscription"
       imagebig: "http://placehold.it/576x384"
@@ -130,8 +124,6 @@ references:
       imagealt: "alt"
       linkpath: "planeteoui.html"
     -
-      logo: "http://placehold.it/65x65"
-      logoalt: "alt"
       clientname: "Jef Chaussures"
       title: "Conception d'une application magasin"
       imagebig: "http://placehold.it/576x384"
@@ -139,10 +131,8 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
-      linkpath: ""
+      linkpath: "jef-application.html"
     -
-      logo: "http://placehold.it/65x65"
-      logoalt: "alt"
       clientname: "La Redoute"
       title: "Conception du site corporate"
       imagebig: "http://placehold.it/576x384"
@@ -150,10 +140,8 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
-      linkpath: ""
+      linkpath: "laredoute.html"
     -
-      logo: "http://placehold.it/65x65"
-      logoalt: "alt"
       clientname: "Zukunfthaus"
       title: "Conception d'une application"
       imagebig: "http://placehold.it/576x384"
@@ -161,10 +149,8 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
-      linkpath: ""
+      linkpath: "zukunfthaus.html"
     -
-      logo: "http://placehold.it/65x65"
-      logoalt: "alt"
       clientname: "France machines outils"
       title: "Conception d'une interface d'administration"
       imagebig: "http://placehold.it/576x384"
@@ -172,10 +158,8 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
-      linkpath: ""
+      linkpath: "fmo.html"
     -
-      logo: "http://placehold.it/65x65"
-      logoalt: "alt"
       clientname: "Delcourt"
       title: "Audit de l'expérience utilisateur du site"
       imagebig: "http://placehold.it/576x384"
@@ -183,7 +167,7 @@ references:
       imagesmall: "http://placehold.it/598x300"
       imagexs: "http://placehold.it/450x200"
       imagealt: "alt"
-      linkpath: ""
+      linkpath: "delcourt.html"
 
 contact:
   title: "Contact"
