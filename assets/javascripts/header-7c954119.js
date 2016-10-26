@@ -1,0 +1,1 @@
+!function(){var e;e=function(){return $("#header-menu-button").click(function(){return"Menu"===$.trim($(this).text())?($(this).text("Fermer"),$("#header").addClass("menu--open")):($(this).text("Menu"),$("#header").removeClass("menu--open"))})},$(document).ready(function(){return e()})}.call(this);

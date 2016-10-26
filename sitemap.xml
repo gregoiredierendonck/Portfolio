@@ -9,40 +9,40 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>Lorem ipsumprojects/zukunfthaus.html</loc>
+    <loc>Lorem ipsumprojets/zukunfthaus.html</loc>
     <priority>1</priority>
   </url>
   <url>
-    <loc>Lorem ipsumprojects/planeteoui.html</loc>
+    <loc>Lorem ipsumprojets/planeteoui.html</loc>
     <priority>1</priority>
   </url>
   <url>
-    <loc>Lorem ipsumprojects/mco-pageproduit.html</loc>
+    <loc>Lorem ipsumprojets/montresandco.html</loc>
     <priority>1</priority>
   </url>
   <url>
-    <loc>Lorem ipsumprojects/laredoute.html</loc>
+    <loc>Lorem ipsumprojets/laredoute.html</loc>
     <priority>1</priority>
   </url>
   <url>
-    <loc>Lorem ipsumprojects/jef-checkout.html</loc>
+    <loc>Lorem ipsumprojets/jef-checkout.html</loc>
     <priority>1</priority>
   </url>
   <url>
-    <loc>Lorem ipsumprojects/jef-application.html</loc>
+    <loc>Lorem ipsumprojets/jef-borne-interactive.html</loc>
     <priority>1</priority>
   </url>
   <url>
-    <loc>Lorem ipsumprojects/fmo.html</loc>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>Lorem ipsumprojects/delcourt.html</loc>
+    <loc>Lorem ipsumprojets/francemachinesoutils.html</loc>
     <priority>1</priority>
   </url>
   <url>
     <loc>Lorem ipsumcompetences.html</loc>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>Lorem ipsumprojets/delcourt.html</loc>
+    <priority>1</priority>
   </url>
   <url>
     <loc>Lorem ipsumprofil.html</loc>
