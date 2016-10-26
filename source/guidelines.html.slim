@@ -1,7 +1,7 @@
 ---
 title: "Guidelines"
 description: "Guidelines du portfolio de Grégoire Dierendonck"
-keywords: ""
+keywords: "guidelines"
 changefreq: yearly
 priority: 0.5
 index_options: no_follow
@@ -22,26 +22,27 @@ section class="content"
     h2 Nous avons ici un titre H2 qui est assez long pour tester l’interlignage
     p class="p--small" Nous avons également un paragraphe small pour certaines utilisations
 section class="wrapper--medium grid"
-  article class="grid--three grid--margin panel--white center space-between"
-    h1 class="subtitle" = data.content.crossnav.competences.title
-    p class="center" = data.content.crossnav.competences.text
-    =link_to "#{data.content.crossnav.competences.linktext}", "#{data.content.crossnav.competences.linkpath}", class:"button--primary"
-  article class="grid--three grid--margin panel--white center space-between"
-    h1 class="subtitle" = data.content.crossnav.profil.title
-    p class="center" = data.content.crossnav.profil.text
-    =link_to "#{data.content.crossnav.profil.linktext}", "#{data.content.crossnav.profil.linkpath}", class:"button--primary"
-  article class="grid--three grid--margin panel--white center space-between"
-    h1 class="subtitle" = data.content.crossnav.references.title
-    p class="center" = data.content.crossnav.references.text
-    =link_to "#{data.content.crossnav.references.linktext}", "#{data.content.crossnav.references.linkpath}", class:"button--primary"
+  h1 class="visuallyhidden" = data.content.homepage.linkstitle
+  article class="grid--three panel--white center space-between"
+    h1 class="subtitle" = data.content.competences.title
+    p class="center" = data.content.competences.description
+    =link_to "#{data.content.competences.button}", "#{data.content.competences.link}", class:"button--primary"
+  article class="grid--three panel--white center space-between"
+    h1 class="subtitle" = data.content.profil.title
+    p class="center" = data.content.profil.description
+    =link_to "#{data.content.profil.button}", "#{data.content.profil.link}", class:"button--primary"
+  article class="grid--three panel--white center space-between"
+    h1 class="subtitle" = data.content.references.title
+    p class="center" = data.content.references.description
+    =link_to "#{data.content.references.button}", "#{data.content.references.link}", class:"button--primary"
 section class="wrapper grid m-crossnavigation"
-  h1 class="m-crossnavigation--title" = data.content.crossnav.title
-  = link_to "#{data.content.crossnav.competences.linkpath}", class:"grid--two panel--white" do
-    p class="subtitle" = data.content.crossnav.competences.title
-    p = data.content.crossnav.competences.text
-  = link_to "#{data.content.crossnav.references.linkpath}", class:"grid--two panel--white" do
-    p class="subtitle" = data.content.crossnav.references.title
-    p = data.content.crossnav.references.text
+  h1 class="m-crossnavigation--title" = data.content.crossnavigation
+  = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetplaneteoui.client
+    p = data.projetplaneteoui.title
+  = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetmontresandco.client
+    p = data.projetmontresandco.title
 = partial 'views/contactbox'
 = partial 'views/footer'
   
