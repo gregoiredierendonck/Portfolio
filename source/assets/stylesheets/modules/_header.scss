@@ -14,31 +14,7 @@ body {
     left: $externborder;
     padding: $headderpadding 0;
     @media screen and (max-width: $media-m) {padding: $headderpadding-xs 0;}
-    z-index: 10;
     background-color: $grey-lighter;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0);
-    &.slideUp {
-      transform: translateY(-110%);
-      box-shadow: 0 3px 5px rgba(0, 0, 0, 0);
-    }
-    &.headroom--not-top {
-      background-color: $white;
-      position: fixed;
-      top: $externborder;
-      left: $externborder;
-      padding: 0 0 ($headderpadding / 3) 0;
-      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-      transform: translateY(-110%);
-    }
-    &.slideDown {
-      transform: translateY(0);
-      transition: transform .5s ease-in-out,
-                  background-color .5s ease-in-out,
-                  box-shadow .5s ease-in-out;
-    }
-    &.headroom--top {
-      transform: translateY(0);
-    }
     &.menu--open {
       padding: $headderpadding 0 !important;
       @media screen and (max-width: $media-m) {padding: $headderpadding-xs 0 !important;}

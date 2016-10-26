@@ -1,21 +1,3 @@
-crossnav:
-  title: "Vous voulez en savoir plus sur moi&nbsp;?"
-  competences:
-    title: "Compétences"
-    text: "Les acquis et connaissances que je met en œuvre dans mon quotidien."
-    linkpath: "competences.html"
-    linktext: "Mes compétences"
-  profil:
-    title: "Profil"
-    text: "Les traits de personnalité, les centres d’intérêts qui constituent mon profil propre."
-    linkpath: "profil.html"
-    linktext: "Mon profil"
-  references:
-    title: "Références"
-    text: "Quelques références sélectionnées pour vous donner une idée plus précise de mon travail."
-    linkpath: "references.html"
-    linktext: "Références"
-
 contactbox:
   p: "Intéressé par mon profil&nbsp;? Je suis actuellement disponible&nbsp;!"
   cvlinktext: "Téléchargez mon CV"
@@ -25,11 +7,17 @@ contactbox:
 footer:
   text: 'Grégoire Dierendonck • UI/UX designer à Lille, France • 06 11 70 39 58 • <a href="mailto:bonjour@gregoiredierendonck.fr">bonjour@gregoiredierendonck.fr</a>'
 
+crossnavigation: "Connaissez-vous également ces autres projets&nbsp;?"
+
 homepage:
   subtitle: "Grégoire Dierendonck, UI/UX designer"
   h1: 'Étude de l&rsquo;expérience utilisateur <br/>Conception d&rsquo;interfaces performantes'
+  linkstitle: "Vous voulez en savoir plus sur moi&nbsp;?"
 
 competences:
+  link: "competences.html"
+  button: "Mes compétences"
+  description: "Les acquis et connaissances que je met en œuvre dans mon quotidien."
   title: "Compétences"
   ux:
     imagebig: "http://placehold.it/504x504"
@@ -66,6 +54,9 @@ competences:
     texttwo: "Un document proposant un ensemble de chantiers à mettre en place pour améliorer significativement la santé UX de la solution est rédigé, et accompagné de wireframes des évolutions proposées."
 
 profil:
+  link: "profil.html"
+  button: "Mon profil"
+  description: "Les traits de personnalité, les centres d’intérêts qui constituent mon profil propre."
   title: "Profil"
   profilentry:
     -
@@ -94,80 +85,10 @@ profil:
       icon: "icon-social.svg"
 
 references:
+  link: "references.html"
+  button: "Mes références"
+  description: "Quelques références sélectionnées pour vous donner une idée plus précise de mon travail."
   title: "Références"
-  projects:
-    -
-      clientname: "Jef Chaussures"
-      title: "Refonte du checkout"
-      imagebig: "http://placehold.it/576x384"
-      imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/598x300"
-      imagexs: "http://placehold.it/450x200"
-      imagealt: "alt"
-      linkpath: "jef-checkout.html"
-    -
-      clientname: "Montres & Co"
-      title: "Refonte de la page produit"
-      imagebig: "http://placehold.it/576x384"
-      imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/598x300"
-      imagexs: "http://placehold.it/450x200"
-      imagealt: "alt"
-      linkpath: "mco-pageproduit.html"
-    -
-      clientname: "Planète Oui"
-      title: "Optimisation de la page d'accueil et du formulaire de souscription"
-      imagebig: "http://placehold.it/576x384"
-      imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/598x300"
-      imagexs: "http://placehold.it/450x200"
-      imagealt: "alt"
-      linkpath: "planeteoui.html"
-    -
-      clientname: "Jef Chaussures"
-      title: "Conception d'une application magasin"
-      imagebig: "http://placehold.it/576x384"
-      imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/598x300"
-      imagexs: "http://placehold.it/450x200"
-      imagealt: "alt"
-      linkpath: "jef-application.html"
-    -
-      clientname: "La Redoute"
-      title: "Conception du site corporate"
-      imagebig: "http://placehold.it/576x384"
-      imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/598x300"
-      imagexs: "http://placehold.it/450x200"
-      imagealt: "alt"
-      linkpath: "laredoute.html"
-    -
-      clientname: "Zukunfthaus"
-      title: "Conception d'une application"
-      imagebig: "http://placehold.it/576x384"
-      imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/598x300"
-      imagexs: "http://placehold.it/450x200"
-      imagealt: "alt"
-      linkpath: "zukunfthaus.html"
-    -
-      clientname: "France machines outils"
-      title: "Conception d'une interface d'administration"
-      imagebig: "http://placehold.it/576x384"
-      imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/598x300"
-      imagexs: "http://placehold.it/450x200"
-      imagealt: "alt"
-      linkpath: "fmo.html"
-    -
-      clientname: "Delcourt"
-      title: "Audit de l'expérience utilisateur du site"
-      imagebig: "http://placehold.it/576x384"
-      imagemedium: "http://placehold.it/461x307"
-      imagesmall: "http://placehold.it/598x300"
-      imagexs: "http://placehold.it/450x200"
-      imagealt: "alt"
-      linkpath: "delcourt.html"
 
 contact:
   title: "Contact"

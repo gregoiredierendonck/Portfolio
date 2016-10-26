@@ -11,17 +11,86 @@ section class="content"
 
   h1 = data.content.references.title
   div class="wrapper grid panel--white big--padding"
-    - data.content.references.projects.each_with_index do |project|
-      article class="grid--two grid--margin panel--white"
-        = link_to "projects/#{project.linkpath}" do
-          picture class="reference--img"
-            source srcset="#{project.imagebig}" media="(min-width: 1000px)"
-            source srcset="#{project.imagemedium}" media="(min-width: 650px)"
-            source srcset="#{project.imagesmall}" media="(min-width: 490px)"
-            img srcset="#{project.imagexs}" alt="#{project.imagealt}"
-          div class="reference--content"
-              h1 class="subtitle" = project.clientname
-              h2 class="h3" = project.title
+  
+    / Montres and Co
+    article class="grid--two grid--margin panel--white"
+      = link_to "projets/#{data.projetmontresandco.link}" do
+        picture class="reference--img"
+          source srcset="assets/images/projets/#{data.projetmontresandco.refbig2x}" media="(min-width: 1000px)"
+          img srcset="assets/images/projets/#{data.projetmontresandco.refbig2x}" alt="#{data.projetmontresandco.refalt}"
+        div class="reference--content"
+            h1 class="subtitle" = data.projetmontresandco.client
+            h2 class="h3" = data.projetmontresandco.title
+            
+    / Jef Checkout
+    article class="grid--two grid--margin panel--white"
+      = link_to "projets/#{data.projetjefcheckout.link}" do
+        picture class="reference--img"
+          source srcset="assets/images/projets/#{data.projetjefcheckout.refbig2x}" media="(min-width: 1000px)"
+          img srcset="assets/images/projets/#{data.projetjefcheckout.refbig2x}" alt="#{data.projetjefcheckout.refalt}"
+        div class="reference--content"
+            h1 class="subtitle" = data.projetjefcheckout.client
+            h2 class="h3" = data.projetjefcheckout.title
+            
+    / Jef Application
+    article class="grid--two grid--margin panel--white"
+      = link_to "projets/#{data.projetjefapplication.link}" do
+        picture class="reference--img"
+          source srcset="assets/images/projets/#{data.projetjefapplication.refbig2x}" media="(min-width: 1000px)"
+          img srcset="assets/images/projets/#{data.projetjefapplication.refbig2x}" alt="#{data.projetjefapplication.refalt}"
+        div class="reference--content"
+            h1 class="subtitle" = data.projetjefapplication.client
+            h2 class="h3" = data.projetjefapplication.title
+            
+    / Delcourt
+    article class="grid--two grid--margin panel--white"
+      = link_to "projets/#{data.projetdelcourt.link}" do
+        picture class="reference--img"
+          source srcset="assets/images/projets/#{data.projetdelcourt.refbig2x}" media="(min-width: 1000px)"
+          img srcset="assets/images/projets/#{data.projetdelcourt.refbig2x}" alt="#{data.projetdelcourt.refalt}"
+        div class="reference--content"
+            h1 class="subtitle" = data.projetdelcourt.client
+            h2 class="h3" = data.projetdelcourt.title
+            
+    / Planète Oui
+    article class="grid--two grid--margin panel--white"
+      = link_to "projets/#{data.projetplaneteoui.link}" do
+        picture class="reference--img"
+          source srcset="assets/images/projets/#{data.projetplaneteoui.refbig2x}" media="(min-width: 1000px)"
+          img srcset="assets/images/projets/#{data.projetplaneteoui.refbig2x}" alt="#{data.projetplaneteoui.refalt}"
+        div class="reference--content"
+            h1 class="subtitle" = data.projetplaneteoui.client
+            h2 class="h3" = data.projetplaneteoui.title
+            
+    / La Redoute
+    article class="grid--two grid--margin panel--white"
+      = link_to "projets/#{data.projetlaredoute.link}" do
+        picture class="reference--img"
+          source srcset="assets/images/projets/#{data.projetlaredoute.refbig2x}" media="(min-width: 1000px)"
+          img srcset="assets/images/projets/#{data.projetlaredoute.refbig2x}" alt="#{data.projetlaredoute.refalt}"
+        div class="reference--content"
+            h1 class="subtitle" = data.projetlaredoute.client
+            h2 class="h3" = data.projetlaredoute.title
+            
+    / Fmo
+    article class="grid--two grid--margin panel--white"
+      = link_to "projets/#{data.projetfrancemachinesoutils.link}" do
+        picture class="reference--img"
+          source srcset="assets/images/projets/#{data.projetfrancemachinesoutils.refbig2x}" media="(min-width: 1000px)"
+          img srcset="assets/images/projets/#{data.projetfrancemachinesoutils.refbig2x}" alt="#{data.projetfrancemachinesoutils.refalt}"
+        div class="reference--content"
+            h1 class="subtitle" = data.projetfrancemachinesoutils.client
+            h2 class="h3" = data.projetfrancemachinesoutils.title
+            
+    / Zukunfthaus
+    article class="grid--two grid--margin panel--white"
+      = link_to "projets/#{data.projetzukunfthaus.link}" do
+        picture class="reference--img"
+          source srcset="assets/images/projets/#{data.projetzukunfthaus.refbig2x}" media="(min-width: 1000px)"
+          img srcset="assets/images/projets/#{data.projetzukunfthaus.refbig2x}" alt="#{data.projetzukunfthaus.refalt}"
+        div class="reference--content"
+            h1 class="subtitle" = data.projetzukunfthaus.client
+            h2 class="h3" = data.projetzukunfthaus.title
     
 = partial 'views/contactbox'
 = partial 'views/footer'

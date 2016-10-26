@@ -1,0 +1,71 @@
+---
+title: "Projet&nbsp;&#45;&nbsp;Montres&nbsp;&#38;&nbsp;Co&nbsp;&#58;&nbsp;Optimisation de la page produit"
+description: "Optimisation de l'expèrience utilisateur de la page produit du site Montres & Co"
+keywords: "optimisation, expérience utilisateur, ux, ui"
+changefreq: "monthly"
+priority: "1"
+---
+
+h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
+= partial 'views/global/projects-header'
+section class="content"
+      
+  div class="wrapper"
+    
+    div class="projects--title"
+      p class="subtitle center" Client : #{data.projetmontresandco.client}
+      h1 = data.projetmontresandco.title
+      
+    div class="contener"
+
+      div class="projects--primaryimg image-full"
+        picture
+          source srcset="../assets/images/projets/#{data.projetmontresandco.introimgbig2x}" media="(min-width: 950px)" class="img"
+          img srcset="../assets/images/projets/#{data.projetmontresandco.introimgbig2x}" alt="#{data.projetmontresandco.introimgalt}" class="img"
+      
+      div class="grid panel--white big--padding no--border"
+        h2 class="subtitle center" Contexte
+        p class="intro center" = data.projetmontresandco.intro
+      
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="../assets/images/projets/#{data.projetmontresandco.imageonebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="../assets/images/projets/#{data.projetmontresandco.imageonebig2x}" alt="#{data.projetmontresandco.imageonealt}" class="img"
+        div class="grid--two grid--margin"
+          h2 = data.projetmontresandco.titleone
+          p = data.projetmontresandco.textone
+
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          h2 = data.projetmontresandco.titletwo
+          p = data.projetmontresandco.texttwo
+        div class="grid--two grid--margin"
+          picture
+            source srcset="../assets/images/projets/#{data.projetmontresandco.imagetwobig2x}" media="(min-width: 950px)" class="img"
+            img srcset="../assets/images/projets/#{data.projetmontresandco.imagetwobig2x}" alt="#{data.projetmontresandco.imagetwoalt}" class="img"
+            
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetmontresandco.imagethreebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetmontresandco.imagethreebig2x}" alt="#{data.projetmontresandco.imagethreealt}" class="img"
+        div class="grid--two grid--margin"
+          h2 = data.projetmontresandco.titlethree
+          p = data.projetmontresandco.textthree
+        div class="grid--one grid--margin"
+          ul class="grid"
+            - data.projetmontresandco.listthree.each_with_index do |item|
+              li class="grid--three grid--margin panel--white"
+                p class="center" = item.text
+    
+section class="wrapper grid m-crossnavigation"
+  h1 class="m-crossnavigation--title" = data.content.crossnavigation
+  = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetplaneteoui.client
+    p = data.projetplaneteoui.title
+  = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetmontresandco.client
+    p = data.projetmontresandco.title
+    
+= partial 'views/footer'

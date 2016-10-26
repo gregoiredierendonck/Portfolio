@@ -1,0 +1,41 @@
+---
+title: "Projet&nbsp;&#45;&nbsp;France&nbsp;Machines&nbsp;Outils&nbsp;&#58;&nbsp;Conception de l'interface d'administration"
+description: "Conception de l'interface d'administration de France Machines Outils, permettant d'administrer le site web ainsi que la gestion des ventes et des stocks"
+keywords: "conception, interface, administration, ux, ui"
+changefreq: "monthly"
+priority: "1"
+---
+
+h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
+= partial 'views/global/projects-header'
+section class="content"
+      
+  div class="wrapper"
+    
+    div class="projects--title"
+      p class="subtitle center" Client : #{data.projetfrancemachinesoutils.client}
+      h1 = data.projetfrancemachinesoutils.title
+      
+    div class="contener"
+
+      div class="projects--primaryimg image-full"
+        picture
+          source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.introimgbig2x}" media="(min-width: 950px)" class="img"
+          img srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.introimgbig2x}" alt="#{data.projetfrancemachinesoutils.introimgalt}" class="img"
+      
+      div class="grid panel--white big--padding no--border"
+        h2 class="subtitle center" Contexte
+        p class="intro center" = data.projetfrancemachinesoutils.intro
+      
+      
+    
+section class="wrapper grid m-crossnavigation"
+  h1 class="m-crossnavigation--title" = data.content.crossnavigation
+  = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetplaneteoui.client
+    p = data.projetplaneteoui.title
+  = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetmontresandco.client
+    p = data.projetmontresandco.title
+    
+= partial 'views/footer'

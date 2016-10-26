@@ -1,6 +1,12 @@
-subtitle: "Montres&nbsp;&#38;&nbsp;Co"
 title: "Optimisation de la page produit"
-imageone: "projets-mco-1.jpg"
+client: "Montres&nbsp;&#38;&nbsp;Co"
+link: "montresandco.html"
+
+refbig2x: "projets-mco-refs@2x.jpg"
+refalt: "Miniature du projet Montres & Co"
+
+introimgbig2x: "projets-mco@2x.jpg"
+introimgalt: "Aperçu de la page produit de Montres & Co"
 intro: |
   Dans le cadre de l'optimisation continue du site ecommerce Montres&nbsp;&#38;&nbsp;Co,
   une attention particulière a été apportée à l'optimisation de la page produit.
@@ -17,10 +23,8 @@ textone: |
         La distinction entre les coloris et les tailles disponibles était rendue complexe.</li>
     <li>La mise en page repoussait trop loin le cross-selling, très rarement vu par les utilisateurs, et donc inutilisé.</li>
   </ol>
-imagetwobig: "projets-mco-2-big@2x.jpg"
-imagetwomedium: "projets-mco-2-big@2x.jpg"
-imagetwosmall: "projets-mco-2-big@2x.jpg"
-imagetwoalt: "Aperçu de l'ancienne page produit du site Montres & Co"
+imageonebig2x: "projets-mco-2-big@2x.jpg"
+imageonealt: "Aperçu de l'ancienne page produit du site Montres & Co"
 
 titletwo: "Propositions d'améliorations"
 texttwo: |
@@ -37,10 +41,8 @@ texttwo: |
     <li>Puisque repoussée dans la page, la zone de la description et des caractéristiques sont redesignées
     pour en simplifier la lecture, et un bouton d’ajout au panier est ajouté à la zone.</li>
   </ol>
-imagethreebig: "projets-mco-3-big@2x.jpg"
-imagethreemedium: "projets-mco-3-big@2x.jpg"
-imagethreesmall: "projets-mco-3-big@2x.jpg"
-imagethreealt: "Aperçu de la nouvelle page produit optimisée du site Montres & Co"
+imagetwobig2x: "projets-mco-3-big@2x.jpg"
+imagetwoalt: "Aperçu de la nouvelle page produit optimisée du site Montres & Co"
 
 titlethree: "Évaluation des optimisations avec des tests A/B"
 textthree: |
@@ -72,3 +74,5 @@ listthree:
       <b class="keynumber">+8%</b>
       <b>de taux de conversion</b>
       grâce à une augmentation de +7% du nombre de transactions
+imagethreebig2x: "http://placehold.it/520x400"
+imagethreealt: ""

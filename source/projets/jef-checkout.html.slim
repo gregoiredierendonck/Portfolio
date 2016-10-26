@@ -1,0 +1,41 @@
+---
+title: "Projet&nbsp;&#45;&nbsp;Jef&nbsp;Chaussures&nbsp;&#58;&nbsp;Refonte du checkout"
+description: "Refonte du checkout du site de Jef Chaussures"
+keywords: "refonte, checkout, expérience utilisateur, ux, ui"
+changefreq: "monthly"
+priority: "1"
+---
+
+h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
+= partial 'views/global/projects-header'
+section class="content"
+      
+  div class="wrapper"
+    
+    div class="projects--title"
+      p class="subtitle center" Client : #{data.projetjefcheckout.client}
+      h1 = data.projetjefcheckout.title
+      
+    div class="contener"
+
+      div class="projects--primaryimg image-full"
+        picture
+          source srcset="../assets/images/projets/#{data.projetjefcheckout.introimgbig2x}" media="(min-width: 950px)" class="img"
+          img srcset="../assets/images/projets/#{data.projetjefcheckout.introimgbig2x}" alt="#{data.projetjefcheckout.introimgalt}" class="img"
+      
+      div class="grid panel--white big--padding no--border"
+        h2 class="subtitle center" Contexte
+        p class="intro center" = data.projetjefcheckout.intro
+      
+      
+    
+section class="wrapper grid m-crossnavigation"
+  h1 class="m-crossnavigation--title" = data.content.crossnavigation
+  = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetplaneteoui.client
+    p = data.projetplaneteoui.title
+  = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetmontresandco.client
+    p = data.projetmontresandco.title
+    
+= partial 'views/footer'

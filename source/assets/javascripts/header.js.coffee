@@ -10,11 +10,4 @@ Menubuttontext = ->
 
 # Launch scripts
 $(document).ready ->
-  $('header').headroom
-    'offset': 30
-    'tolerance': 50
-    'classes':
-      'initial': 'animated'
-      'pinned': 'slideDown'
-      'unpinned': 'slideUp'
   Menubuttontext()
