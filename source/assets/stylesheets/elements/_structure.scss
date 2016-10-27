@@ -12,7 +12,7 @@ html {
     top: 0;
     left: 0;
     background-color: $white;
-    z-index: 11;
+    z-index: 101;
   }
   &:after {left: auto; right: 0;}
 
@@ -30,7 +30,7 @@ html {
       top: 0;
       left: 0;
       background-color: $white;
-      z-index: 11;
+      z-index: 101;
     }
     &:after {top: auto; bottom: 0;}
 

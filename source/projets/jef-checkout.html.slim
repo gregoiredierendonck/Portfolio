@@ -8,6 +8,26 @@ priority: "1"
 
 h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
 = partial 'views/global/projects-header'
+
+section class="nav--projects"
+  h1 class="visuallyhidden" = data.content.crossnavigation
+  = link_to "#{data.projetplaneteoui.link}" do
+    div class="arrow"
+    div class="content"
+      picture
+        source srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" alt="#{data.projetplaneteoui.refalt}" class="img"
+      div class="text"
+        p class="subtitle" = data.projetplaneteoui.client
+  = link_to "#{data.projetmontresandco.link}" do
+    div class="arrow"
+    div class="content"
+      picture
+        source srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" alt="#{data.projetmontresandco.refalt}" class="img"
+      div class="text"
+        p class="subtitle" = data.projetmontresandco.client
+        
 section class="content"
       
   div class="wrapper"

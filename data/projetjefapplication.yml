@@ -3,9 +3,21 @@ client: "Jef&nbsp;Chaussures"
 link: "jef-borne-interactive.html"
 
 refbig2x: "projets-jefapplication-refs@2x.jpg"
+refproject: "projets-jefapplication-refs@2x.jpg"
 refalt: "Miniature de l'interface de la borne interactive de Jef Chaussures"
 
 introimgbig2x: "projets-jefapplication@2x.jpg"
 introimgalt: "Aperçu de l'interface de la borne interactive de Jef Chaussures"
 intro: |
-  Lorem ipsum
+  La borne interactive de JEF Chaussures, installée dans chaque rayon de ses boutiques physiques,
+  a pour but d'étendre l'offre présente en magasin. Ainsi, les clients ont la possibilité
+  de commander une paire de chaussures dont la pointure n'est pas disponible en magasin, ou dans un autre coloris.
+
+titleone: "Définir le périmètre et les fonctionnalitées du projet"
+textone:  |
+  Tout en veillant à laisser la priorité de conseil aux vendeurs magasins, plus apte à conseiller un client, le but
+
+  La demande du client sur ce projet était de laisser la priorité de conseil au vendeur, mieux apte à conseiller
+  un client. Ainsi, les fonctionnalitées de commande en ligne d'un produit ne devaient pas être
+imageonebig2x: ""
+imageonebigalt: ""

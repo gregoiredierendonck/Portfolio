@@ -3,6 +3,7 @@ client: "Montres&nbsp;&#38;&nbsp;Co"
 link: "montresandco.html"
 
 refbig2x: "projets-mco-refs@2x.jpg"
+refproject: "projets-mco-refs@2x.jpg"
 refalt: "Miniature du projet Montres & Co"
 
 introimgbig2x: "projets-mco@2x.jpg"
@@ -32,12 +33,12 @@ texttwo: |
   <ol class="list">
     <li>Les coloris disponibles sont placés au-dessus du bouton d’ajout au panier
     et la présentation sous forme de miniature est conservée.</li>
-    <li>Les tailles disponibles, pour plus de clarté, sont présentées sous forme de texte (diamètre en cm),
+    <li>Les tailles disponibles, pour plus de clarté, sont présentées sous forme de texte (diamètre en mm),
     au-dessus du bouton d’ajout au panier.</li>
-    <li>Le cross-selling est remonté directement sous le bouton d’ajout au panier,
-    en pleine largeure, à la place des éléments déplacés.</li>
     <li>Un lien permettant d’accéder directement au détail des caractéristiques et de la description
     est mis en avant avant le bouton d’ajout au panier.</li>
+    <li>Le cross-selling est remonté directement sous le bouton d’ajout au panier,
+    en pleine largeure, à la place des éléments déplacés.</li>
     <li>Puisque repoussée dans la page, la zone de la description et des caractéristiques sont redesignées
     pour en simplifier la lecture, et un bouton d’ajout au panier est ajouté à la zone.</li>
   </ol>
