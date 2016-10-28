@@ -3,11 +3,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
-<g>
-	<g>
-		<path fill="#4A90E2" d="M37,3v34H3V3H37 M40,0H0v40h40V0L40,0z"/>
-	</g>
-</g>
 <path fill="none" stroke="#4A90E2" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M25.333,14.306
 	c0,3.417-2.333,5.167-5.792,5.167c-3.314,0-5.958-1.667-5.958-5.083c0-3.562,2.603-5.292,5.917-5.292
 	C23.25,9.097,25.333,11.395,25.333,14.306z"/>
