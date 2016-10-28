@@ -1,5 +1,5 @@
 $nav-projectssize: 60px;
-$nav-projectsposition: 21vh;
+$nav-projectsposition: 240px;
 
 .nav--projects {
   position: relative;
@@ -9,40 +9,56 @@ $nav-projectsposition: 21vh;
     width: $nav-projectssize;
     height: $nav-projectssize;
     position: fixed;
-    top: 21vh;
+    top: $nav-projectsposition;
+    margin-top: -($nav-projectssize / 2);
     .arrow {
       width: $nav-projectssize;
       height: $nav-projectssize;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       position: relative;
       z-index: 2;
       background-color: $white;
     }
     .content {
-      width: auto;
-      height: auto;
+      width: 240px;
+      height: 164px;
       display: flex;
-      justify-content: flex-start;
+      flex-direction: column;
+      justify-content: center;
       align-items: center;
       position: fixed;
       top: $nav-projectsposition;
-      margin-top: -26px;
+      margin-top: -82px;
       padding: 10px;
       background-color: $white;
       picture {
-        width: 140px;
-        margin-right: 20px;
       }
       .text {
-        margin-right: 20px;
         .subtitle {
-          margin-bottom: 0;
+          font-size: 12px;
+          text-align: center;
+          margin: 5px 0 0 0;
+          width: 169px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
       }
     }
 
     &:first-of-type {
       left: 1vw;
+      box-shadow: -1vw 0 0 $white, 0 0 5px rgba(0, 0, 0, .2);
       .arrow:after {
+        content: '';
+        width: 17px;
+        height: 2px;
+        background-color: $primary;
+        z-index: 1;
+      }
+      .arrow:before {
         content: '';
         width: 10px;
         height: 10px;
@@ -50,22 +66,8 @@ $nav-projectsposition: 21vh;
         border-left: 2px solid $primary;
         border-bottom: 2px solid $primary;
         transform: rotate(45deg);
-        position: absolute;
+        margin-right: -13px;
         z-index: 1;
-        top: 3vh;
-        left: 22px;
-        margin-top: -6px;
-      }
-      .arrow:before {
-        content: '';
-        width: 17px;
-        height: 2px;
-        background-color: $primary;
-        position: absolute;
-        z-index: 1;
-        top: 3vh;
-        left: 22px;
-        margin-top: -1px;
       }
       .content {
         left: 1vw;
@@ -79,6 +81,7 @@ $nav-projectsposition: 21vh;
 
     &:last-of-type {
       right: 1vw;
+      box-shadow: 1vw 0 0 $white, 0 0 5px rgba(0, 0, 0, .2);
       .arrow:after {
         content: '';
         width: 10px;
@@ -87,29 +90,20 @@ $nav-projectsposition: 21vh;
         border-right: 2px solid $primary;
         border-top: 2px solid $primary;
         transform: rotate(45deg);
-        position: absolute;
+        margin-left: -13px;
         z-index: 1;
-        top: 3vh;
-        right: 22px;
-        margin-top: -6px;
       }
       .arrow:before {
         content: '';
         width: 17px;
         height: 2px;
         background-color: $primary;
-        position: absolute;
         z-index: 1;
-        top: 3vh;
-        right: 22px;
-        margin-top: -1px;
       }
       .content {
         right: 1vw;
         padding-right: calc(#{$nav-projectssize} + 1px);
         box-shadow: 1vw 0 0 $white, 0 0 5px rgba(0, 0, 0, 0);
-        picture {order: 2; margin-right: 0; margin-left: 20px;}
-        .text {order: 1; margin-right: 0; margin-left: 20px;}
         transform: translateX(100%);
         transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
       }

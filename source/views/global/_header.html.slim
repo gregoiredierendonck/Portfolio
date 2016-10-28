@@ -1,8 +1,9 @@
 header id="header"
   div class="wrapper" id="header-menu"
     = link_to "index.html", class:"header--logo", id:"header-logo" do
-      = image_tag "logo-home.svg", alt: "Icône de retour à la page d'accueil", class:"header--logo-home"
-      = image_tag "#{data.settings.site.logo}", alt: "#{data.settings.site.title} - logo"
+      div class="logo--sign"
+        div class="back"
+        = image_tag "#{data.settings.site.logo}", alt: "#{data.settings.site.title} - logo"
       p  = data.settings.site.title
     nav class="header--navigation"
       h1 class="visuallyhidden" = data.navigation.title
