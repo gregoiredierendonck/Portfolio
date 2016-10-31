@@ -3,7 +3,6 @@
   .contener {
     box-shadow: $panelwhiteborder;
   }
-
   .projects--title {
     .subtitle {
       margin-top: $h1margintop;
@@ -12,13 +11,11 @@
       margin-top: 0;
     }
   }
-
   .panel--white {
     &.big--padding .image-full {
       margin-bottom: 0;
     }
   }
-
   b {
     width: 100%;
     display: inline-block;
@@ -32,6 +29,4 @@
       margin-bottom: 0;
     }
   }
-
-
 }

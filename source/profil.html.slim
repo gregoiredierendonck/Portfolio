@@ -10,7 +10,7 @@ h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.t
 section class="content"
 
   h1 = data.content.profil.title
-  div class="wrapper profil--entries grid"
+  div class="wrapper profil--entries grid" id="content"
     - data.content.profil.profilentry.each_with_index do |entry|
       article class="grid--three panel--white"
         = image_tag "#{entry.icon}", alt: "#{data.settings.site.title} - #{entry.title}"

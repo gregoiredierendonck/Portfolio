@@ -18,19 +18,6 @@
     white-space: nowrap;
     &:first-of-type {margin-right: 5%;}
   }
-  @media screen and (max-width: $media-m) {
-    .panel--blue {
-      display: inline-block;
-      text-align: center;
-    }
-    .p {
-      width: 100%;
-      max-width: 100%;
-      margin: 0;
-      text-align: center;
-    }
-    a {margin-right: 5%;margin-left: 5%;margin-top: 20px;}
-  }
 }
 
 // Relativ to negativ margin-top (+40px)

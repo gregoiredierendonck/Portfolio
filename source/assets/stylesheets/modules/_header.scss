@@ -4,23 +4,26 @@ $headderpadding-xs: 10px;
 $headdermargin: 60px;
 $headdermargin-xs: 0;
 $headertotalsize: ( $headderpadding * 2 + $logo-size );
+
 body {
   padding-top: $headertotalsize + 1px;
-  @media screen and (max-width: $media-m) {padding-top: $headertotalsize + $headdermargin-xs;}
   header {
+    
+    // HEADER POSITION
     width: 98vw;
-    position: absolute;
     top: $externborder;
     left: $externborder;
-    padding: $headderpadding 0;
-    @media screen and (max-width: $media-m) {padding: $headderpadding-xs 0;}
-    background-color: $grey-lighter;
-    &.menu--open {
-      padding: $headderpadding 0 !important;
-      @media screen and (max-width: $media-m) {padding: $headderpadding-xs 0 !important;}
-      top: 0 !important;
-      transform: translateY(0) !important;
-      box-shadow: 0 3px 5px rgba(0, 0, 0, 0) !important;
+    z-index: 100;
+    &.header--top {
+      position: absolute;
+      padding: $headderpadding 0;
+      background-color: $grey-lighter;
+    }
+    &.header--fixed {
+      position: fixed;
+      padding: 0 0 $headderpadding-xs 0;
+      background-color: $white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     }
     .wrapper {
       display: flex;
@@ -29,6 +32,7 @@ body {
       align-items: center;
     }
 
+    // HEADER STYLES
     .header--logo {
       text-decoration: none;
       display: flex;
@@ -67,11 +71,14 @@ body {
           display: inline-block;
           background-color: $primary;
           position: absolute;
-          left: 43px;
+          left: 13px;
           top: 19px;
           z-index: 2;
           border-radius: 30%;
-          transition: left .2s ease-in-out;
+          transform: scale(2);
+          opacity: 0;
+          transition: transform .2s ease-in-out,
+                      opacity .2s ease-in-out;
           transition-delay: .1s;
           &:after, &:before {
             content: '';
@@ -80,21 +87,15 @@ body {
             display: inline-block;
             background-color: $primary;
             position: absolute;
-            top: 23px;
-            left: -7px;
-            // top: 3px;
-            // left: -3px;
+            top: 3px;
+            left: -3px;
             transform: rotate(45deg);
             border-radius: 30%;
-            transition: top .2s ease-in-out,
-                        left .2s ease-in-out;
             transition-delay: .1s;
           }
           &:before {
-            top: -23px;
-            left: -7px;
-            // top: -3px;
-            // left: -3px;
+            top: -3px;
+            left: -3px;
             transform: rotate(-45deg);
           }
         }
@@ -104,12 +105,10 @@ body {
           img {
             opacity: 0;
             transform: scale(0);
-            // transition-delay: .15s;
           }
           .back {
-            left: 13px;
-            &:before {top: -3px; left: -3px;}
-            &:after {top: 3px; left: -3px;}
+            opacity: 1;
+            transform: scale(1);
           }
         }
       }
@@ -129,36 +128,37 @@ body {
         position: relative;
         z-index: 1;
         transition: color .2s ease-in-out;
-        @media screen and (max-width: $media-xs) {white-space: normal;width: 170px;line-height: 140%;}
       }
     }
     .header--navigation {
-    display: flex;
-    flex-direction: row;
-    background-color: transparent;
-    position: relative;
+      display: flex;
+      flex-direction: row;
+      background-color: transparent;
+      position: relative;
       ul {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        li {
-          &.header--menu-forsmall {display: none;}
-          a {
-            font-size: 14px;
-            font-weight: 600;
-            text-decoration: none;
-            color: $black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0 $headderpadding;
-            &:hover {
-              color: $primary;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          li {
+            &.header--menu-forsmall {display: none;}
+            a {
+              font-size: 14px;
+              font-weight: 600;
+              text-decoration: none;
+              color: $black;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 0 $headderpadding;
+              &:hover {
+                color: $primary;
+              }
             }
           }
         }
-      }
     }
+
+    // STYLE FOR SMALL SCREENS
     .menu-button {
         display: none;
         font-size: 16px;
@@ -169,77 +169,6 @@ body {
         cursor: pointer;
         outline: none;
         z-index: 2;
-    }
-    @media screen and (max-width: $max-width-menu-extended) {
-      .menu-button {display: flex;}
-      .header--navigation {
-        width: 100vw;
-        height: 100vh;
-        overflow: scroll;
-        background-color: $primary;
-        position: fixed;
-        top: -100vh;
-        left: 0;
-        opacity: 0;
-        transform: scale(.8);
-        transition: opacity .2s ease-in-out,
-                    transform .2s ease-in-out;
-        ul {
-          width: 100%;
-          height: calc(100% - $headertotalsize);
-          flex-direction: column;
-          justify-content: center;
-          margin-top: $headertotalsize;
-          overflow: scroll;
-          li {
-            &.header--menu-forsmall {
-              display: flex;
-            }
-            width: 100%;
-            a {
-              color: $white;
-              font-size: 18px;
-              font-weight: 400;
-              width: 100%;
-              height: 60px;
-              &:hover {color: $primary-light;}
-            }
-          }
-        }
-      }
-      @media screen and (max-height: 420px) {
-        .header--navigation {
-          ul {
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items: center;
-            li {
-              width: auto;
-            }
-          }
-        }
-      }
-    }
-    &.menu--open {
-      .header--navigation {
-        opacity: 1;
-        transform: scale(1);
-        top: 0;
-      }
-      .header--logo {
-        p {
-          color: $white;
-        }
-      }
-      .menu-button {
-        font-size: 16px;
-        text-transform: uppercase;
-        color: $white;
-        padding: 5px 20px;
-        box-shadow: 0 0 0 2px $white;
-        cursor: pointer;
-        z-index: 2;
-      }
     }
   }
 }

@@ -8,29 +8,20 @@
 
   .grid--two {
     width: 50%;
-    @media screen and (max-width: $media-s) {width: 100%; margin-bottom: 20px;}
     &.grid--margin {
       width: 48%;
       margin-right: 4%;
       margin-bottom: 40px;
       &:nth-of-type(even) {margin-right: 0;}
-      @media screen and (max-width: $media-s) {width: 100%;margin-right: 0;}
     }
   }
   .grid--two--special {
     &:nth-child(odd) {width: 42%;}
     &:nth-child(even) {width: 53%;}
-    @media screen and (max-width:$media-l) {
-      &:nth-child(odd) {width: 100%;}
-      &:nth-child(even) {width: 100%;}
-    }
     &.grid--margin {
       margin-bottom: 40px;
       &:nth-child(odd) {margin-right: 5%;}
       &:nth-child(even) {margin-right: 0;}
-      @media screen and (max-width:$media-l) {
-        &:nth-child(odd) {margin-right: 0;}
-      }
     }
   }
   &.grid--inverse {
@@ -38,10 +29,6 @@
       &:nth-child(even) {width: 42%;}
       &:nth-child(odd) {width: 53%;}
       margin-bottom: 40px;
-      @media screen and (max-width:$media-l) {
-        &:nth-child(odd) {width: 100%;order: 2;}
-        &:nth-child(even) {width: 100%;order: 1;}
-      }
     }
   }
   .grid--three {
@@ -51,21 +38,6 @@
       width: 30.6%;
       margin-right: 4%;
       &:nth-of-type(3n) {margin-right: 0;}
-    }
-    @media screen and (max-width:$media-xl) {
-      width: 50%;
-      &.grid--margin {
-        width: 48%;
-        &:nth-of-type(3n) {margin-right: 4%;}
-        &:nth-of-type(even) {margin-right: 0;}
-      }
-    }
-    @media screen and (max-width:$media-m) {
-      width: 100%;
-      &.grid--margin {
-        width: 100%;
-        margin-right: 0 !important;
-      }
     }
   }
 }

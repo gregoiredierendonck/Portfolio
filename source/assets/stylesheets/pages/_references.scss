@@ -11,6 +11,7 @@
       a {
         text-decoration: none;
         position: relative;
+        overflow: hidden;
         picture {
           position: relative;
           z-index: 1;
@@ -54,6 +55,9 @@
           flex-direction: column;
           justify-content: flex-start;
           align-items: center;
+          background-color: $white;
+          position: relative;
+          z-index: 1;
           .subtitle {
             font-size: 12px;
             text-align: left;
@@ -69,7 +73,7 @@
         }
         &:hover, &:focus {
           picture {
-            transform: scale(.98);
+            transform: scale(1.02);
             &:before {opacity: 1;padding: 10px 20px;}
             &:after {opacity: 1;transform: scale(1.02);}
           }
