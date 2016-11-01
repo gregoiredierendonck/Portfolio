@@ -9,4 +9,13 @@ refalt: "Miniature d'une page de l'application Zukunfthaus d'Innovation City Ruh
 introimgbig2x: "projets-zukunfthaus@2x.jpg"
 introimgalt: "Aperçu d'une page de l'application Zukunfthaus d'Innovation City Ruhr"
 intro: |
-  Lorem ipsum
+  Zukunfthaus est le nom d'une application tablette développée par l'entreprise Innovation
+  City Ruhr, distribuée aux visiteurs d'un salon de l'habitat écologique en Allemagne,
+  présentant au public les technologies utilisées dans des habitats types sélectionnés.
+
+titleone: "Conception d'une interface efficace et accessible"
+textone: |
+  L'interface a été pensée pour pouvoir naviguer de manière ludique au travers de vues 3D de
+  bâtiments sur lesquels sont représentés les différentes technologies utilisées.
+imageonebig2x: ""
+imageonealt: ""

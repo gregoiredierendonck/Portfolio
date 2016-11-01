@@ -9,7 +9,7 @@ priority: "1"
 h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
 = partial 'views/global/projects-header'
 
-section class="nav--projects" id="content"
+section class="nav--projects"
   h1 class="visuallyhidden" = data.content.crossnavigation
   = link_to "#{data.projetplaneteoui.link}" do
     div class="arrow"
@@ -38,7 +38,7 @@ section class="content"
       
     div class="contener"
 
-      div class="projects--primaryimg image-full"
+      div class="projects--primaryimg image-full" id="content"
         picture
           source srcset="../assets/images/projets/#{data.projetmontresandco.introimgbig2x}" media="(min-width: 950px)" class="img"
           img srcset="../assets/images/projets/#{data.projetmontresandco.introimgbig2x}" alt="#{data.projetmontresandco.introimgalt}" class="img"

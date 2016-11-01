@@ -9,4 +9,45 @@ refalt: "Miniature du projet de refonte du checkout de Jef Chaussures"
 introimgbig2x: "projets-jefcheckout@2x.jpg"
 introimgalt: "Aperçu du projet de refonte du checkout de Jef Chaussures"
 intro: |
-  Lorem ipsum
+  Un ensemble d'analyses des parcours utilisateurs sur jefchaussures.com,
+  site de vente en ligne de chaussures, a permis de déceler un nombre important
+  d'abandons à l'étape du choix de connexion ou de création de compte dans le checkout,
+  sur desktop comme sur mobile. Une refonte de ce checkout a donc été entreprise dans
+  le but de minimiser ce point de fuites.
+
+titleone: "Étude de scénarios"
+textone: |
+  L'analyse des parcours utilisateurs a permis de déceler sur le site un important
+  point de fuites entre la page panier et le checkout, à l'étape du choix de connexion
+  ou de création de compte. En effet, alors que jusqu'alors tout était mis en œuvre pour
+  créer une expérience émotionnelle et accompagnée, cette étape crée un déconnexion dans
+  l'esprit des utilisateurs (n'hésitez pas à lire
+  <a href="http://www.siliconsalad.com/blog/e-commerce-barriere-login-checkout/">cet article</a>
+  à ce propos).
+  <br/>
+  <br/>
+  Un certain nombre de scénarios a donc été mis en place pour palier cette barrière,
+  certains déplaçants l'étape plus en aval dans le tunnel de commande, à un moment
+  où l'utilisateur est plus impliqué dans le processus, d'autres où l'étape est découpée
+  et intégrée à des moments où elle sera ressentie comme plus logique et transparente.
+imageonebig2x: ""
+imageonealt: ""
+
+titletwo: "Conception du scénario retenu"
+texttwo: |
+  Le scénario retenu a laissé place à un travail de conception avec pour but de simplifier,
+  écran par écran, la tâche de l'utilisateur en tout temps. L'ensemble des fonctionnalitées
+  proposées par notre client a donc été agencé et ordonné au sein d'interfaces simples
+  à déchiffrer et à utiliser, dans lesquelles la complétion de formulaire est optimisée
+  au maximum.
+imagetwobig2x: ""
+imagetwoalt: ""
+
+titlethree: "Prototypage du nouveau checkout"
+textthree: |
+  Afin de pouvoir tester la solution, dans le but d'y détecter d'éventuelles failles à
+  optimiser, un prototype du nouveau checkout a été réalisé à moindre frais et partagé
+  avec l'ensemble des parties prenantes du projet.
+  <br/>
+  <br/>
+  <a class="button--primary center" href="">Accéder au prototype</a>

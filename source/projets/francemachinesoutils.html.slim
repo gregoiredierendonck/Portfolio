@@ -9,7 +9,7 @@ priority: "1"
 h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
 = partial 'views/global/projects-header'
 
-section class="nav--projects" id="content"
+section class="nav--projects"
   h1 class="visuallyhidden" = data.content.crossnavigation
   = link_to "#{data.projetplaneteoui.link}" do
     div class="arrow"
@@ -38,7 +38,7 @@ section class="content"
       
     div class="contener"
 
-      div class="projects--primaryimg image-full"
+      div class="projects--primaryimg image-full" id="content"
         picture
           source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.introimgbig2x}" media="(min-width: 950px)" class="img"
           img srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.introimgbig2x}" alt="#{data.projetfrancemachinesoutils.introimgalt}" class="img"
@@ -46,6 +46,33 @@ section class="content"
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
         p class="intro center" = data.projetfrancemachinesoutils.intro
+        
+        div class="grid panel--white big--padding no--border" 
+          div class="grid--two grid--margin"
+            picture
+              source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.imageonebig2x}" media="(min-width: 950px)" class="img"
+              img srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.imageonebig2x}" alt="#{data.projetfrancemachinesoutils.imageonealt}" class="img"
+          div class="grid--two grid--margin"
+            h2 = data.projetfrancemachinesoutils.titleone
+            p = data.projetfrancemachinesoutils.textone
+            
+        div class="grid panel--white big--padding no--border" 
+          div class="grid--two grid--margin"
+            picture
+              source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.imagetwobig2x}" media="(min-width: 950px)" class="img"
+              img srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.imagetwobig2x}" alt="#{data.projetfrancemachinesoutils.imagetwoalt}" class="img"
+          div class="grid--two grid--margin"
+            h2 = data.projetfrancemachinesoutils.titletwo
+            p = data.projetfrancemachinesoutils.texttwo
+            
+        div class="grid panel--white big--padding no--border" 
+          div class="grid--two grid--margin"
+            picture
+              source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.imagethreebig2x}" media="(min-width: 950px)" class="img"
+              img srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.imagethreebig2x}" alt="#{data.projetfrancemachinesoutils.imagethreealt}" class="img"
+          div class="grid--two grid--margin"
+            h2 = data.projetfrancemachinesoutils.titlethree
+            p = data.projetfrancemachinesoutils.textthree
       
       
     

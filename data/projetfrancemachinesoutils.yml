@@ -9,4 +9,40 @@ refalt: "Miniature de 3 pages de l'interface d'administration de France Machines
 introimgbig2x: "projets-fmo@2x.jpg"
 introimgalt: "Aperçu de 3 pages de l'interface d'administration de France Machines Outils"
 intro: |
-  Lorem ipsum
+  Le groupe France Machines Outils, grande entreprise de vente de machines outils, avec plus
+  de 3800 machines en stock et 5 sites physiques en France et en Belgique, a souhaité mettre
+  en place un outil interne permettant de manager son site web, de communiquer en interne,
+  de gérer ses stocks ou de suivre les processus de vente et les échanges avec ses clients.
+
+titleone: "Gestion des stocks et management du site web"
+textone: |
+  Un ensemble d'interfaces a été mis au point pour permettre à l'entreprise de gérer ses stocks
+  au quotidien&nbsp;: ajout de nouvelles machines, évolution des processus de vente à l'aide de
+  statuts définis, évolution des déplacements et des lieux de stockage...
+  <br/>
+  <br/>
+  Un système de management du site web, directement lié à la gestion des stocks a également été
+  pensé, avec la possibilité de mettre des machines en avant, d'en masquer sur le site, d'afficher
+  ou non leurs prix...
+imageonebig2x: ""
+imageonealt: ""
+
+titletwo: "Suivi des processus de vente et des échanges avec le client"
+texttwo: |
+  Un système de suivi des processus de vente a été conçu, avec l'aide de statuts définis selon les
+  étapes effectuées. L'ensemble des échanges écrits avec le client a également été pensé pour être
+  réalisé directement dans l'outil, avec la possibilité de générer des courriers brandés, de
+  créer des modèles de lettre par commercial, de voir si les emails adressés ont été lus ou non,
+  de leurs assigner des statuts d'avancement...
+imagetwobig2x: ""
+imagetwoalt: ""
+
+titlethree: "Communication interne"
+textthree: |
+  L'outil a été pensé pour permettre une communication interne efficace, avec l'option par exemple
+  de rédiger des messages communs sur la page d'accueil, mais également d'ajouter des notes courtes
+  à des clients, des machines ou des documents, en leurs assignants des statuts publics, privés ou
+  partagés avec certains collaborateurs. Un système d'alertes partagées ou non a également été
+  développé pour permettre de créer des rappels à des moments décisifs.
+imagethreebig2x: ""
+imagethreealt: ""

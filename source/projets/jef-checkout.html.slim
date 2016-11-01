@@ -9,7 +9,7 @@ priority: "1"
 h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
 = partial 'views/global/projects-header'
 
-section class="nav--projects" id="content"
+section class="nav--projects"
   h1 class="visuallyhidden" = data.content.crossnavigation
   = link_to "#{data.projetplaneteoui.link}" do
     div class="arrow"
@@ -38,7 +38,7 @@ section class="content"
       
     div class="contener"
 
-      div class="projects--primaryimg image-full"
+      div class="projects--primaryimg image-full" id="content"
         picture
           source srcset="../assets/images/projets/#{data.projetjefcheckout.introimgbig2x}" media="(min-width: 950px)" class="img"
           img srcset="../assets/images/projets/#{data.projetjefcheckout.introimgbig2x}" alt="#{data.projetjefcheckout.introimgalt}" class="img"
@@ -47,7 +47,28 @@ section class="content"
         h2 class="subtitle center" Contexte
         p class="intro center" = data.projetjefcheckout.intro
       
-      
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="../assets/images/projets/#{data.projetjefcheckout.imageonebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="../assets/images/projets/#{data.projetjefcheckout.imageonebig2x}" alt="#{data.projetjefcheckout.imageonealt}" class="img"
+        div class="grid--two grid--margin"
+          h2 = data.projetjefcheckout.titleone
+          p = data.projetjefcheckout.textone
+          
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--one grid--margin"
+          picture
+            source srcset="../assets/images/projets/#{data.projetjefcheckout.imagetwobig2x}" media="(min-width: 950px)" class="img"
+            img srcset="../assets/images/projets/#{data.projetjefcheckout.imagetwobig2x}" alt="#{data.projetjefcheckout.imagetwoalt}" class="img"
+        div class="grid--one grid--margin"
+          h2 class="center" = data.projetjefcheckout.titletwo
+          p = data.projetjefcheckout.texttwo
+          
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--one grid--margin"
+          h2 class="center" = data.projetjefcheckout.titlethree
+          p = data.projetjefcheckout.textthree
     
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnavigation

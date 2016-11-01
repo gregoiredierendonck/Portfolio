@@ -9,7 +9,7 @@ priority: "1"
 h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.title}"
 = partial 'views/global/projects-header'
 
-section class="nav--projects" id="content"
+section class="nav--projects"
   h1 class="visuallyhidden" = data.content.crossnavigation
   = link_to "#{data.projetplaneteoui.link}" do
     div class="arrow"
@@ -38,7 +38,7 @@ section class="content"
       
     div class="contener"
 
-      div class="projects--primaryimg image-full"
+      div class="projects--primaryimg image-full" id="content"
         picture
           source srcset="../assets/images/projets/#{data.projetlaredoute.introimgbig2x}" media="(min-width: 950px)" class="img"
           img srcset="../assets/images/projets/#{data.projetlaredoute.introimgbig2x}" alt="#{data.projetlaredoute.introimgalt}" class="img"
@@ -46,6 +46,24 @@ section class="content"
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
         p class="intro center" = data.projetlaredoute.intro
+        
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="../assets/images/projets/#{data.projetlaredoute.imageonebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="../assets/images/projets/#{data.projetlaredoute.imageonebig2x}" alt="#{data.projetlaredoute.imageonealt}" class="img"
+        div class="grid--two grid--margin"
+          h2 = data.projetlaredoute.titleone
+          p = data.projetlaredoute.textone
+          
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--one grid--margin"
+          picture
+            source srcset="../assets/images/projets/#{data.projetlaredoute.imagetwobig2x}" media="(min-width: 950px)" class="img"
+            img srcset="../assets/images/projets/#{data.projetlaredoute.imagetwobig2x}" alt="#{data.projetlaredoute.imagetwoalt}" class="img"
+        div class="grid--one grid--margin"
+          h2 = data.projetlaredoute.titletwo
+          p = data.projetlaredoute.texttwo
       
       
     
