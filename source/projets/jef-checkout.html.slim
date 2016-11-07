@@ -11,14 +11,6 @@ h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.t
 
 section class="nav--projects"
   h1 class="visuallyhidden" = data.content.crossnavigation
-  = link_to "#{data.projetplaneteoui.link}" do
-    div class="arrow"
-    div class="content"
-      picture
-        source srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" alt="#{data.projetplaneteoui.refalt}" class="img"
-      div class="text"
-        p class="subtitle" = data.projetplaneteoui.client
   = link_to "#{data.projetmontresandco.link}" do
     div class="arrow"
     div class="content"
@@ -27,6 +19,14 @@ section class="nav--projects"
         img srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" alt="#{data.projetmontresandco.refalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetmontresandco.client
+  = link_to "#{data.projetjefapplication.link}" do
+    div class="arrow"
+    div class="content"
+      picture
+        source srcset="../assets/images/projets/#{data.projetjefapplication.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetjefapplication.refproject}" alt="#{data.projetjefapplication.refalt}" class="img"
+      div class="text"
+        p class="subtitle" = data.projetjefapplication.client
         
 section class="content"
       
@@ -40,8 +40,8 @@ section class="content"
 
       div class="projects--primaryimg image-full" id="content"
         picture
-          source srcset="../assets/images/projets/#{data.projetjefcheckout.introimgbig2x}" media="(min-width: 950px)" class="img"
-          img srcset="../assets/images/projets/#{data.projetjefcheckout.introimgbig2x}" alt="#{data.projetjefcheckout.introimgalt}" class="img"
+          source srcset="#{data.projetjefcheckout.introimgbig2x}" media="(min-width: 950px)" class="img"
+          img srcset="#{data.projetjefcheckout.introimgbig2x}" alt="#{data.projetjefcheckout.introimgalt}" class="img"
       
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
@@ -50,33 +50,34 @@ section class="content"
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
           picture
-            source srcset="../assets/images/projets/#{data.projetjefcheckout.imageonebig2x}" media="(min-width: 950px)" class="img"
-            img srcset="../assets/images/projets/#{data.projetjefcheckout.imageonebig2x}" alt="#{data.projetjefcheckout.imageonealt}" class="img"
+            source srcset="#{data.projetjefcheckout.imageonebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetjefcheckout.imageonebig2x}" alt="#{data.projetjefcheckout.imageonealt}" class="img"
         div class="grid--two grid--margin"
           h2 = data.projetjefcheckout.titleone
           p = data.projetjefcheckout.textone
           
       div class="grid panel--white big--padding no--border" 
-        div class="grid--one grid--margin"
+        div class="grid--one grid--margin grid--marginbottom"
           picture
-            source srcset="../assets/images/projets/#{data.projetjefcheckout.imagetwobig2x}" media="(min-width: 950px)" class="img"
-            img srcset="../assets/images/projets/#{data.projetjefcheckout.imagetwobig2x}" alt="#{data.projetjefcheckout.imagetwoalt}" class="img"
+            source srcset="#{data.projetjefcheckout.imagetwobig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetjefcheckout.imagetwobig2x}" alt="#{data.projetjefcheckout.imagetwoalt}" class="img"
         div class="grid--one grid--margin"
           h2 class="center" = data.projetjefcheckout.titletwo
           p = data.projetjefcheckout.texttwo
           
       div class="grid panel--white big--padding no--border" 
-        div class="grid--one grid--margin"
+        div class="grid--one grid--margin center"
           h2 class="center" = data.projetjefcheckout.titlethree
           p = data.projetjefcheckout.textthree
+          = link_to "#{data.projetjefcheckout.textthreelinktext}", "#{data.projetjefcheckout.textthreelinkpath}", class:"button--primary button--end"
     
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnavigation
-  = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
-    p class="subtitle" = data.projetplaneteoui.client
-    p = data.projetplaneteoui.title
   = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
     p class="subtitle" = data.projetmontresandco.client
     p = data.projetmontresandco.title
+  = link_to "#{data.projetjefapplication.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetjefapplication.client
+    p = data.projetjefapplication.title
     
 = partial 'views/footer'

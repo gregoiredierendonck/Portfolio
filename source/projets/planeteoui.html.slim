@@ -11,22 +11,22 @@ h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.t
 
 section class="nav--projects"
   h1 class="visuallyhidden" = data.content.crossnavigation
-  = link_to "#{data.projetplaneteoui.link}" do
+  = link_to "#{data.projetdelcourt.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" alt="#{data.projetplaneteoui.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetdelcourt.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetdelcourt.refproject}" alt="#{data.projetdelcourt.refalt}" class="img"
       div class="text"
-        p class="subtitle" = data.projetplaneteoui.client
-  = link_to "#{data.projetmontresandco.link}" do
+        p class="subtitle" = data.projetdelcourt.client
+  = link_to "#{data.projetlaredoute.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" alt="#{data.projetmontresandco.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetlaredoute.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetlaredoute.refproject}" alt="#{data.projetlaredoute.refalt}" class="img"
       div class="text"
-        p class="subtitle" = data.projetmontresandco.client
+        p class="subtitle" = data.projetlaredoute.client
         
 section class="content"
       
@@ -51,11 +51,11 @@ section class="content"
     
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnavigation
-  = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
-    p class="subtitle" = data.projetplaneteoui.client
-    p = data.projetplaneteoui.title
-  = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
-    p class="subtitle" = data.projetmontresandco.client
-    p = data.projetmontresandco.title
+  = link_to "#{data.projetdelcourt.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetdelcourt.client
+    p = data.projetdelcourt.title
+  = link_to "#{data.projetlaredoute.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetlaredoute.client
+    p = data.projetlaredoute.title
     
 = partial 'views/footer'

@@ -6,7 +6,7 @@ refbig2x: "projets-jefcheckout-refs@2x.jpg"
 refproject: "projets-jefcheckout-refs@2x.jpg"
 refalt: "Miniature du projet de refonte du checkout de Jef Chaussures"
 
-introimgbig2x: "projets-jefcheckout@2x.jpg"
+introimgbig2x: "http://placehold.it/1200x500"
 introimgalt: "Aperçu du projet de refonte du checkout de Jef Chaussures"
 intro: |
   L'analyse des parcours utilisateurs de jefchaussures.com,
@@ -20,8 +20,8 @@ textone: |
   Un important point de fuite a été décelé entre la page panier et le checkout,
   à l'étape du choix de connexion ou de création de compte. En effet, alors que jusqu'alors
   tout était mis en œuvre pour créer une expérience émotionnelle et accompagnée,
-  cette étape crée une déconnexion dans l'esprit des utilisateurs (n'hésitez pas à lire
-  <a href="http://www.siliconsalad.com/blog/e-commerce-barriere-login-checkout/">cet article</a>
+  cette étape crée une déconnexion dans l'esprit des utilisateurs (j'ai d'ailleurs rédigé
+  <a href="http://www.siliconsalad.com/blog/e-commerce-barriere-login-checkout/">un article</a>
   à ce propos).
   <br/>
   <br/>
@@ -29,18 +29,18 @@ textone: |
   certains déplaçants l'étape plus en aval dans le tunnel de commande, à un moment
   où l'utilisateur est plus impliqué dans le processus, d'autres où l'étape est découpée
   et intégrée de manière plus transparente à des moments où elle sera ressentie comme plus
-  logique et moins laborieuse.
-imageonebig2x: ""
+  acceptable par l'utilisateur.
+imageonebig2x: "http://placehold.it/518x400"
 imageonealt: ""
 
 titletwo: "Conception du scénario retenu"
 texttwo: |
-  Le scénario retenu a laissé place à un travail de conception avec pour but de simplifier,
-  écran par écran, la tâche de l'utilisateur en tout temps. L'ensemble des fonctionnalitées
-  proposées par notre client a donc été agencé et ordonné au sein d'interfaces simples
-  à déchiffrer et à utiliser, dans lesquelles la complétion de formulaire est optimisée
-  au maximum.
-imagetwobig2x: ""
+  Le scénario retenu a donné naissance à un travail de conception des interfaces plus détaillé,
+  avec pour but de simplifier, écran par écran, la tâche de l'utilisateur en tout temps.
+  L'ensemble des fonctionnalitées proposées par notre client a donc été agencé et ordonné
+  au sein de pages simples à déchiffrer et à utiliser, dans lesquelles la navigation et
+  la complétion de formulaire sont optimisés au maximum.
+imagetwobig2x: "http://placehold.it/1080x450"
 imagetwoalt: ""
 
 titlethree: "Prototypage du nouveau checkout"
@@ -48,6 +48,5 @@ textthree: |
   Afin de pouvoir tester la solution, dans le but d'y détecter d'éventuelles failles à
   optimiser, un prototype du nouveau checkout a été réalisé à moindre frais et partagé
   avec l'ensemble des parties prenantes du projet.
-  <br/>
-  <br/>
-  <a class="button--primary center" href="">Accéder au prototype</a>
+textthreelinktext: "Accéder au prototype"
+textthreelinkpath: ""

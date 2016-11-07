@@ -1,5 +1,5 @@
 ---
-title: "Projet&nbsp;&#45;&nbsp;Declourt&nbsp;&#58;&nbsp;Audit de l'expérience utilisateur du site web"
+title: "Projet&nbsp;&#45;&nbsp;Delcourt&nbsp;&#58;&nbsp;Audit de l'expérience utilisateur du site web"
 description: "Audit de l'expérience utilisateur du site web de Delcourt"
 keywords: "audit, expérience utilisateur, ux, ui"
 changefreq: "monthly"
@@ -11,6 +11,14 @@ h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.t
 
 section class="nav--projects"
   h1 class="visuallyhidden" = data.content.crossnavigation
+  = link_to "#{data.projetjefapplication.link}" do
+    div class="arrow"
+    div class="content"
+      picture
+        source srcset="../assets/images/projets/#{data.projetjefapplication.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetjefapplication.refproject}" alt="#{data.projetjefapplication.refalt}" class="img"
+      div class="text"
+        p class="subtitle" = data.projetjefapplication.client
   = link_to "#{data.projetplaneteoui.link}" do
     div class="arrow"
     div class="content"
@@ -19,14 +27,6 @@ section class="nav--projects"
         img srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" alt="#{data.projetplaneteoui.refalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetplaneteoui.client
-  = link_to "#{data.projetmontresandco.link}" do
-    div class="arrow"
-    div class="content"
-      picture
-        source srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" alt="#{data.projetmontresandco.refalt}" class="img"
-      div class="text"
-        p class="subtitle" = data.projetmontresandco.client
         
 section class="content"
       
@@ -40,22 +40,50 @@ section class="content"
 
       div class="projects--primaryimg image-full" id="content"
         picture
-          source srcset="../assets/images/projets/#{data.projetdelcourt.introimgbig2x}" media="(min-width: 950px)" class="img"
-          img srcset="../assets/images/projets/#{data.projetdelcourt.introimgbig2x}" alt="#{data.projetdelcourt.introimgalt}" class="img"
+          source srcset="#{data.projetdelcourt.introimgbig2x}" media="(min-width: 950px)" class="img"
+          img srcset="#{data.projetdelcourt.introimgbig2x}" alt="#{data.projetdelcourt.introimgalt}" class="img"
       
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
         p class="intro center" = data.projetdelcourt.intro
+        
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetdelcourt.imageonebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetdelcourt.imageonebig2x}" alt="#{data.projetdelcourt.imageonealt}" class="img"
+        div class="grid--two grid--margin grid--center"
+          h2 = data.projetdelcourt.titleone
+          p = data.projetdelcourt.textone
+
+      div class="grid panel--white big--padding no--border"
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetdelcourt.imagetwobig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetdelcourt.imagetwobig2x}" alt="#{data.projetdelcourt.imagetwoalt}" class="img"
+        div class="grid--two grid--margin grid--center"
+          h2 = data.projetdelcourt.titletwo
+          p = data.projetdelcourt.texttwo
+    
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetdelcourt.imagethreebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetdelcourt.imagethreebig2x}" alt="#{data.projetdelcourt.imagethreealt}" class="img"
+        div class="grid--two grid--margin grid--center"
+          h2 = data.projetdelcourt.titlethree
+          p = data.projetdelcourt.textthree
+      
       
       
     
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnavigation
+  = link_to "#{data.projetjefapplication.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetjefapplication.client
+    p = data.projetjefapplication.title
   = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
     p class="subtitle" = data.projetplaneteoui.client
     p = data.projetplaneteoui.title
-  = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
-    p class="subtitle" = data.projetmontresandco.client
-    p = data.projetmontresandco.title
     
 = partial 'views/footer'

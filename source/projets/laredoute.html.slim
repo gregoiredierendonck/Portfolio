@@ -23,10 +23,10 @@ section class="nav--projects"
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" alt="#{data.projetmontresandco.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refproject}" alt="#{data.projetfrancemachinesoutils.refalt}" class="img"
       div class="text"
-        p class="subtitle" = data.projetmontresandco.client
+        p class="subtitle" = data.projetfrancemachinesoutils.client
         
 section class="content"
       
@@ -40,8 +40,8 @@ section class="content"
 
       div class="projects--primaryimg image-full" id="content"
         picture
-          source srcset="../assets/images/projets/#{data.projetlaredoute.introimgbig2x}" media="(min-width: 950px)" class="img"
-          img srcset="../assets/images/projets/#{data.projetlaredoute.introimgbig2x}" alt="#{data.projetlaredoute.introimgalt}" class="img"
+          source srcset="#{data.projetlaredoute.introimgbig2x}" media="(min-width: 950px)" class="img"
+          img srcset="#{data.projetlaredoute.introimgbig2x}" alt="#{data.projetlaredoute.introimgalt}" class="img"
       
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
@@ -50,20 +50,21 @@ section class="content"
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
           picture
-            source srcset="../assets/images/projets/#{data.projetlaredoute.imageonebig2x}" media="(min-width: 950px)" class="img"
-            img srcset="../assets/images/projets/#{data.projetlaredoute.imageonebig2x}" alt="#{data.projetlaredoute.imageonealt}" class="img"
+            source srcset="#{data.projetlaredoute.imageonebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetlaredoute.imageonebig2x}" alt="#{data.projetlaredoute.imageonealt}" class="img"
         div class="grid--two grid--margin"
           h2 = data.projetlaredoute.titleone
           p = data.projetlaredoute.textone
           
       div class="grid panel--white big--padding no--border" 
-        div class="grid--one grid--margin"
+        div class="grid--one grid--margin grid--marginbottom"
           picture
-            source srcset="../assets/images/projets/#{data.projetlaredoute.imagetwobig2x}" media="(min-width: 950px)" class="img"
-            img srcset="../assets/images/projets/#{data.projetlaredoute.imagetwobig2x}" alt="#{data.projetlaredoute.imagetwoalt}" class="img"
-        div class="grid--one grid--margin"
-          h2 = data.projetlaredoute.titletwo
+            source srcset="#{data.projetlaredoute.imagetwobig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetlaredoute.imagetwobig2x}" alt="#{data.projetlaredoute.imagetwoalt}" class="img"
+        div class="grid--one grid--margin center"
+          h2 class="center" = data.projetlaredoute.titletwo
           p = data.projetlaredoute.texttwo
+          = link_to "#{data.projetlaredoute.texttwolinktext}", "#{data.projetlaredoute.texttwolinkpath}", class:"button--primary button--end"
       
       
     
@@ -72,8 +73,8 @@ section class="wrapper grid m-crossnavigation"
   = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
     p class="subtitle" = data.projetplaneteoui.client
     p = data.projetplaneteoui.title
-  = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
-    p class="subtitle" = data.projetmontresandco.client
-    p = data.projetmontresandco.title
+  = link_to "#{data.projetfrancemachinesoutils.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetfrancemachinesoutils.client
+    p = data.projetfrancemachinesoutils.title
     
 = partial 'views/footer'

@@ -3,9 +3,44 @@ client: "Delcourt"
 link: "delcourt.html"
 
 refbig2x: "projets-delcourt-refs@2x.jpg"
+refproject: "projets-delcourt-refs@2x.jpg"
 refalt: "Miniature du document d'audit de l'expérience utilisateur du site de Delcourt"
 
-introimgbig2x: "projets-delcourt@2x.jpg"
+introimgbig2x: "http://placehold.it/1200x500"
 introimgalt: "Aperçu du document d'audit de l'expérience utilisateur du site de Delcourt"
 intro: |
-  Lorem ipsum
+  L'entreprise Delcourt, vendeur en ligne de produits d'entretiens pour les professionnels,
+  a souhaité être conseillé dans l'optimisation de l'expérience utilisateur de son site web.
+  Un audit a été mené sur la solution pour en déceler les points faibles et les prioriser
+  selon l'impact négatif sur l'utilisateur.
+
+titleone: "Analyse de la solution existante"
+textone: |
+  Une analyse du site en place a été menée grâce à un outil développé en interne.
+  Cette analyse, basée sur un ensemble de questions regroupant bon sens et bonnes pratiques,
+  a été découpée en thèmes disctincts afin de déceler les principaux points d'accroches à optimiser
+  en priorité. Une note globale a été apporté au site, permettant ainsi une comparaison
+  directe avec ses concurrents.
+imageonebig2x: "http://placehold.it/518x400"
+imageonealt: ""
+
+titletwo: "Priorisation des problèmes"
+texttwo: |
+  Un travail plus approfondi a ensuite été mené sur chaque grand thème abordé dans l'analyse
+  globale du site. Ainsi, les différents points d'accroches ont été identifiés précisemments, expliqués
+  et accompagnés d'une note selon son impact sur l'expérience utilisateur du site, de manière à pouvoir
+  prioriser les chantiers à mener dans le futur.
+  <br/>
+  <br/>
+  Le document de compte rendu de l'audit fourni a notre client contenait donc une priorisation des chantiers
+  par thèmes ainsi qu'une priorisation globale, transverse à l'ensemble du site.
+imagetwobig2x: "http://placehold.it/518x400"
+imagetwoalt: ""
+
+titlethree: "Proposition de solutions concrètes"
+textthree: |
+  Pour chacun des points à optimiser relevés lors de l'analyse, une solution concrète a été proposée, accompagnée ou non
+  d'un wireframe explicatif selon le cas. Ainsi, notre client a eu toutes les cartes en main pour mener à bien les
+  optimisations recommandées.
+imagethreebig2x: "http://placehold.it/518x400"
+imagethreealt: ""

@@ -6,25 +6,26 @@ refbig2x: "projets-mco-refs@2x.jpg"
 refproject: "projets-mco-refs@2x.jpg"
 refalt: "Miniature du projet Montres & Co"
 
-introimgbig2x: "projets-mco@2x.jpg"
+introimgbig2x: "http://placehold.it/1200x500"
 introimgalt: "Aperçu de la page produit de Montres & Co"
 intro: |
   Dans le cadre de l'optimisation continue du site ecommerce Montres&nbsp;&#38;&nbsp;Co,
   une attention particulière a été apportée à l'optimisation de la page produit.
   Plusieurs améliorations y ont été apportées successivement
-  et testées grâce à la mise en place de tests A/B.
+  et évaluées grâce à la mise en place de tests A/B.
 
 titleone: "Analyse de la solution existante"
 textone: |
   Une étude des comportements utilisateurs (analyse quantitative, clics, heatmaps, scroll, ...) sur la page produit a
   permis de détecter le rôle primordial des propositions de coloris et tailles similaires d’un produit.
-  La mies en page actuelle présentait néanmoins quelques problèmes&nbsp;:
+  La mise en page actuelle présentait quelques points faibles&nbsp;:
   <ol class="list">
     <li>Le module était présenté en pleine largeur sous le bouton d’ajout au panier, trop bas dans la page.
         La distinction entre les coloris et les tailles disponibles était rendue complexe.</li>
-    <li>La mise en page repoussait trop loin le cross-selling, très rarement vu par les utilisateurs, et donc inutilisé.</li>
+    <li>La structure mise en place repoussait trop bas dans la page le cross-selling, très rarement
+        vu par les utilisateurs, et donc inutilisé.</li>
   </ol>
-imageonebig2x: "projets-mco-2-big@2x.jpg"
+imageonebig2x: "http://placehold.it/518x518"
 imageonealt: "Aperçu de l'ancienne page produit du site Montres & Co"
 
 titletwo: "Propositions d'améliorations"
@@ -42,17 +43,16 @@ texttwo: |
     <li>Puisque repoussée dans la page, la zone de la description et des caractéristiques sont redesignées
     pour en simplifier la lecture, et un bouton d’ajout au panier est ajouté à la zone.</li>
   </ol>
-imagetwobig2x: "projets-mco-3-big@2x.jpg"
+imagetwobig2x: "http://placehold.it/518x518"
 imagetwoalt: "Aperçu de la nouvelle page produit optimisée du site Montres & Co"
 
 titlethree: "Évaluation des optimisations avec des tests A/B"
 textthree: |
-  L’ensemble des améliorations proposées à été répartie par lot afin de pouvoir effectuer des tests A/B
-  sur chacun d’eux sans impacter les résultats d’un autre test. Un roadmap a ainsi été rédigé
-  pour planifier la mise en pace de chacun des tests. Selon les résultats obtenus, les propositions d'améliorations
-  ont été modifiées et l'ordre des tests adapté.
+  Un roadmap a été rédigé de manière à mettre en place successivement et dans un ordre logique les différentes améliorations,
+  dont les résultats ont été évalués grâce à la mise en place de tests A/B. Il a ainsi été possible d'apprécier au fur
+  et à mesure l'impact des modifications, et de réévaluer la cohérence des tests suivants.
   <br/><br/>
-  Pour chacun des tests, des KPI ont été choisis afin d’observer le résultat des tests
+  Pour chacun des tests, plusieurs KPI ont été définis afin d’observer le résultat des tests
   sous différents angles et de cibler leurs effets de bords éventuels.
   <br/><br/>
   Voici quelques résultats obtenus&nbsp;:
@@ -75,5 +75,9 @@ listthree:
       <b class="keynumber">+8%</b>
       <b>de taux de conversion</b>
       grâce à une augmentation de +7% du nombre de transactions
-imagethreebig2x: "http://placehold.it/520x400"
+textthreeend: |
+  La nouvelle version, parce que plus performante, a été mise en place de manière définitive à la suite de ces tests.
+textthreeendlinktext: "Voir la page produit"
+textthreeendlinkpath: "https://www.montresandco.com/p/montre-tissot-t0356171605100.html"
+imagethreebig2x: "http://placehold.it/518x400"
 imagethreealt: ""

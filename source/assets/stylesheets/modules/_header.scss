@@ -6,16 +6,14 @@ $headdermargin-xs: 0;
 $headertotalsize: ( $headderpadding * 2 + $logo-size );
 
 body {
-  padding-top: $headertotalsize + 1px;
   header {
-    
+
     // HEADER POSITION
     width: 98vw;
     top: $externborder;
     left: $externborder;
     z-index: 100;
     &.header--top {
-      position: absolute;
       padding: $headderpadding 0;
       background-color: $grey-lighter;
     }

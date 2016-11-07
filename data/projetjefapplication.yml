@@ -6,18 +6,41 @@ refbig2x: "projets-jefapplication-refs@2x.jpg"
 refproject: "projets-jefapplication-refs@2x.jpg"
 refalt: "Miniature de l'interface de la borne interactive de Jef Chaussures"
 
-introimgbig2x: "projets-jefapplication@2x.jpg"
+introimgbig2x: "http://placehold.it/1200x500"
 introimgalt: "Aperçu de l'interface de la borne interactive de Jef Chaussures"
 intro: |
-  La borne interactive de JEF Chaussures, installée dans chaque rayon de ses boutiques physiques,
+  La borne interactive de JEF Chaussures, installée au sein de ses boutiques physiques,
   a pour but d'étendre l'offre présente en magasin. Ainsi, les clients ont la possibilité
-  de commander une paire de chaussures dont la pointure n'est pas disponible en magasin, ou dans un autre coloris.
+  de consulter et de commander via l'application un modèle indisponible en magasin.
 
-titleone: "Définir le périmètre et les fonctionnalitées du projet"
+titleone: "Définition du périmètre et des fonctionnalitées"
 textone:  |
-  Tout en veillant à laisser la priorité de conseil aux vendeurs magasins, plus apte à conseiller un client, le but
-
-  La demande du client sur ce projet était de laisser la priorité de conseil au vendeur, mieux apte à conseiller
-  un client. Ainsi, les fonctionnalitées de commande en ligne d'un produit ne devaient pas être
-imageonebig2x: ""
+  Le périmètre du projet a été étudié avec les différentes parties prenantes afin de définir les objectifs
+  de l'application. Le but premier étant bien entendu la possibilité de consulter l'ensemble du catalogue
+  de notre client, y compris les modèles indisponibles en magasin. Le but second étant de pouvoir commander
+  en ligne un modèle directement via l'application, sans pour autant empiéter sur le rôle de conseil des
+  vendeurs en magasin, plus apte à orienter efficacement un client. Cette dernière option a donc été intégrée
+  au projet sans être significativement mise en avant.
+imageonebig2x: "http://placehold.it/518x400"
 imageonebigalt: ""
+
+titletwo: "Conception de l'interface"
+texttwo:  |
+  Les interfaces du projet ont été étudiées pour une manipulation publique dans un contexte d'utilisation au
+  confort amoindri, en prenant soin de mettre en place des systèmes de navigation compréhensibles par tous, avec
+  des éléments cliquables faciles d'accès et rapidement repérables.
+  <br/>
+  <br/>
+  Un effort particulier a été apportée à la possibilité de réaliser une sélection de produits qui pourra être retrouvée
+  après qu'un autre utilisateur ait utilisé l'application.
+imagetwobig2x: "http://placehold.it/518x518"
+imagetwobigalt: ""
+imagethreebig2x: "http://placehold.it/518x518"
+imagethreebigalt: ""
+imagefourbig2x: "http://placehold.it/518x518"
+imagefourbigalt: ""
+imagefivebig2x: "http://placehold.it/518x518"
+imagefivebigalt: ""
+
+linktext: "Accéder au prototype"
+linkpath: ""

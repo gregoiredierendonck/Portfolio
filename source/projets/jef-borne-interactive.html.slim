@@ -11,22 +11,22 @@ h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.t
 
 section class="nav--projects"
   h1 class="visuallyhidden" = data.content.crossnavigation
-  = link_to "#{data.projetplaneteoui.link}" do
+  = link_to "#{data.projetjefcheckout.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" alt="#{data.projetplaneteoui.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetjefcheckout.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetjefcheckout.refproject}" alt="#{data.projetjefcheckout.refalt}" class="img"
       div class="text"
-        p class="subtitle" = data.projetplaneteoui.client
-  = link_to "#{data.projetmontresandco.link}" do
+        p class="subtitle" = data.projetjefcheckout.client
+  = link_to "#{data.projetdelcourt.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" alt="#{data.projetmontresandco.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetdelcourt.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetdelcourt.refproject}" alt="#{data.projetdelcourt.refalt}" class="img"
       div class="text"
-        p class="subtitle" = data.projetmontresandco.client
+        p class="subtitle" = data.projetdelcourt.client
         
 section class="content"
       
@@ -40,8 +40,8 @@ section class="content"
 
       div class="projects--primaryimg image-full" id="content"
         picture
-          source srcset="../assets/images/projets/#{data.projetjefapplication.introimgbig2x}" media="(min-width: 950px)" class="img"
-          img srcset="../assets/images/projets/#{data.projetjefapplication.introimgbig2x}" alt="#{data.projetjefapplication.introimgalt}" class="img"
+          source srcset="#{data.projetjefapplication.introimgbig2x}" media="(min-width: 950px)" class="img"
+          img srcset="#{data.projetjefapplication.introimgbig2x}" alt="#{data.projetjefapplication.introimgalt}" class="img"
       
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
@@ -50,21 +50,47 @@ section class="content"
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
           picture
-            source srcset="../assets/images/projets/#{data.projetjefapplication.imageonebig2x}" media="(min-width: 950px)" class="img"
-            img srcset="../assets/images/projets/#{data.projetjefapplication.imageonebig2x}" alt="#{data.projetjefapplication.imageonealt}" class="img"
+            source srcset="#{data.projetjefapplication.imageonebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetjefapplication.imageonebig2x}" alt="#{data.projetjefapplication.imageonealt}" class="img"
         div class="grid--two grid--margin"
           h2 = data.projetjefapplication.titleone
           p = data.projetjefapplication.textone
+
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--one grid--margin"
+          h2 class="center" = data.projetjefapplication.titletwo
+          p = data.projetjefapplication.texttwo
+          
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetjefapplication.imagetwobig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetjefapplication.imagetwobig2x}" alt="#{data.projetjefapplication.imagetwoalt}" class="img"
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetjefapplication.imagethreebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetjefapplication.imagethreebig2x}" alt="#{data.projetjefapplication.imagethreealt}" class="img"
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetjefapplication.imagefourbig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetjefapplication.imagefourbig2x}" alt="#{data.projetjefapplication.imagefouralt}" class="img"
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetjefapplication.imagefivebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetjefapplication.imagefivebig2x}" alt="#{data.projetjefapplication.imagefivealt}" class="img"
+    
+        div class="grid--one grid--margin center"
+          = link_to "#{data.projetjefapplication.linktext}", "#{data.projetjefapplication.linkpath}", class:"button--primary button--end"
       
       
     
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnavigation
-  = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
-    p class="subtitle" = data.projetplaneteoui.client
-    p = data.projetplaneteoui.title
-  = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
-    p class="subtitle" = data.projetmontresandco.client
-    p = data.projetmontresandco.title
+  = link_to "#{data.projetjefcheckout.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetjefcheckout.client
+    p = data.projetjefcheckout.title
+  = link_to "#{data.projetdelcourt.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetdelcourt.client
+    p = data.projetdelcourt.title
     
 = partial 'views/footer'

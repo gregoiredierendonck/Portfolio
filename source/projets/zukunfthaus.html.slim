@@ -11,14 +11,14 @@ h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.t
 
 section class="nav--projects"
   h1 class="visuallyhidden" = data.content.crossnavigation
-  = link_to "#{data.projetplaneteoui.link}" do
+  = link_to "#{data.projetfrancemachinesoutils.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" alt="#{data.projetplaneteoui.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refproject}" alt="#{data.projetfrancemachinesoutils.refalt}" class="img"
       div class="text"
-        p class="subtitle" = data.projetplaneteoui.client
+        p class="subtitle" = data.projetfrancemachinesoutils.client
   = link_to "#{data.projetmontresandco.link}" do
     div class="arrow"
     div class="content"
@@ -40,29 +40,43 @@ section class="content"
 
       div class="projects--primaryimg image-full" id="content"
         picture
-          source srcset="../assets/images/projets/#{data.projetzukunfthaus.introimgbig2x}" media="(min-width: 950px)" class="img"
-          img srcset="../assets/images/projets/#{data.projetzukunfthaus.introimgbig2x}" alt="#{data.projetzukunfthaus.introimgalt}" class="img"
+          source srcset="#{data.projetzukunfthaus.introimgbig2x}" media="(min-width: 950px)" class="img"
+          img srcset="#{data.projetzukunfthaus.introimgbig2x}" alt="#{data.projetzukunfthaus.introimgalt}" class="img"
       
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
         p class="intro center" = data.projetzukunfthaus.intro
         
-      div class="grid panel--white big--padding no--border" 
+      div class="grid panel--white big--padding no--border"  
+        div class="grid--one grid--margin"
+          h2 class="center" = data.projetzukunfthaus.titleone
+          p = data.projetzukunfthaus.textone
+      
+      div class="grid panel--white big--padding no--border"  
         div class="grid--two grid--margin"
           picture
-            source srcset="../assets/images/projets/#{data.projetzukunfthaus.imageonebig2x}" media="(min-width: 950px)" class="img"
-            img srcset="../assets/images/projets/#{data.projetzukunfthaus.imageonebig2x}" alt="#{data.projetzukunfthaus.imageonealt}" class="img"
+            source srcset="#{data.projetzukunfthaus.imageonebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetzukunfthaus.imageonebig2x}" alt="#{data.projetzukunfthaus.imageonealt}" class="img"
         div class="grid--two grid--margin"
-          h2 = data.projetzukunfthaus.titleone
-          p = data.projetzukunfthaus.textone
+          picture
+            source srcset="#{data.projetzukunfthaus.imagetwobig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetzukunfthaus.imagetwobig2x}" alt="#{data.projetzukunfthaus.imagetwoalt}" class="img"
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetzukunfthaus.imagethreebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetzukunfthaus.imagethreebig2x}" alt="#{data.projetzukunfthaus.imagethreealt}" class="img"
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetzukunfthaus.imagefourbig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetzukunfthaus.imagefourbig2x}" alt="#{data.projetzukunfthaus.imagefouralt}" class="img"
       
       
     
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnavigation
-  = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
-    p class="subtitle" = data.projetplaneteoui.client
-    p = data.projetplaneteoui.title
+  = link_to "#{data.projetfrancemachinesoutils.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetfrancemachinesoutils.client
+    p = data.projetfrancemachinesoutils.title
   = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
     p class="subtitle" = data.projetmontresandco.client
     p = data.projetmontresandco.title

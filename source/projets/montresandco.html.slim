@@ -11,22 +11,22 @@ h1 class="visuallyhidden" = "#{data.settings.site.title} - #{current_page.data.t
 
 section class="nav--projects"
   h1 class="visuallyhidden" = data.content.crossnavigation
-  = link_to "#{data.projetplaneteoui.link}" do
+  = link_to "#{data.projetzukunfthaus.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" alt="#{data.projetplaneteoui.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetzukunfthaus.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetzukunfthaus.refproject}" alt="#{data.projetzukunfthaus.refalt}" class="img"
       div class="text"
-        p class="subtitle" = data.projetplaneteoui.client
-  = link_to "#{data.projetmontresandco.link}" do
+        p class="subtitle" = data.projetzukunfthaus.client
+  = link_to "#{data.projetzukunfthaus.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" alt="#{data.projetmontresandco.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetjefcheckout.refproject}" media="(min-width: 950px)" class="img"
+        img srcset="../assets/images/projets/#{data.projetjefcheckout.refproject}" alt="#{data.projetjefcheckout.refalt}" class="img"
       div class="text"
-        p class="subtitle" = data.projetmontresandco.client
+        p class="subtitle" = data.projetjefcheckout.client
         
 section class="content"
     
@@ -40,8 +40,8 @@ section class="content"
 
       div class="projects--primaryimg image-full" id="content"
         picture
-          source srcset="../assets/images/projets/#{data.projetmontresandco.introimgbig2x}" media="(min-width: 950px)" class="img"
-          img srcset="../assets/images/projets/#{data.projetmontresandco.introimgbig2x}" alt="#{data.projetmontresandco.introimgalt}" class="img"
+          source srcset="#{data.projetmontresandco.introimgbig2x}" media="(min-width: 950px)" class="img"
+          img srcset="#{data.projetmontresandco.introimgbig2x}" alt="#{data.projetmontresandco.introimgalt}" class="img"
       
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
@@ -50,20 +50,20 @@ section class="content"
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
           picture
-            source srcset="../assets/images/projets/#{data.projetmontresandco.imageonebig2x}" media="(min-width: 950px)" class="img"
-            img srcset="../assets/images/projets/#{data.projetmontresandco.imageonebig2x}" alt="#{data.projetmontresandco.imageonealt}" class="img"
+            source srcset="#{data.projetmontresandco.imageonebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetmontresandco.imageonebig2x}" alt="#{data.projetmontresandco.imageonealt}" class="img"
         div class="grid--two grid--margin"
           h2 = data.projetmontresandco.titleone
           p = data.projetmontresandco.textone
 
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetmontresandco.imagetwobig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetmontresandco.imagetwobig2x}" alt="#{data.projetmontresandco.imagetwoalt}" class="img"
+        div class="grid--two grid--margin"
           h2 = data.projetmontresandco.titletwo
           p = data.projetmontresandco.texttwo
-        div class="grid--two grid--margin"
-          picture
-            source srcset="../assets/images/projets/#{data.projetmontresandco.imagetwobig2x}" media="(min-width: 950px)" class="img"
-            img srcset="../assets/images/projets/#{data.projetmontresandco.imagetwobig2x}" alt="#{data.projetmontresandco.imagetwoalt}" class="img"
             
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
@@ -78,14 +78,17 @@ section class="content"
             - data.projetmontresandco.listthree.each_with_index do |item|
               li class="grid--three grid--margin panel--white"
                 p class="center" = item.text
+        div class="grid--one grid--margin center"
+          p class="center" = data.projetmontresandco.textthreeend
+          = link_to "#{data.projetmontresandco.textthreeendlinktext}", "#{data.projetmontresandco.textthreeendlinkpath}", class:"button--primary button--end"
     
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnavigation
-  = link_to "#{data.projetplaneteoui.link}", class:"panel--white grid--two" do
-    p class="subtitle" = data.projetplaneteoui.client
-    p = data.projetplaneteoui.title
-  = link_to "#{data.projetmontresandco.link}", class:"panel--white grid--two" do
-    p class="subtitle" = data.projetmontresandco.client
-    p = data.projetmontresandco.title
+  = link_to "#{data.projetzukunfthaus.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetzukunfthaus.client
+    p = data.projetzukunfthaus.title
+  = link_to "#{data.projetjefcheckout.link}", class:"panel--white grid--two" do
+    p class="subtitle" = data.projetjefcheckout.client
+    p = data.projetjefcheckout.title
     
 = partial 'views/footer'

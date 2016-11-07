@@ -6,13 +6,13 @@ refbig2x: "projets-laredoute-refs@2x.jpg"
 refproject: "projets-laredoute-refs@2x.jpg"
 refalt: "Miniature de la page d'accueil du site corporate de La Redoute"
 
-introimgbig2x: "projets-laredoute@2x.jpg"
+introimgbig2x: "http://placehold.it/1200x500"
 introimgalt: "Aperçu de la page d'accueil du site corporate de La Redoute"
 intro: |
-  La Redoute a souhaité rassembler au sein d'un site unique son site corporate
+  La Redoute a souhaité rassembler au sein d'un site unique son site
   de présentation de l'entreprise, celui dédié à la presse ainsi que celui dédié au recrutement.
   Un travail de conception mené en amont du projet nous a permis de guider plus
-  efficacement notre client vers une solution efficace et adaptée à ses
+  efficacement notre client vers une solution efficace et mieux adaptée à ses
   utilisateurs finaux.
 
 titleone: "Conseil, organisation des contenus et sitemap"
@@ -24,13 +24,19 @@ textone: |
   de contenus pour l'utilisateur.
   <br/>
   <br/>
-  L'étude d'un sitemap a ensuite débutée, afin d'optimiser les manières de naviguer
+  L'étude d'un sitemap a également été entreprise pour optimiser les manières de naviguer
   entre les différents contenus du site.
-imageonebig2x: ""
+imageonebig2x: "http://placehold.it/518x400"
 imageonealt: ""
 
 titletwo: "Wireframing du site final"
 texttwo: |
-  U
-imagetwobig2x: ""
+  Un wireframe complet du site a été réalisé en version desktop et mobile, afin d'étudier
+  efficacement avec notre client et nos équipes internes la manière d'organiser les contenus
+  et les fonctionnalitées au sein des pages. Cet outil a permis d'identifier et de résoudre rapidement
+  un certain nombre de problèmes sans être influencé par le style graphique étudié dans un second temps
+  sur la base du wireframe.
+texttwolinktext: "Accéder au wireframe"
+texttwolinkpath: ""
+imagetwobig2x: "http://placehold.it/1080x450"
 imagetwoalt: ""

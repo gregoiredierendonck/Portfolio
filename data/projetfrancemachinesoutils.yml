@@ -6,7 +6,7 @@ refbig2x: "projets-fmo-refs@2x.jpg"
 refproject: "projets-fmo-refs@2x.jpg"
 refalt: "Miniature de 3 pages de l'interface d'administration de France Machines Outils"
 
-introimgbig2x: "projets-fmo@2x.jpg"
+introimgbig2x: "http://placehold.it/1200x500"
 introimgalt: "Aperçu de 3 pages de l'interface d'administration de France Machines Outils"
 intro: |
   Le groupe France Machines Outils, grande entreprise de vente de machines outils, avec plus
@@ -23,8 +23,8 @@ textone: |
   <br/>
   Un système de management du site web, directement lié à la gestion des stocks a également été
   pensé, avec la possibilité de mettre des machines en avant, d'en masquer sur le site, d'afficher
-  ou non leurs prix...
-imageonebig2x: ""
+  ou non leurs prix, de renseigner et de gérer les caractéristiques des machines...
+imageonebig2x: "http://placehold.it/518x450"
 imageonealt: ""
 
 titletwo: "Suivi des processus de vente et des échanges avec le client"
@@ -32,9 +32,9 @@ texttwo: |
   Un système de suivi des processus de vente a été conçu, avec l'aide de statuts définis selon les
   étapes effectuées. L'ensemble des échanges écrits avec le client a également été pensé pour être
   réalisé directement dans l'outil, avec la possibilité de générer des courriers brandés, de
-  créer des modèles de lettre par commercial, de voir si les emails adressés ont été lus ou non,
+  créer des modèles de lettre par commerciaux, de voir si les emails adressés ont été lus ou non,
   de leurs assigner des statuts d'avancement...
-imagetwobig2x: ""
+imagetwobig2x: "http://placehold.it/518x450"
 imagetwoalt: ""
 
 titlethree: "Communication interne"
@@ -44,5 +44,5 @@ textthree: |
   à des clients, des machines ou des documents, en leurs assignants des statuts publics, privés ou
   partagés avec certains collaborateurs. Un système d'alertes partagées ou non a également été
   développé pour permettre de créer des rappels à des moments décisifs.
-imagethreebig2x: ""
+imagethreebig2x: "http://placehold.it/518x450"
 imagethreealt: ""
