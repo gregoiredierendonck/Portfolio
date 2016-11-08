@@ -6,17 +6,54 @@
     width: 100%;
     height: 50vh;
     min-height: 400px;
+    padding: 0 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     .subtitle {margin-bottom: 25px;}
     .h1 {margin: 0 0 30px;}
+    @media screen and (max-width: 870px) {.h1 {font-size: 36px;}}
+    @media screen and (max-width: 540px) {.h1 {font-size: 32px;}}
+    @media screen and (max-width: 490px) {padding: 0 20px;.h1 {font-size: 26px;}}
   }
   .grid {
     .grid--three {
       flex-direction: column;
       margin-bottom: 30px;
+    }
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+      .grid--three {
+        width: 100%;
+        margin-bottom: 0;
+        &:last-of-type {margin-bottom: 40px;}
+        position: relative;
+        .subtitle, p {
+          text-align: left !important;
+          width: calc(100% - 240px);
+          margin-left: 0;
+          margin-right: 0;
+        }
+        .button--primary {
+          position: absolute;
+          top: 50%;
+          right: 20px;
+          max-width: 200px;
+          margin-top: -21px;
+        }
+      }
+    }
+    @media screen and (max-width: 660px) {
+      .grid--three {
+        .subtitle, p {width: 100%; text-align: center !important;}
+        .button--primary {
+            position: relative;
+            top: 0;
+            right: 0;
+            margin-top: 20px;
+        }
+      }
     }
   }
 }

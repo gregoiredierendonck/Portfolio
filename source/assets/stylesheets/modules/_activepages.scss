@@ -1,18 +1,54 @@
 .index {
-  header .header--navigation ul li.header--menu-forsmall a {color: $primary;}
+  header .header--navigation ul li.header--menu-forsmall a {
+    color: $primary;
+    @media screen and (max-width: 930px) {
+      color: $white;
+      text-decoration: line-through;
+    }
+  }
 }
 .competences {
-  header .header--navigation ul li.competences a {color: $primary;}
+  header .header--navigation ul li.competences a {
+    color: $primary;
+    @media screen and (max-width: 930px) {
+      color: $white;
+      text-decoration: line-through;
+    }
+  }
 }
 .profil {
-  header .header--navigation ul li.profil a {color: $primary;}
+  header .header--navigation ul li.profil a {
+    color: $primary;
+    @media screen and (max-width: 930px) {
+      color: $white;
+      text-decoration: line-through;
+    }
+  }
 }
 .references {
-  header .header--navigation ul li.references a {color: $primary;}
+  header .header--navigation ul li.references a {
+    color: $primary;
+    @media screen and (max-width: 930px) {
+      color: $white;
+      text-decoration: line-through;
+    }
+  }
 }
 .contact {
-  header .header--navigation ul li.contact a {color: $primary;}
+  header .header--navigation ul li.contact a {
+    color: $primary;
+    @media screen and (max-width: 930px) {
+      color: $white;
+      text-decoration: line-through;
+    }
+  }
 }
 .guidelines {
-  header .header--navigation ul li.guidelines a {color: $primary;}
+  header .header--navigation ul li.guidelines a {
+    color: $primary;
+    @media screen and (max-width: 930px) {
+      color: $white;
+      text-decoration: line-through;
+    }
+  }
 }
