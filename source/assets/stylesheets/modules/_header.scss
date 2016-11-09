@@ -40,6 +40,7 @@ body {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      width: calc(100% - (#{$headderpadding} * 2));
     }
 
     // HEADER STYLES
@@ -224,6 +225,7 @@ body {
       }
     }
     @media screen and (max-width: 590px) {
+      .wrapper {width: calc(100% - 30px);}
       &.header--top {padding: 15px 0;}
       &.menu--open {
         .menu-button {
