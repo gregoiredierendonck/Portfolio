@@ -6,6 +6,7 @@ $panelbigpadding: 60px;
   box-shadow: $panelwhiteborder;
   background-color: $white;
   padding: $panelpadding;
+  @media screen and (max-width: 460px) {padding: $panelpadding / 1.5;}
   display: flex;
   &.space-between {
     justify-content: space-between;
@@ -13,6 +14,7 @@ $panelbigpadding: 60px;
   &.big--padding {
     padding: $panelbigpadding;
     @media screen and (max-width: 760px) {padding: $panelpadding;}
+    @media screen and (max-width: 460px) {padding: $panelpadding / 1.5;}
   }
   &.no--border {box-shadow: none;}
 }
