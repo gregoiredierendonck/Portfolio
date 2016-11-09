@@ -11,8 +11,9 @@
     p {
       font-size: 32px;
       &:first-of-type {margin-bottom: 30px;}
-      @media screen and (max-width: 700px) {font-size: 24px;}
+      @media screen and (max-width: 800px) {font-size: 24px;}
       @media screen and (max-width: 515px) {font-size: 18px;}
+      @media screen and (max-width: 380px) {font-size: 15px;}
       a {
         text-decoration: none;
         color: $black;
@@ -29,6 +30,8 @@
         font-weight: 400;
         margin-bottom: 30px;
         font-size: 20px;
+        @media screen and (max-width: 800px) {font-size: 18px;}
+        @media screen and (max-width: 800px) {font-size: 16px;}
       }
     }
   }
