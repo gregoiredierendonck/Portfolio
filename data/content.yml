@@ -20,9 +20,9 @@ competences:
   description: "Les acquis et connaissances que je met en œuvre dans mon quotidien."
   title: "Compétences"
   ux:
-    imagebig: "http://placehold.it/504x504"
+    imagebig: "http://placehold.it/450x450"
     imagemedium: "http://placehold.it/630x385"
-    imagesmall: "http://placehold.it/450x300"
+    imagesmall: "http://placehold.it/435x270"
     imagealt: "alt"
     subtitle: "User experience design"
     firsttitle: 'Étude de l’expérience utilisateur'
@@ -31,9 +31,9 @@ competences:
     titletwo: 'Organisation des contenus, architecture de l’information et sitemap'
     texttwo: "Étude de la manière dont vos utilisateurs vont naviguer au sein de votre site, grouper et connecter entre eux vos contenus de manière à y simplifier l’exploration et la recherche. Cette étude peut se concentrer uniquement sur la manière de présenter vos contenus à l’utilisateur, mais également sur la manière d’organiser vos produits au sein de votre catalogue."
   ui:
-    imagebig: "http://placehold.it/504x504"
+    imagebig: "http://placehold.it/450x450"
     imagemedium: "http://placehold.it/630x385"
-    imagesmall: "http://placehold.it/630x300"
+    imagesmall: "http://placehold.it/435x270"
     imagealt: "alt"
     subtitle: "User interface design"
     firsttitle: 'Conception d’interfaces performantes'
@@ -42,9 +42,9 @@ competences:
     titletwo: 'Conception et prototypage de comportements avancés'
     texttwo: "Étude du comportement de modules ou de pages spécifiques à l’aide de protoypes interactifs poussés réalisés directement en html / css ou via des outils tiers."
   audit:
-    imagebig: "http://placehold.it/504x504"
+    imagebig: "http://placehold.it/450x450"
     imagemedium: "http://placehold.it/630x385"
-    imagesmall: "http://placehold.it/630x300"
+    imagesmall: "http://placehold.it/435x270"
     imagealt: "alt"
     subtitle: "Audit et conseil"
     firsttitle: 'Optimisation, audit et conseil'

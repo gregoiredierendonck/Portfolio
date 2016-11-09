@@ -10,7 +10,10 @@ $panelbigpadding: 60px;
   &.space-between {
     justify-content: space-between;
   }
-  &.big--padding {padding: $panelbigpadding;}
+  &.big--padding {
+    padding: $panelbigpadding;
+    @media screen and (max-width: 760px) {padding: $panelpadding;}
+  }
   &.no--border {box-shadow: none;}
 }
 

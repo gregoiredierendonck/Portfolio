@@ -16,8 +16,9 @@ section class="content"
     article class="grid--two grid--margin panel--white"
       = link_to "projets/#{data.projetmontresandco.link}" do
         picture class="reference--img"
-          source srcset="assets/images/projets/#{data.projetmontresandco.refbig2x}" media="(min-width: 1000px)"
-          img srcset="assets/images/projets/#{data.projetmontresandco.refbig2x}" alt="#{data.projetmontresandco.refalt}"
+          source srcset="#{data.projetmontresandco.refbig2x}" media="(min-width: 960px)"
+          source srcset="#{data.projetmontresandco.refmedium2x}" media="(min-width: 700px)"
+          img srcset="#{data.projetmontresandco.refsmall2x}" alt="#{data.projetmontresandco.refalt}"
         div class="reference--content"
             h1 class="subtitle" = data.projetmontresandco.client
             h2 class="h3" = data.projetmontresandco.title

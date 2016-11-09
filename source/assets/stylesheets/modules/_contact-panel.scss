@@ -2,12 +2,14 @@
   margin-top: -30px;
   max-width: 600px !important;
   position: relative;
+  @media screen and (max-width: 750px) {margin-top: 40px;}
   .panel--blue {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 50px;
+    @media screen and (max-width: 529px) {padding: 25px;}
   }
   .p {
     width: 100%;
@@ -30,6 +32,12 @@
 }
 
 // Relativ to negativ margin-top (+40px)
-.competences {.content {.grid {&:last-of-type {padding-bottom: 150px;}}}}
-.profil {.profil--entries {.panel--white:nth-last-of-type(3n) {padding-bottom: 80px;}}}
+.competences {
+  .content {.grid {&:last-of-type {padding-bottom: 150px;}}}
+  @media screen and (max-width: 750px) {.content {.grid {&:last-of-type {padding-bottom: 80px;}}}}
+}
+.profil {
+  .profil--entries {.panel--white:last-of-type {padding-bottom: 120px;}}
+  @media screen and (max-width: 750px) {.profil--entries {.panel--white:last-of-type {padding-bottom: 40px;}}}
+}
 .index {.m-panel--contact{margin-top: 0;}}

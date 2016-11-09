@@ -2,8 +2,10 @@ title: "Optimisation de la page produit"
 client: "Montres&nbsp;&#38;&nbsp;Co"
 link: "montresandco.html"
 
-refbig2x: "projets-mco-refs@2x.jpg"
-refproject: "projets-mco-refs@2x.jpg"
+refbig2x: "http://placehold.it/519x346"
+refmedium2x: "http://placehold.it/348x232"
+refsmall2x: "http://placehold.it/400x250"
+refproject: "http://placehold.it/519x346"
 refalt: "Miniature du projet Montres & Co"
 
 introimgbig2x: "http://placehold.it/1200x500"

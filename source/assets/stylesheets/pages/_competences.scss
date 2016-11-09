@@ -4,6 +4,7 @@
     .grid {
       box-shadow: none;
       .grid--margin {margin-bottom: 0;}
+      @media screen and (max-width: 1100px) {.grid--margin:nth-child(odd) {margin-bottom: 60px;}}
     }
     picture {justify-content: center;}
   }

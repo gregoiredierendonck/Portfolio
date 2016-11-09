@@ -5,10 +5,13 @@
       padding-top: 70px;
       padding-bottom: 70px;
       margin-bottom: 20px;
+      @media screen and (max-width: 515px) {padding-left: 15px; padding-right: 15px;}
     }
     p {
       font-size: 32px;
       &:first-of-type {margin-bottom: 30px;}
+      @media screen and (max-width: 700px) {font-size: 24px;}
+      @media screen and (max-width: 515px) {font-size: 18px;}
       a {
         text-decoration: none;
         color: $black;
