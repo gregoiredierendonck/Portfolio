@@ -1,7 +1,8 @@
 $nav-projectssize: 60px;
-$nav-projectsposition: 240px;
+$nav-projectsposition: 220px;
 
 .nav--projects {
+  display: flex;
   position: relative;
   z-index: 100;
 

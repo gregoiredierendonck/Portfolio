@@ -5,15 +5,21 @@
   }
   .projects--title {
     .subtitle {
-      margin-top: $h1margintop;
+      margin-top: $h1margintop / 2;
     }
     h1 {
       margin-top: 0;
+      margin-bottom: 70px;
     }
   }
+  .subtitle {margin-top: 30px;}
   .panel--white {
-    &.big--padding .image-full {
-      margin-bottom: 0;
+    &.big--padding {
+      padding-top: $panelbigpadding / 2;
+      padding-bottom: $panelbigpadding / 2;
+      .image-full {
+        margin-bottom: 0;
+      }
     }
   }
   b {
