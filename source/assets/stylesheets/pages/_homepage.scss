@@ -14,7 +14,10 @@
     .subtitle {margin-bottom: 25px;}
     .h1 {margin: 0 0 30px;}
     @media screen and (max-width: 870px) {.h1 {font-size: 36px;}}
-    @media screen and (max-width: 540px) {.h1 {font-size: 32px;}}
+    @media screen and (max-width: 540px) {
+      .h1 {font-size: 32px;}
+      span {&:first-of-type {display: inline-block;margin-bottom: 20px;}}
+    }
     @media screen and (max-width: 490px) {padding: 0 20px;.h1 {font-size: 26px;}}
   }
   .grid {
