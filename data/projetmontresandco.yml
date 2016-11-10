@@ -1,5 +1,5 @@
 title: "Optimisation de la page produit"
-client: "Montres&nbsp;&#38;&nbsp;Co"
+client: "Montres &#38; Co"
 link: "montresandco.html"
 
 refbig2x: "http://placehold.it/519x346"
@@ -9,6 +9,8 @@ refproject: "http://placehold.it/519x346"
 refalt: "Miniature du projet Montres & Co"
 
 introimgbig2x: "http://placehold.it/1200x500"
+introimgmedium2x: "http://placehold.it/837x400"
+introimgsmall2x: "http://placehold.it/533x400"
 introimgalt: "Aperçu de la page produit de Montres & Co"
 intro: |
   Dans le cadre de l'optimisation continue du site ecommerce Montres&nbsp;&#38;&nbsp;Co,

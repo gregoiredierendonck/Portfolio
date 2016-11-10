@@ -8,15 +8,42 @@
       margin-top: $h1margintop / 2;
     }
     h1 {
+      line-height: 130%;
       margin-top: 0;
       margin-bottom: 70px;
+      padding: 0 40px;
+      @media screen and (max-width: 750px) {padding: 0; margin-bottom: 50px;}
+      @media screen and (max-width: 450px) {padding: 0; font-size: 24px; margin-bottom: 30px;}
     }
   }
-  .subtitle {margin-top: 30px;}
+  .subtitle {
+    margin-top: 30px;
+    @media screen and (max-width: 700px) {margin-top: 20px;}
+    @media screen and (max-width: 400px) {margin-top: 0;}
+  }
+  .intro {
+    font-size: 20px;
+    max-width: 700px;
+    margin-bottom: 30px;
+    @media screen and (max-width: 700px) {font-size: 16px; padding: 0 40px; margin-bottom: 0;}
+    @media screen and (max-width: 600px) {padding: 0;}
+    @media screen and (max-width: 400px) {font-size: 14px; margin-bottom: -20px;}
+  }
+  picture {
+    justify-content: center;
+  }
   .panel--white {
     &.big--padding {
       padding-top: $panelbigpadding / 2;
       padding-bottom: $panelbigpadding / 2;
+      @media screen and (max-width: 1000px) {
+        padding-left: $panelbigpadding / 2;
+        padding-right: $panelbigpadding / 2;
+      }
+      @media screen and (max-width: 450px) {
+        padding-left: $panelbigpadding / 3;
+        padding-right: $panelbigpadding / 3;
+      }
       .image-full {
         margin-bottom: 0;
       }
@@ -36,4 +63,14 @@
     }
   }
   .button--end {margin: 40px 20px 0;}
+  @media screen and (max-width: 980px) {
+    .grid .grid--two.grid--margin {
+      width: 100%; margin-right: 0;
+      &:nth-child(even) {order: 2;}
+      &:nth-child(odd) {order: 1;}
+    }
+    picture {margin-bottom: 30px;}
+    .projects--primaryimg picture {margin-bottom: 0;}
+    ol.list {margin-bottom: 0;}
+  }
 }

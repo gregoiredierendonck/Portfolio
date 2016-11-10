@@ -16,7 +16,7 @@ body, p, .p {
 ::-moz-selection {background: $grey-light;}
 ::selection {background: $grey-light;}
 
-p, h2, .h2, h3, .h3, h4, .h4, .subtitle {
+p, h2, .h2, h3, .h3, h4, .h4, .subtitle, ol.list, ul.list {
   width: 100%;
   max-width: 630px;
   margin: 0 auto;
@@ -92,12 +92,6 @@ h4, .h4 {
   text-transform: uppercase;
   color: $primary;
   margin-bottom: 10px;
-}
-
-.intro {
-  font-size: 20px;
-  max-width: 700px;
-  margin-bottom: 30px;
 }
 
 p + h3, p + .h3 {margin-top: 30px;}
