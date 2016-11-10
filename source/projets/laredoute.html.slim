@@ -64,7 +64,10 @@ section class="content"
         div class="grid--one grid--margin center"
           h2 class="center" = data.projetlaredoute.titletwo
           p = data.projetlaredoute.texttwo
-          = link_to "#{data.projetlaredoute.texttwolinktext}", "#{data.projetlaredoute.texttwolinkpath}", class:"button--primary button--end"
+          = link_to "#{data.projetlaredoute.texttwolinktext}", "#{data.projetlaredoute.texttwolinkpath}", target:"_blank", class:"button--primary button--end"
+          = link_to "#{data.projetlaredoute.texttwolinktwotext}", "#{data.projetlaredoute.texttwolinktwopath}", target:"_blank", class:"button--primary button--end"
+          <br/>
+          = link_to "#{data.projetlaredoute.texttwolinkthreetext}", "#{data.projetlaredoute.texttwolinkthreepath}", target:"_blank", class:"button--primary button--end"
       
       
     
