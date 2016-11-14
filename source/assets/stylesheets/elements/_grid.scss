@@ -36,10 +36,19 @@
   }
   &.grid--inverse {
     .grid--two--special {
-      &:nth-child(even) {width: 42%;}
-      &:nth-child(odd) {width: 53%;}
-      margin-bottom: 40px;
-      @media screen and (max-width: 1100px) {&:nth-child(odd), &:nth-child(even) {width: 100%;}}
+      &:nth-child(even) {order: 1;}
+      &:nth-child(odd) {order: 2;}
+      &.grid--margin {
+        margin-bottom: 40px;
+        &:nth-child(even) {margin-right: 5%;}
+        &:nth-child(odd) {margin-right: 0;}
+      }
+      @media screen and (max-width: 1100px) {
+        &:nth-child(even) {order: 2;}
+        &:nth-child(odd) {order: 1;}
+        &:nth-child(odd), &:nth-child(even) {width: 100%;}
+        &.grid--margin {&:nth-child(even) {margin-right: 0;}}
+      }
     }
     .grid--two {
       &:nth-child(even) {order: 1;}

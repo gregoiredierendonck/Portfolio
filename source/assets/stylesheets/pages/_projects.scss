@@ -73,4 +73,31 @@
     .projects--primaryimg picture {margin-bottom: 0;}
     ol.list {margin-bottom: 0;}
   }
+
+  // STYLE FOR PROJECTS
+  &.projets_montresandco {
+    .grid--three {
+      @media screen and (max-width: 750px) {
+        width: 100%;
+        margin: 0;
+        &:first-of-type {margin-top: -40px;}
+        &:last-of-type {margin-bottom: 40px;}
+        p.center {
+          text-align: left !important;
+          b {
+            display: inline;
+            width: auto;
+            font-size: 24px;
+            font-weight: 300;
+            margin: 0;
+            position: relative;
+            top: 3px;
+          }
+        }
+      }
+      @media screen and (max-width: 450px) {
+        p.center b {font-size: 18px; top: 0;}
+      }
+    }
+  }
 }

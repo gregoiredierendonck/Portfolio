@@ -8,9 +8,12 @@ refsmall2x: "http://placehold.it/400x250"
 refproject: "http://placehold.it/519x346"
 refalt: "Miniature du projet Montres & Co"
 
-introimgbig2x: "http://placehold.it/1200x500"
-introimgmedium2x: "http://placehold.it/837x400"
-introimgsmall2x: "http://placehold.it/533x400"
+introimgbigretina: "big@2x.jpg"
+introimgbig: "big.jpg"
+introimgmediumretina: "medium@2x.jpg"
+introimgmedium: "medium.jpg"
+introimgsmallretina: "small@2x.jpg"
+introimgsmall: "small.jpg"
 introimgalt: "Aperçu de la page produit de Montres & Co"
 intro: |
   Dans le cadre de l'optimisation continue du site ecommerce Montres&nbsp;&#38;&nbsp;Co,

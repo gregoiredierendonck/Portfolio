@@ -134,4 +134,7 @@ ol.list {
       left: 0;
     }
   }
+  @media screen and (max-width: 550px) {
+    padding-left: 0;
+  }
 }

@@ -40,9 +40,12 @@ section class="content"
 
       div class="projects--primaryimg image-full" id="content"
         picture
-          source srcset="#{data.projetmontresandco.introimgbig2x}" media="(min-width: 950px)" class="img"
-          source srcset="#{data.projetmontresandco.introimgmedium2x}" media="(min-width: 600px)" class="img"
-          img srcset="#{data.projetmontresandco.introimgsmall2x}" alt="#{data.projetmontresandco.introimgalt}" class="img"
+          source srcset="../assets/images/projets/#{data.projetmontresandco.introimgbig}" media="only screen and ( min-width: 950px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 950px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetmontresandco.introimgbigretina}" media="only screen and ( min-width: 950px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 950px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetmontresandco.introimgmedium}" media="only screen and ( min-width: 600px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 600px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetmontresandco.introimgmediumretina}" media="only screen and ( min-width: 600px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 600px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetmontresandco.introimgsmallretina}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          img srcset="../assets/images/projets/#{data.projetmontresandco.introimgsmall}" alt="#{data.projetmontresandco.introimgalt}" class="img"    
       
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
@@ -74,6 +77,7 @@ section class="content"
         div class="grid--two grid--margin"
           h2 = data.projetmontresandco.titlethree
           p = data.projetmontresandco.textthree
+      div class="grid panel--white big--padding no--border" 
         div class="grid--one grid--margin"
           ul class="grid"
             - data.projetmontresandco.listthree.each_with_index do |item|
@@ -82,7 +86,7 @@ section class="content"
         div class="grid--one grid--margin center"
           p class="center" = data.projetmontresandco.textthreeend
           = link_to "#{data.projetmontresandco.textthreeendlinktext}", "#{data.projetmontresandco.textthreeendlinkpath}", target:"_blank", class:"button--primary button--end"
-    
+      
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnavigation
   = link_to "#{data.projetzukunfthaus.link}", class:"panel--white grid--two" do
