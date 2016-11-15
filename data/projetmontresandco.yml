@@ -8,12 +8,12 @@ refsmall2x: "http://placehold.it/400x250"
 refproject: "http://placehold.it/519x346"
 refalt: "Miniature du projet Montres & Co"
 
-introimgbigretina: "big@2x.jpg"
-introimgbig: "big.jpg"
-introimgmediumretina: "medium@2x.jpg"
-introimgmedium: "medium.jpg"
-introimgsmallretina: "small@2x.jpg"
-introimgsmall: "small.jpg"
+introimgbig2x: "mco-intro-big@2x.jpg"
+introimgbig: "mco-intro-big.jpg"
+introimgmedium2x: "mco-intro-medium@2x.jpg"
+introimgmedium: "mco-intro-medium.jpg"
+introimgsmall2x: "mco-intro-small@2x.jpg"
+introimgsmall: "mco-intro-small.jpg"
 introimgalt: "Aperçu de la page produit de Montres & Co"
 intro: |
   Dans le cadre de l'optimisation continue du site ecommerce Montres&nbsp;&#38;&nbsp;Co,
@@ -32,7 +32,8 @@ textone: |
     <li>La structure mise en place repoussait trop bas dans la page le cross-selling, très rarement
         vu par les utilisateurs, et donc inutilisé.</li>
   </ol>
-imageonebig2x: "http://placehold.it/518x518"
+imageonebig2x: "mco-1-big@2x.jpg"
+imageonebig: "mco-1-big.jpg"
 imageonealt: "Aperçu de l'ancienne page produit du site Montres & Co"
 
 titletwo: "Propositions d'améliorations"
@@ -50,7 +51,8 @@ texttwo: |
     <li>Puisque repoussée dans la page, la zone de la description et des caractéristiques sont redesignées
     pour en simplifier la lecture, et un bouton d’ajout au panier est ajouté à la zone.</li>
   </ol>
-imagetwobig2x: "http://placehold.it/518x518"
+imagetwobig2x: "mco-2-big@2x.jpg"
+imagetwobig: "mco-2-big.jpg"
 imagetwoalt: "Aperçu de la nouvelle page produit optimisée du site Montres & Co"
 
 titlethree: "Évaluation des optimisations avec des tests A/B"
