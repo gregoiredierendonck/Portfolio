@@ -15,16 +15,18 @@ section class="nav--projects"
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refproject}" alt="#{data.projetfrancemachinesoutils.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
+        source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
+        img srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refimgsmall}" alt="#{data.projetfrancemachinesoutils.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetfrancemachinesoutils.client
   = link_to "#{data.projetmontresandco.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetmontresandco.refproject}" alt="#{data.projetmontresandco.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetmontresandco.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
+        source srcset="../assets/images/projets/#{data.projetmontresandco.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
+        img srcset="../assets/images/projets/#{data.projetmontresandco.refimgsmall}" alt="#{data.projetmontresandco.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetmontresandco.client
         

@@ -15,16 +15,18 @@ section class="nav--projects"
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetjefapplication.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetjefapplication.refproject}" alt="#{data.projetjefapplication.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetjefapplication.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
+        source srcset="../assets/images/projets/#{data.projetjefapplication.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
+        img srcset="../assets/images/projets/#{data.projetjefapplication.refimgsmall}" alt="#{data.projetjefapplication.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetjefapplication.client
   = link_to "#{data.projetplaneteoui.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetplaneteoui.refproject}" alt="#{data.projetplaneteoui.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetplaneteoui.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
+        source srcset="../assets/images/projets/#{data.projetplaneteoui.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
+        img srcset="../assets/images/projets/#{data.projetplaneteoui.refimgsmall}" alt="#{data.projetplaneteoui.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetplaneteoui.client
         

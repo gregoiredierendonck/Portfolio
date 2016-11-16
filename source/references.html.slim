@@ -15,10 +15,13 @@ section class="content"
     / Montres and Co
     article class="grid--two grid--margin panel--white"
       = link_to "projets/#{data.projetmontresandco.link}" do
-        picture class="reference--img"
-          source srcset="#{data.projetmontresandco.refbig2x}" media="(min-width: 960px)"
-          source srcset="#{data.projetmontresandco.refmedium2x}" media="(min-width: 700px)"
-          img srcset="#{data.projetmontresandco.refsmall2x}" alt="#{data.projetmontresandco.refalt}"
+        picture
+          source srcset="../assets/images/projets/#{data.projetmontresandco.refbig}" media="only screen and ( min-width: 960px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetmontresandco.refbig2x}" media="only screen and ( min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetmontresandco.refmedium}" media="only screen and ( min-width: 700px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetmontresandco.refmedium2x}" media="only screen and ( min-width: 700px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetmontresandco.refsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          img srcset="../assets/images/projets/#{data.projetmontresandco.refsmall}" alt="#{data.projetmontresandco.introimgalt}" class="img"    
         div class="reference--content"
             h1 class="subtitle" = data.projetmontresandco.client
             h2 class="h3" = data.projetmontresandco.title
@@ -26,9 +29,13 @@ section class="content"
     / Jef Checkout
     article class="grid--two grid--margin panel--white"
       = link_to "projets/#{data.projetjefcheckout.link}" do
-        picture class="reference--img"
-          source srcset="assets/images/projets/#{data.projetjefcheckout.refbig2x}" media="(min-width: 1000px)"
-          img srcset="assets/images/projets/#{data.projetjefcheckout.refbig2x}" alt="#{data.projetjefcheckout.refalt}"
+        picture
+          source srcset="../assets/images/projets/#{data.projetjefcheckout.refbig}" media="only screen and ( min-width: 960px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetjefcheckout.refbig2x}" media="only screen and ( min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetjefcheckout.refmedium}" media="only screen and ( min-width: 700px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetjefcheckout.refmedium2x}" media="only screen and ( min-width: 700px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetjefcheckout.refsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          img srcset="../assets/images/projets/#{data.projetjefcheckout.refsmall}" alt="#{data.projetjefcheckout.introimgalt}" class="img"
         div class="reference--content"
             h1 class="subtitle" = data.projetjefcheckout.client
             h2 class="h3" = data.projetjefcheckout.title
@@ -36,9 +43,13 @@ section class="content"
     / Jef Application
     article class="grid--two grid--margin panel--white"
       = link_to "projets/#{data.projetjefapplication.link}" do
-        picture class="reference--img"
-          source srcset="assets/images/projets/#{data.projetjefapplication.refbig2x}" media="(min-width: 1000px)"
-          img srcset="assets/images/projets/#{data.projetjefapplication.refbig2x}" alt="#{data.projetjefapplication.refalt}"
+        picture
+          source srcset="../assets/images/projets/#{data.projetjefapplication.refbig}" media="only screen and ( min-width: 960px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetjefapplication.refbig2x}" media="only screen and ( min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetjefapplication.refmedium}" media="only screen and ( min-width: 700px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetjefapplication.refmedium2x}" media="only screen and ( min-width: 700px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetjefapplication.refsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          img srcset="../assets/images/projets/#{data.projetjefapplication.refsmall}" alt="#{data.projetjefapplication.introimgalt}" class="img"
         div class="reference--content"
             h1 class="subtitle" = data.projetjefapplication.client
             h2 class="h3" = data.projetjefapplication.title
@@ -46,9 +57,13 @@ section class="content"
     / Delcourt
     article class="grid--two grid--margin panel--white"
       = link_to "projets/#{data.projetdelcourt.link}" do
-        picture class="reference--img"
-          source srcset="assets/images/projets/#{data.projetdelcourt.refbig2x}" media="(min-width: 1000px)"
-          img srcset="assets/images/projets/#{data.projetdelcourt.refbig2x}" alt="#{data.projetdelcourt.refalt}"
+        picture
+          source srcset="../assets/images/projets/#{data.projetdelcourt.refbig}" media="only screen and ( min-width: 960px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetdelcourt.refbig2x}" media="only screen and ( min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetdelcourt.refmedium}" media="only screen and ( min-width: 700px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetdelcourt.refmedium2x}" media="only screen and ( min-width: 700px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetdelcourt.refsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          img srcset="../assets/images/projets/#{data.projetdelcourt.refsmall}" alt="#{data.projetdelcourt.introimgalt}" class="img"
         div class="reference--content"
             h1 class="subtitle" = data.projetdelcourt.client
             h2 class="h3" = data.projetdelcourt.title
@@ -56,9 +71,13 @@ section class="content"
     / Planète Oui
     article class="grid--two grid--margin panel--white"
       = link_to "projets/#{data.projetplaneteoui.link}" do
-        picture class="reference--img"
-          source srcset="assets/images/projets/#{data.projetplaneteoui.refbig2x}" media="(min-width: 1000px)"
-          img srcset="assets/images/projets/#{data.projetplaneteoui.refbig2x}" alt="#{data.projetplaneteoui.refalt}"
+        picture
+          source srcset="../assets/images/projets/#{data.projetplaneteoui.refbig}" media="only screen and ( min-width: 960px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetplaneteoui.refbig2x}" media="only screen and ( min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetplaneteoui.refmedium}" media="only screen and ( min-width: 700px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetplaneteoui.refmedium2x}" media="only screen and ( min-width: 700px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetplaneteoui.refsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          img srcset="../assets/images/projets/#{data.projetplaneteoui.refsmall}" alt="#{data.projetplaneteoui.introimgalt}" class="img"
         div class="reference--content"
             h1 class="subtitle" = data.projetplaneteoui.client
             h2 class="h3" = data.projetplaneteoui.title
@@ -66,9 +85,13 @@ section class="content"
     / La Redoute
     article class="grid--two grid--margin panel--white"
       = link_to "projets/#{data.projetlaredoute.link}" do
-        picture class="reference--img"
-          source srcset="assets/images/projets/#{data.projetlaredoute.refbig2x}" media="(min-width: 1000px)"
-          img srcset="assets/images/projets/#{data.projetlaredoute.refbig2x}" alt="#{data.projetlaredoute.refalt}"
+        picture
+          source srcset="../assets/images/projets/#{data.projetlaredoute.refbig}" media="only screen and ( min-width: 960px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetlaredoute.refbig2x}" media="only screen and ( min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetlaredoute.refmedium}" media="only screen and ( min-width: 700px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetlaredoute.refmedium2x}" media="only screen and ( min-width: 700px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetlaredoute.refsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          img srcset="../assets/images/projets/#{data.projetlaredoute.refsmall}" alt="#{data.projetlaredoute.introimgalt}" class="img"
         div class="reference--content"
             h1 class="subtitle" = data.projetlaredoute.client
             h2 class="h3" = data.projetlaredoute.title
@@ -76,9 +99,13 @@ section class="content"
     / Fmo
     article class="grid--two grid--margin panel--white"
       = link_to "projets/#{data.projetfrancemachinesoutils.link}" do
-        picture class="reference--img"
-          source srcset="assets/images/projets/#{data.projetfrancemachinesoutils.refbig2x}" media="(min-width: 1000px)"
-          img srcset="assets/images/projets/#{data.projetfrancemachinesoutils.refbig2x}" alt="#{data.projetfrancemachinesoutils.refalt}"
+        picture
+          source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refbig}" media="only screen and ( min-width: 960px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refbig2x}" media="only screen and ( min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refmedium}" media="only screen and ( min-width: 700px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refmedium2x}" media="only screen and ( min-width: 700px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          img srcset="../assets/images/projets/#{data.projetfrancemachinesoutils.refsmall}" alt="#{data.projetfrancemachinesoutils.introimgalt}" class="img"
         div class="reference--content"
             h1 class="subtitle" = data.projetfrancemachinesoutils.client
             h2 class="h3" = data.projetfrancemachinesoutils.title
@@ -86,9 +113,13 @@ section class="content"
     / Zukunfthaus
     article class="grid--two grid--margin panel--white"
       = link_to "projets/#{data.projetzukunfthaus.link}" do
-        picture class="reference--img"
-          source srcset="assets/images/projets/#{data.projetzukunfthaus.refbig2x}" media="(min-width: 1000px)"
-          img srcset="assets/images/projets/#{data.projetzukunfthaus.refbig2x}" alt="#{data.projetzukunfthaus.refalt}"
+        picture
+          source srcset="../assets/images/projets/#{data.projetzukunfthaus.refbig}" media="only screen and ( min-width: 960px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetzukunfthaus.refbig2x}" media="only screen and ( min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 960px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetzukunfthaus.refmedium}" media="only screen and ( min-width: 700px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetzukunfthaus.refmedium2x}" media="only screen and ( min-width: 700px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 700px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetzukunfthaus.refsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          img srcset="../assets/images/projets/#{data.projetzukunfthaus.refsmall}" alt="#{data.projetzukunfthaus.introimgalt}" class="img"
         div class="reference--content"
             h1 class="subtitle" = data.projetzukunfthaus.client
             h2 class="h3" = data.projetzukunfthaus.title

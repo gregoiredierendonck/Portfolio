@@ -15,16 +15,18 @@ section class="nav--projects"
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetlaredoute.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetlaredoute.refproject}" alt="#{data.projetlaredoute.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetlaredoute.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
+        source srcset="../assets/images/projets/#{data.projetlaredoute.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
+        img srcset="../assets/images/projets/#{data.projetlaredoute.refimgsmall}" alt="#{data.projetlaredoute.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetlaredoute.client
   = link_to "#{data.projetzukunfthaus.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetzukunfthaus.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetzukunfthaus.refproject}" alt="#{data.projetzukunfthaus.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetzukunfthaus.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
+        source srcset="../assets/images/projets/#{data.projetzukunfthaus.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
+        img srcset="../assets/images/projets/#{data.projetzukunfthaus.refimgsmall}" alt="#{data.projetzukunfthaus.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetzukunfthaus.client
         

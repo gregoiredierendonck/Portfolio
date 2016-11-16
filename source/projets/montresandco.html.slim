@@ -15,16 +15,18 @@ section class="nav--projects"
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetzukunfthaus.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetzukunfthaus.refproject}" alt="#{data.projetzukunfthaus.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetzukunfthaus.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
+        source srcset="../assets/images/projets/#{data.projetzukunfthaus.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
+        img srcset="../assets/images/projets/#{data.projetzukunfthaus.refimgsmall}" alt="#{data.projetzukunfthaus.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetzukunfthaus.client
   = link_to "#{data.projetjefcheckout.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetjefcheckout.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetjefcheckout.refproject}" alt="#{data.projetjefcheckout.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetjefcheckout.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
+        source srcset="../assets/images/projets/#{data.projetjefcheckout.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
+        img srcset="../assets/images/projets/#{data.projetjefcheckout.refimgsmall}" alt="#{data.projetjefcheckout.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetjefcheckout.client
         
@@ -46,7 +48,6 @@ section class="content"
           source srcset="../assets/images/projets/#{data.projetmontresandco.introimgmedium2x}" media="only screen and ( min-width: 600px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 600px) and ( min-device-pixel-ratio: 1.25)" class="img"
           source srcset="../assets/images/projets/#{data.projetmontresandco.introimgsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
           img srcset="../assets/images/projets/#{data.projetmontresandco.introimgsmall}" alt="#{data.projetmontresandco.introimgalt}" class="img"    
-      
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
         p class="intro center" = data.projetmontresandco.intro

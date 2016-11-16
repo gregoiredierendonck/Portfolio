@@ -15,16 +15,18 @@ section class="nav--projects"
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetjefcheckout.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetjefcheckout.refproject}" alt="#{data.projetjefcheckout.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetjefcheckout.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
+        source srcset="../assets/images/projets/#{data.projetjefcheckout.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
+        img srcset="../assets/images/projets/#{data.projetjefcheckout.refimgsmall}" alt="#{data.projetjefcheckout.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetjefcheckout.client
   = link_to "#{data.projetdelcourt.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetdelcourt.refproject}" media="(min-width: 950px)" class="img"
-        img srcset="../assets/images/projets/#{data.projetdelcourt.refproject}" alt="#{data.projetdelcourt.refalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetdelcourt.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
+        source srcset="../assets/images/projets/#{data.projetdelcourt.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
+        img srcset="../assets/images/projets/#{data.projetdelcourt.refimgsmall}" alt="#{data.projetdelcourt.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetdelcourt.client
         
