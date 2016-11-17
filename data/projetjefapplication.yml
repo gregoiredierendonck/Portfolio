@@ -46,14 +46,42 @@ texttwo:  |
   <br/>
   Un effort particulier a été apportée à la possibilité de réaliser une sélection de produits qui pourra être retrouvée
   après qu'un autre utilisateur ait utilisé l'application.
-imagetwobig2x: "http://placehold.it/518x518"
-imagetwobigalt: ""
-imagethreebig2x: "http://placehold.it/518x518"
-imagethreebigalt: ""
-imagefourbig2x: "http://placehold.it/518x518"
-imagefourbigalt: ""
-imagefivebig2x: "http://placehold.it/518x518"
-imagefivebigalt: ""
+
+imagetwobig2x: "jefapp-2-big@2x.jpg"
+imagetwobig: "jefapp-2-big.jpg"
+imagetwosmall2x: "jefapp-2-small@2x.jpg"
+imagetwosmall: "jefapp-2-small.jpg"
+imagetwoalt: "Aperçu de la page d'accueil de la borne intercative de Jef Chaussures"
+
+imagethreebig2x: "jefapp-3-big@2x.jpg"
+imagethreebig: "jefapp-3-big.jpg"
+imagethreesmall2x: "jefapp-3-small@2x.jpg"
+imagethreesmall: "jefapp-3-small.jpg"
+imagethreealt: "Aperçu de la page liste de la borne intercative de Jef Chaussures"
+
+imagefourbig2x: "jefapp-4-big@2x.jpg"
+imagefourbig: "jefapp-4-big.jpg"
+imagefoursmall2x: "jefapp-4-small@2x.jpg"
+imagefoursmall: "jefapp-4-small.jpg"
+imagefouralt: "Aperçu des filtres de la borne intercative de Jef Chaussures"
+
+imagefivebig2x: "jefapp-5-big@2x.jpg"
+imagefivebig: "jefapp-5-big.jpg"
+imagefivesmall2x: "jefapp-5-small@2x.jpg"
+imagefivesmall: "jefapp-5-small.jpg"
+imagefivealt: "Aperçu d'une page produit de la borne intercative de Jef Chaussures"
+
+imagesixbig2x: "jefapp-6-big@2x.jpg"
+imagesixbig: "jefapp-6-big.jpg"
+imagesixsmall2x: "jefapp-6-small@2x.jpg"
+imagesixsmall: "jefapp-6-small.jpg"
+imagesixalt: "Aperçu de la sélection d'une pointure de la borne intercative de Jef Chaussures"
+
+imagesevenbig2x: "jefapp-7-big@2x.jpg"
+imagesevenbig: "jefapp-7-big.jpg"
+imagesevensmall2x: "jefapp-7-small@2x.jpg"
+imagesevensmall: "jefapp-7-small.jpg"
+imagesevenalt: "Aperçu de l'envoi par email d'un produit de la borne intercative de Jef Chaussures"
 
 linktext: "Accéder au prototype"
 linkpath: "http://projets.gregoiredierendonck.fr/jef-application/index.html"
