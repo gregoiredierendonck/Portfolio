@@ -42,9 +42,13 @@ section class="content"
 
       div class="projects--primaryimg image-full" id="content"
         picture
-          source srcset="../assets/images/projets/#{data.projetplaneteoui.introimgbig2x}" media="(min-width: 950px)" class="img"
-          img srcset="../assets/images/projets/#{data.projetplaneteoui.introimgbig2x}" alt="#{data.projetplaneteoui.introimgalt}" class="img"
-      
+          source srcset="../assets/images/projets/#{data.projetplaneteoui.introimgbig}" media="only screen and ( min-width: 950px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 950px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetplaneteoui.introimgbig2x}" media="only screen and ( min-width: 950px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 950px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetplaneteoui.introimgmedium}" media="only screen and ( min-width: 600px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 600px) and ( max-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetplaneteoui.introimgmedium2x}" media="only screen and ( min-width: 600px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 600px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          source srcset="../assets/images/projets/#{data.projetplaneteoui.introimgsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+          img srcset="../assets/images/projets/#{data.projetplaneteoui.introimgsmall}" alt="#{data.projetplaneteoui.introimgalt}" class="img"    
+
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
         p class="intro center" = data.projetplaneteoui.intro

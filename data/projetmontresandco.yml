@@ -40,6 +40,8 @@ textone: |
   </ol>
 imageonebig2x: "mco-1-big@2x.jpg"
 imageonebig: "mco-1-big.jpg"
+imageonesmall2x: "mco-1-small@2x.jpg"
+imageonesmall: "mco-1-small.jpg"
 imageonealt: "Aperçu de l'ancienne page produit du site Montres & Co"
 
 titletwo: "Propositions d'améliorations"
@@ -59,6 +61,8 @@ texttwo: |
   </ol>
 imagetwobig2x: "mco-2-big@2x.jpg"
 imagetwobig: "mco-2-big.jpg"
+imagetwosmall2x: "mco-2-small@2x.jpg"
+imagetwosmall: "mco-2-small.jpg"
 imagetwoalt: "Aperçu de la nouvelle page produit optimisée du site Montres & Co"
 
 titlethree: "Évaluation des optimisations avec des tests A/B"

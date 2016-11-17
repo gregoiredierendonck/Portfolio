@@ -14,7 +14,12 @@ refimgbig: "delcourt-caps-big.jpg"
 refimgsmall: "caps-small.jpg"
 refimgalt: "Miniature du document d'audit de l'expérience utilisateur du site de Delcourt"
 
-introimgbig2x: "http://placehold.it/1200x500"
+introimgbig2x: "delcourt-intro-big@2x.jpg"
+introimgbig: "delcourt-intro-big.jpg"
+introimgmedium2x: "delcourt-intro-medium@2x.jpg"
+introimgmedium: "delcourt-intro-medium.jpg"
+introimgsmall2x: "delcourt-intro-small@2x.jpg"
+introimgsmall: "delcourt-intro-small.jpg"
 introimgalt: "Aperçu du document d'audit de l'expérience utilisateur du site de Delcourt"
 intro: |
   L'entreprise Delcourt, vendeur en ligne de produits d'entretiens pour les professionnels,
