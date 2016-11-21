@@ -53,8 +53,11 @@ texttwo: |
   L'ensemble des fonctionnalitées proposées par notre client a donc été agencé et ordonné
   au sein de pages simples à déchiffrer et à utiliser, dans lesquelles la navigation et
   la complétion de formulaire sont optimisés au maximum.
-imagetwobig2x: "http://placehold.it/1080x450"
-imagetwoalt: ""
+imagetwobig2x: "jefcheckout-2-big@2x.jpg"
+imagetwobig: "jefcheckout-2-big.jpg"
+imagetwosmall2x: "jefcheckout-2-small@2x.jpg"
+imagetwosmall: "jefcheckout-2-small.jpg"
+imagetwoalt: "Aperçu de différentez étapes du checkout de JEF Chaussures"
 
 titlethree: "Prototypage du nouveau checkout"
 textthree: |
