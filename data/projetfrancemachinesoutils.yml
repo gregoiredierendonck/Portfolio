@@ -37,8 +37,11 @@ textone: |
   Un système de management du site web, directement lié à la gestion des stocks a également été
   pensé, avec la possibilité de mettre des machines en avant, d'en masquer sur le site, d'afficher
   ou non leurs prix, de renseigner et de gérer les caractéristiques des machines...
-imageonebig2x: "http://placehold.it/518x450"
-imageonealt: ""
+imageonebig2x: "fmo-1-big@2x.jpg"
+imageonebig: "fmo-1-big.jpg"
+imageonesmall2x: "fmo-1-small@2x.jpg"
+imageonesmall: "fmo-1-small.jpg"
+imageonealt: "Aperçu de la page d'édition d'une machine de l'intranet de France Machines Outils"
 
 titletwo: "Suivi des processus de vente et des échanges avec le client"
 texttwo: |
@@ -47,8 +50,11 @@ texttwo: |
   réalisé directement dans l'outil, avec la possibilité de générer des courriers brandés, de
   créer des modèles de lettre par commerciaux, de voir si les emails adressés ont été lus ou non,
   de leurs assigner des statuts d'avancement...
-imagetwobig2x: "http://placehold.it/518x450"
-imagetwoalt: ""
+imagetwobig2x: "fmo-2-big@2x.jpg"
+imagetwobig: "fmo-2-big.jpg"
+imagetwosmall2x: "fmo-2-small@2x.jpg"
+imagetwosmall: "fmo-2-small.jpg"
+imagetwoalt: "Aperçu de la page d'édition d'un document de l'intranet de France Machines Outils"
 
 titlethree: "Communication interne"
 textthree: |
@@ -57,5 +63,8 @@ textthree: |
   à des clients, des machines ou des documents, en leurs assignants des statuts publics, privés ou
   partagés avec certains collaborateurs. Un système d'alertes partagées ou non a également été
   développé pour permettre de créer des rappels à des moments décisifs.
-imagethreebig2x: "http://placehold.it/518x450"
-imagethreealt: ""
+imagethreebig2x: "fmo-3-big@2x.jpg"
+imagethreebig: "fmo-3-big.jpg"
+imagethreesmall2x: "fmo-3-small@2x.jpg"
+imagethreesmall: "fmo-3-small.jpg"
+imagethreealt: "Aperçu de la page d'accueil de l'intranet de France Machines Outils"

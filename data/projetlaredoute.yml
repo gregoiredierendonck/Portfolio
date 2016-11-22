@@ -49,11 +49,14 @@ texttwo: |
   et les fonctionnalitées au sein des pages. Cet outil a permis d'identifier et de résoudre rapidement
   un certain nombre de problèmes sans être influencé par le style graphique étudié dans un second temps
   sur la base du wireframe.
+imagetwobig2x: "laredoute-2-big@2x.jpg"
+imagetwobig: "laredoute-2-big.jpg"
+imagetwosmall2x: "laredoute-2-small@2x.jpg"
+imagetwosmall: "laredoute-2-small.jpg"
+imagetwoalt: "Aperçu de différents wireframes du site de La Redoute"
 texttwolinktext: "Accéder au wireframe desktop"
 texttwolinkpath: "https://collaborate.uxpin.com/77e2b35e6d53db7539514600c74a71facd9c808c#/pages/20689427?mode=c"
 texttwolinktwotext: "Accéder au wireframe mobile"
 texttwolinktwopath: "https://collaborate.uxpin.com/f96d3849144881a347ddd00ffa1f98611bdfc140#/pages/21004552?mode=c"
 texttwolinkthreetext: "Visiter le site"
 texttwolinkthreepath: "http://www.laredoute-corporate.com/fr"
-imagetwobig2x: "http://placehold.it/1080x450"
-imagetwoalt: ""

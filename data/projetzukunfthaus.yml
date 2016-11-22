@@ -37,14 +37,38 @@ textone: |
   L'ensemble des interfaces a été optimisé de manière à en faciliter l'utilisation en
   situation de mouvement et dans des conditions d'attention diminuées.
 
-imageonebig2x: "http://placehold.it/518x518"
-imageonealt: ""
+imageonebig2x: "icr-1-big@2x.jpg"
+imageonebig: "icr-1-big.jpg"
+imageonesmall2x: "icr-1-small@2x.jpg"
+imageonesmall: "icr-1-small.jpg"
+imageonealt: "Aperçu de la page d'accueil d'application d'Innovation City Ruhr"
 
-imagetwobig2x: "http://placehold.it/518x518"
-imagetwoalt: ""
+imagetwobig2x: "icr-2-big@2x.jpg"
+imagetwobig: "icr-2-big.jpg"
+imagetwosmall2x: "icr-2-small@2x.jpg"
+imagetwosmall: "icr-2-small.jpg"
+imagetwoalt: "Aperçu de la page de présentation de la maison familiale"
 
-imagethreebig2x: "http://placehold.it/518x518"
-imagethreealt: ""
+imagethreebig2x: "icr-3-big@2x.jpg"
+imagethreebig: "icr-3-big.jpg"
+imagethreesmall2x: "icr-3-small@2x.jpg"
+imagethreesmall: "icr-3-small.jpg"
+imagethreealt: "Aperçu de la page de présentation de l'immeuble"
 
-imagefourbig2x: "http://placehold.it/518x518"
-imagefouralt: ""
+imagefourbig2x: "icr-4-big@2x.jpg"
+imagefourbig: "icr-4-big.jpg"
+imagefoursmall2x: "icr-4-small@2x.jpg"
+imagefoursmall: "icr-4-small.jpg"
+imagefouralt: "Aperçu d'un zoom sur une technologie utilisée"
+
+imagefivebig2x: "icr-5-big@2x.jpg"
+imagefivebig: "icr-5-big.jpg"
+imagefivesmall2x: "icr-5-small@2x.jpg"
+imagefivesmall: "icr-5-small.jpg"
+imagefivealt: "Aperçu de la liste complète des technologies utilisées"
+
+imagesixbig2x: "icr-6-big@2x.jpg"
+imagesixbig: "icr-6-big.jpg"
+imagesixsmall2x: "icr-6-small@2x.jpg"
+imagesixsmall: "icr-6-small.jpg"
+imagesixalt: "Aperçu de la liste complète des marques partenaires"
