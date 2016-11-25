@@ -57,7 +57,13 @@ imagetwobig2x: "jefcheckout-2-big@2x.jpg"
 imagetwobig: "jefcheckout-2-big.jpg"
 imagetwosmall2x: "jefcheckout-2-small@2x.jpg"
 imagetwosmall: "jefcheckout-2-small.jpg"
-imagetwoalt: "Aperçu de différentez étapes du checkout de JEF Chaussures"
+imagetwoalt: "Aperçu de 3 pages du checkout de JEF Chaussures"
+
+imagethreebig2x: "jefcheckout-3-big@2x.jpg"
+imagethreebig: "jefcheckout-3-big.jpg"
+imagethreesmall2x: "jefcheckout-3-small@2x.jpg"
+imagethreesmall: "jefcheckout-3-small.jpg"
+imagethreealt: "Aperçu des modes de paiement du checkout de JEF Chaussures"
 
 titlethree: "Prototypage du nouveau checkout"
 textthree: |

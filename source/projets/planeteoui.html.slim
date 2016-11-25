@@ -52,6 +52,29 @@ section class="content"
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
         p class="intro center" = data.projetplaneteoui.intro
+        
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--two grid--margin"
+          picture
+            source srcset="#{data.projetplaneteoui.imageonebig2x}" media="(min-width: 950px)" class="img"
+            img srcset="#{data.projetplaneteoui.imageonebig2x}" alt="#{data.projetplaneteoui.imageonealt}" class="img"
+        div class="grid--two grid--margin"
+          h2 = data.projetplaneteoui.titleone
+          p = data.projetplaneteoui.textone
+          
+      div class="grid panel--white big--padding no--border" 
+        div class="grid--one grid--margin center"
+          h2 class="center" = data.projetplaneteoui.titletwo
+          p = data.projetplaneteoui.texttwo
+        div class="grid--one grid--margin grid--marginbottom"
+          picture class="max900355"
+            source srcset="../assets/images/projets/#{data.projetplaneteoui.imagetwobig}" media="only screen and ( min-width: 900px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 900px) and ( max-device-pixel-ratio: 1.25)" class="img"
+            source srcset="../assets/images/projets/#{data.projetplaneteoui.imagetwobig2x}" media="only screen and ( min-width: 900px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 900px) and ( min-device-pixel-ratio: 1.25)" class="img"
+            source srcset="../assets/images/projets/#{data.projetplaneteoui.imagetwosmall2x}" media="only screen and ( min-width: 1px) and (-webkit-min-device-pixel-ratio: 2), only screen and ( min-width: 1px) and ( min-device-pixel-ratio: 2)" class="img"
+            img srcset="../assets/images/projets/#{data.projetplaneteoui.imagetwosmall}" alt="#{data.projetplaneteoui.imagetwoalt}" class="img"
+        div class="grid--one grid--margin center"
+          p = data.projetplaneteoui.textthree
+          = link_to "#{data.projetplaneteoui.texttwolinktext}", "#{data.projetplaneteoui.texttwolinkpath}", target:"_blank", class:"button--primary button--end"
       
       
     

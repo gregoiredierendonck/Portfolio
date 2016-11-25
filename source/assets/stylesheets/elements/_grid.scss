@@ -4,6 +4,10 @@
 
   .grid--one {
     width: 100%;
+    &.grid--margin {
+      margin-bottom: 30px;
+      &:last-of-type {margin-bottom: 0;}
+    }
   }
 
   .grid--two {
