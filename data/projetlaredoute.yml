@@ -68,6 +68,12 @@ imagefoursmall2x: "laredoute-4-small@2x.jpg"
 imagefoursmall: "laredoute-4-small.jpg"
 imagefouralt: "Aperçu de différents wireframes mobiles du site de La Redoute"
 
+imagefivebig2x: "laredoute-5-big@2x.jpg"
+imagefivebig: "laredoute-5-big.jpg"
+imagefivesmall2x: "laredoute-5-small@2x.jpg"
+imagefivesmall: "laredoute-5-small.jpg"
+imagefouralt: "Aperçu de différents écrans du site mobile de La Redoute"
+
 texttwolinktext: "Accéder au wireframe desktop"
 texttwolinkpath: "https://collaborate.uxpin.com/77e2b35e6d53db7539514600c74a71facd9c808c#/pages/20689427?mode=c"
 texttwolinktwotext: "Accéder au wireframe mobile"
