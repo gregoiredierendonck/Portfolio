@@ -26,8 +26,8 @@ competences:
     imagealt: "alt"
     subtitle: "User experience design"
     firsttitle: 'Étude de l’expérience utilisateur'
-    titleone: 'Étude de la nature, des besoins et des attentes de vos utilisateurs'
-    textone: "Basé sur des données chiffrées et sur vos connaissances existantes, j’établis une analyse de vos utilisateurs sur laquelle pourront se baser l’ensemble de vos équipes pour mettre au point des solutions plus performantes, dans le but de cibler la nature, les besoins, les attentes et les comportement de vos utilisateurs."
+    titleone: 'Analyse de la nature, des besoins et des attentes de vos utilisateurs'
+    textone: "Basé sur des données chiffrées, sur vos connaissances existantes et sur un ensemble de bonnes pratiques, j’établis une analyse de vos utilisateurs sur laquelle pourront se baser l’ensemble de vos équipes pour mettre au point des solutions plus performantes, dans le but de cibler la nature, les besoins, les attentes et les comportement de vos utilisateurs."
     titletwo: 'Organisation des contenus, architecture de l’information et sitemap'
     texttwo: "Étude de la manière dont vos utilisateurs vont naviguer au sein de votre site, grouper et connecter entre eux vos contenus de manière à y simplifier l’exploration et la recherche. Cette étude peut se concentrer uniquement sur la manière de présenter vos contenus à l’utilisateur, mais également sur la manière d’organiser vos produits au sein de votre catalogue."
   ui:
