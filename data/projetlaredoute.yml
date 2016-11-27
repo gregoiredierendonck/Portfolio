@@ -39,8 +39,11 @@ textone: |
   <br/>
   L'étude d'un sitemap a également été entreprise pour optimiser les manières de naviguer
   entre les différents contenus du site.
-imageonebig2x: "http://placehold.it/518x400"
-imageonealt: ""
+imageonebig2x: "laredoute-1-big@2x.jpg"
+imageonebig: "laredoute-1-big.jpg"
+imageonesmall2x: "laredoute-1-small@2x.jpg"
+imageonesmall: "laredoute-1-small.jpg"
+imageonealt: "Aperçu du sitemap du site de La Redoute"
 
 titletwo: "Wireframing du site final"
 texttwo: |
