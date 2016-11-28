@@ -34,8 +34,11 @@ textone:  |
   en ligne un modèle directement via l'application, sans pour autant empiéter sur le rôle de conseil des
   vendeurs en magasin, plus apte à orienter efficacement un client. Cette dernière option a donc été intégrée
   au projet sans être significativement mise en avant.
-imageonebig2x: "http://placehold.it/518x400"
-imageonebigalt: ""
+imageonebig2x: "jefapp-1-big@2x.jpg"
+imageonebig: "jefapp-1-big.jpg"
+imageonesmall2x: "jefapp-1-small@2x.jpg"
+imageonesmall: "jefapp-1-small.jpg"
+imageonealt: "Aperçu des wireframes de l'application de la borne interactive de JEF Chaussures"
 
 titletwo: "Conception de l'interface"
 texttwo:  |

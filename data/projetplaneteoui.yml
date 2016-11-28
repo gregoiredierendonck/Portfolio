@@ -30,8 +30,11 @@ intro: |
 titleone: "Optimisation de la page d'accueil grâce aux tests A/B"
 textone: |
   R
-imageonebig2x: "http://placehold.it/518x400"
-imageonealt: ""
+imageonebig2x: "planeteoui-1-big@2x.jpg"
+imageonebig: "planeteoui-1-big.jpg"
+imageonesmall2x: "planeteoui-1-small@2x.jpg"
+imageonesmall: "planeteoui-1-small.jpg"
+imageonealt: "Aperçu des documents de travail des tests A/B de Planète Oui"
 
 titletwo: "Optimisation du formulaire de souscription"
 texttwo: |

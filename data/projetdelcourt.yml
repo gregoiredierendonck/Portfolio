@@ -34,8 +34,11 @@ textone: |
   a été découpée en thèmes disctincts afin de déceler les principaux points d'accroches à optimiser
   en priorité. Une note globale a été apporté au site, permettant ainsi une comparaison
   directe avec ses concurrents.
-imageonebig2x: "http://placehold.it/518x400"
-imageonealt: ""
+imageonebig2x: "delcourt-1-big@2x.jpg"
+imageonebig: "delcourt-1-big.jpg"
+imageonesmall2x: "delcourt-1-small@2x.jpg"
+imageonesmall: "delcourt-1-small.jpg"
+imageonealt: "Aperçu de l'analyse globale du site de Delcourt"
 
 titletwo: "Priorisation des problèmes"
 texttwo: |
@@ -47,13 +50,19 @@ texttwo: |
   <br/>
   Le document de compte rendu de l'audit fourni a notre client contenait donc une priorisation des chantiers
   par thèmes ainsi qu'une priorisation globale, transverse à l'ensemble du site.
-imagetwobig2x: "http://placehold.it/518x400"
-imagetwoalt: ""
+imagetwobig2x: "delcourt-2-big@2x.jpg"
+imagetwobig: "delcourt-2-big.jpg"
+imagetwosmall2x: "delcourt-2-small@2x.jpg"
+imagetwosmall: "delcourt-2-small.jpg"
+imagetwoalt: "Aperçu de pages de l'audit livré à Delcourt"
 
 titlethree: "Proposition de solutions concrètes"
 textthree: |
   Pour chacun des points à optimiser relevés lors de l'analyse, une solution concrète a été proposée, accompagnée ou non
   d'un wireframe explicatif selon le cas. Ainsi, notre client a eu toutes les cartes en main pour mener à bien les
   optimisations recommandées.
-imagethreebig2x: "http://placehold.it/518x400"
-imagethreealt: ""
+imagethreebig2x: "delcourt-3-big@2x.jpg"
+imagethreebig: "delcourt-3-big.jpg"
+imagethreesmall2x: "delcourt-3-small@2x.jpg"
+imagethreesmall: "delcourt-3-small.jpg"
+imagethreealt: "Aperçu de wireframes du site de Delcourt"

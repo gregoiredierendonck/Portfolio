@@ -56,8 +56,10 @@ section class="content"
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
           picture
-            source srcset="#{data.projetjefcheckout.imageonebig2x}" media="(min-width: 950px)" class="img"
-            img srcset="#{data.projetjefcheckout.imageonebig2x}" alt="#{data.projetjefcheckout.imageonealt}" class="img"
+            source srcset="../assets/images/projets/#{data.projetjefcheckout.imageonebig}" media="only screen and ( min-width: 470px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 470px) and ( max-device-pixel-ratio: 1.25)" class="img"
+            source srcset="../assets/images/projets/#{data.projetjefcheckout.imageonebig2x}" media="only screen and ( min-width: 470px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 470px) and ( min-device-pixel-ratio: 1.25)" class="img"
+            source srcset="../assets/images/projets/#{data.projetjefcheckout.imageonesmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+            img srcset="../assets/images/projets/#{data.projetjefcheckout.imageonesmall}" alt="#{data.projetjefcheckout.imageonealt}" class="img" 
         div class="grid--two grid--margin"
           h2 = data.projetjefcheckout.titleone
           p = data.projetjefcheckout.textone

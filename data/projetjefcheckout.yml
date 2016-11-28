@@ -43,8 +43,11 @@ textone: |
   où l'utilisateur est plus impliqué dans le processus, d'autres où l'étape est découpée
   et intégrée de manière plus transparente à des moments où elle sera ressentie comme plus
   acceptable par l'utilisateur.
-imageonebig2x: "http://placehold.it/518x400"
-imageonealt: ""
+imageonebig2x: "jefcheckout-1-big@2x.jpg"
+imageonebig: "jefcheckout-1-big.jpg"
+imageonesmall2x: "jefcheckout-1-small@2x.jpg"
+imageonesmall: "jefcheckout-1-small.jpg"
+imageonealt: "Aperçu de l'étude de scénarios de checkout pour le site de JEF Chaussures"
 
 titletwo: "Conception du scénario retenu"
 texttwo: |

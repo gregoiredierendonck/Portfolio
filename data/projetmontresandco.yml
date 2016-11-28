@@ -98,5 +98,8 @@ textthreeend: |
   La nouvelle version, parce que plus performante, a été mise en place de manière définitive à la suite de ces tests.
 textthreeendlinktext: "Voir la page produit"
 textthreeendlinkpath: "https://www.montresandco.com/p/montre-tissot-t0356171605100.html"
-imagethreebig2x: "http://placehold.it/518x400"
-imagethreealt: ""
+imagethreebig2x: "mco-3-big@2x.jpg"
+imagethreebig: "mco-3-big.jpg"
+imagethreesmall2x: "mco-3-small@2x.jpg"
+imagethreesmall: "mco-3-small.jpg"
+imagethreealt: "Aperçu du roadmap des test A/B menés sur le site Montres & Co"

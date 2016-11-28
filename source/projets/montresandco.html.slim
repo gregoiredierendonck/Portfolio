@@ -77,8 +77,10 @@ section class="content"
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
           picture
-            source srcset="#{data.projetmontresandco.imagethreebig2x}" media="(min-width: 950px)" class="img"
-            img srcset="#{data.projetmontresandco.imagethreebig2x}" alt="#{data.projetmontresandco.imagethreealt}" class="img"
+            source srcset="../assets/images/projets/#{data.projetmontresandco.imagethreebig}" media="only screen and ( min-width: 470px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 470px) and ( max-device-pixel-ratio: 1.25)" class="img"
+            source srcset="../assets/images/projets/#{data.projetmontresandco.imagethreebig2x}" media="only screen and ( min-width: 470px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 470px) and ( min-device-pixel-ratio: 1.25)" class="img"
+            source srcset="../assets/images/projets/#{data.projetmontresandco.imagethreesmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
+            img srcset="../assets/images/projets/#{data.projetmontresandco.imagethreesmall}" alt="#{data.projetmontresandco.imagethreealt}" class="img" 
         div class="grid--two grid--margin"
           h2 = data.projetmontresandco.titlethree
           p = data.projetmontresandco.textthree
