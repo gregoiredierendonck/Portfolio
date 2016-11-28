@@ -34,7 +34,7 @@
 // Relativ to negativ margin-top (+40px)
 .competences {
   .content {.grid {&:last-of-type {padding-bottom: 150px;}}}
-  @media screen and (max-width: 750px) {.content {.grid {&:last-of-type {padding-bottom: 80px;}}}}
+  @media screen and (max-width: 750px) {.content {.grid {&:last-of-type {padding-bottom: 60px;}}}}
 }
 .profil {
   .profil--entries {.panel--white:last-of-type {padding-bottom: 120px;}}

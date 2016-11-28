@@ -69,7 +69,7 @@ section class="content"
           h2 class="center" = data.projetplaneteoui.titletwo
           p = data.projetplaneteoui.texttwo
         div class="grid--one grid--margin grid--marginbottom"
-          picture class="max900355"
+          picture
             source srcset="../assets/images/projets/#{data.projetplaneteoui.imagetwobig}" media="only screen and ( min-width: 900px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 900px) and ( max-device-pixel-ratio: 1.25)" class="img"
             source srcset="../assets/images/projets/#{data.projetplaneteoui.imagetwobig2x}" media="only screen and ( min-width: 900px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 900px) and ( min-device-pixel-ratio: 1.25)" class="img"
             source srcset="../assets/images/projets/#{data.projetplaneteoui.imagetwosmall2x}" media="only screen and ( min-width: 1px) and (-webkit-min-device-pixel-ratio: 2), only screen and ( min-width: 1px) and ( min-device-pixel-ratio: 2)" class="img"
@@ -77,8 +77,6 @@ section class="content"
         div class="grid--one grid--margin center"
           p = data.projetplaneteoui.textthree
           = link_to "#{data.projetplaneteoui.texttwolinktext}", "#{data.projetplaneteoui.texttwolinkpath}", target:"_blank", class:"button--primary button--end"
-      
-      
     
 section class="wrapper grid m-crossnavigation"
   h1 class="m-crossnavigation--title" = data.content.crossnavigation

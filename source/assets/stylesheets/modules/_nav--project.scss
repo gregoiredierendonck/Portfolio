@@ -140,12 +140,14 @@ $nav-projectsposition: 220px;
       .arrow {
         width: $nav-projectssize-small;
         height: $nav-projectssize-small;
-        box-shadow: 0 0 0 1px $primary;
+        box-shadow: none;
+        background-color: transparent;
       }
       .content {display: none;}
     }
   }
   @media screen and (max-width: 590px) {
-    margin-top: 30px;
+    margin-top: -10px;
+    margin-bottom: -10px;
   }
 }

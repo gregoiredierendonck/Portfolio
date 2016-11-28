@@ -13,7 +13,7 @@ body {
     position: absolute;
     top: $externborder;
     left: $externborder;
-    @media screen and (max-width: 820px) {width: calc(100% - (#{$externborder-xs} * 2)); top: $externborder-xs; left: $externborder-xs;}
+    @media screen and (max-width: 820px) {width: 100%; top: 0; left: 0;}
     z-index: 100;
     background-color: transparent;
     transition: background-color .2s ease-in-out;
@@ -38,7 +38,7 @@ body {
       top: $externborder;
       left: $externborder;
       padding: 0 0 $externborder 0;
-      @media screen and (max-width: 820px) {top: $externborder-xs; left: $externborder-xs; padding: 0 0 $externborder-xs 0;}
+      @media screen and (max-width: 820px) {top: 0; left: 0; padding: 10px;}
       background-color: $white;
       &:after {
         opacity: 1;
@@ -238,20 +238,20 @@ body {
     @media screen and (max-width: 820px) {
       &.menu--open {
         .menu-button {
-          top: calc(#{$headderpadding} + #{$externborder-xs});
-          right: calc(#{$headderpadding} + #{$externborder-xs});
+          top: calc(#{$headderpadding});
+          right: calc(#{$headderpadding});
         }
       }
     }
     @media screen and (max-width: 590px) {
       .wrapper {width: calc(100% - 30px);}
-      &.header--top {padding: 15px 0;}
+      &.header--top {padding: 15px 10px;}
       .menu-button {margin-right: 0;}
       &.menu--open {
         .menu-button {
           position: fixed;
-          top: calc(15px + #{$externborder-xs});
-          right: calc(15px + #{$externborder-xs});
+          top: 15px;
+          right: 25px;
         }
       }
       .header--logo {
