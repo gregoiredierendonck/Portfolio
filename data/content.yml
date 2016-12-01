@@ -1,5 +1,5 @@
 contactbox:
-  p: "Intéressé par mon profil&nbsp;? Je suis actuellement disponible&nbsp;!"
+  p: "Intéressé par mon profil&nbsp;? Des idées de collaboration&nbsp;?"
   cvlinktext: "Téléchargez mon CV"
   contactlinktext: "Contactez-moi"
   contactlinkpath: "contact.html"
@@ -17,7 +17,7 @@ homepage:
 competences:
   link: "competences.html"
   button: "Mes compétences"
-  description: "Les acquis et connaissances que je met en œuvre dans mon quotidien."
+  description: "Apprenez-en plus sur les savoir-faire et les processus que j'applique au quotidien"
   title: "Compétences"
   ux:
     imagebig2x: "competences-1-big@2x.jpg"
@@ -29,10 +29,26 @@ competences:
     imagealt: "Aperçu de personas et de user stories"
     subtitle: "User experience design"
     firsttitle: "Étude de l’expérience utilisateur"
-    titleone: "Analyse de la nature, des besoins et des attentes de vos utilisateurs"
-    textone: "Basé sur des données chiffrées, sur vos connaissances existantes et sur un ensemble de bonnes pratiques, j’établis une analyse de vos utilisateurs sur laquelle pourront se baser l’ensemble de vos équipes pour mettre au point des solutions plus performantes, dans le but de cibler la nature, les besoins, les attentes et les comportement de vos utilisateurs."
-    titletwo: "Organisation des contenus, architecture de l’information et sitemap"
-    texttwo: "Étude de la manière dont vos utilisateurs vont naviguer au sein de votre site, grouper et connecter entre eux vos contenus de manière à y simplifier l’exploration et la recherche. Cette étude peut se concentrer uniquement sur la manière de présenter vos contenus à l’utilisateur, mais également sur la manière d’organiser vos produits au sein de votre catalogue."
+    titleone: "Vous aider à comprendre vos utilisateurs pour mieux convertir"
+    textone: |
+      Afin de connaître précisemment la nature, les besoins, les attentes et les comportements de
+      vos utilisateurs, j'effectue sur vos solutions, par le biais d'outils externe (Solutions sur-mesure,
+      Google Analytics, AB Tasty, Clicktale, Kissmetrics...) un ensemble d'analyses permettant de déceler
+      les points de satisfaction et de friction rencontrés par des profils disctincts d'utilisateurs.
+      <br/>
+      <br/>
+      Pour chacun de ces points, je réalise un ensemble de tests A/B permettant de proposer des
+      solutions alternatives, en mesurant précisemment leurs efficacités ainsi que les impacts
+      collatéraux qu'elles pourraient éventuellement engendrer.
+    titletwo: "Organiser vos contenus et agencer votre message pour clarifier votre offre"
+    texttwo: |
+      Grâce à ma connaissance approfondie du web et du comportement des utilisateurs à son
+      encontre, je vous guide et vous conseille dans l'organisation de vos contenus et dans
+      la présentation de votre message, dans le but de permettre à chacun une expérience
+      plus positive sur vos solutions. De l'établissement de sitemaps (plans du site) à la
+      manière d'évoluer entre les différentes sections de votre site, de nombreux moyens sont
+      envisageables pour mieux guider vos utilisateurs
+      (<a href="/projets/laredoute.html">Consulter une étude de cas</a>).
   ui:
     imagebig2x: "competences-2-big@2x.jpg"
     imagebig: "competences-2-big.jpg"
@@ -43,10 +59,22 @@ competences:
     imagealt: "Aperçu de wireframes papiers"
     subtitle: "User interface design"
     firsttitle: "Conception d’interfaces performantes"
-    titleone: "Conception ergonomique et fonctionnelle des interfaces&nbsp;: wireframing"
-    textone: "Étude de l’organisation des fonctionnalités au sein d’interfaces claires et parlantes pour vos utilisateurs, dans lesquelles votre message et vos objectifs seront atteints plus facilement. L’utilisation de wireframes papiers ou interactifs vous permettra de mieux concevoir vos solutions et de réunir vos équipes autour d’un support favorisant l’étude fonctionnelle de votre solution."
-    titletwo: "Conception et prototypage de comportements avancés"
-    texttwo: "Étude du comportement de modules ou de pages spécifiques à l’aide de protoypes interactifs poussés réalisés directement en html / css ou via des outils tiers."
+    titleone: "Concevoir des interfaces plus efficaces et mieux adaptées à vos utilisateurs"
+    textone: |
+      En mettant à profit mes connaissances techniques, ma culture et mon goût de l'interface web,
+      j'étudie la meilleure manière d'agencer vos fonctionnalités et de naviguer au sein de vos solutions
+      grâce à des wireframes papiers ou interactifs (UXPin, Axure...). Ces wireframes, prenant en compte
+      les versions desktop, tablette et mobile de votre site, permettent ainsi l'étude approfondie de
+      l'organisation de vos pages sans être perturbé par des notions d'esthétiques étudiées dans un
+      second temps sur la base du travail effectué
+      (<a href="/projets/laredoute.html">Consulter une étude de cas</a>).
+    titletwo: "Expérimenter des composants d'interfaces sur mesure, faciles d'accès et réellement adaptés à votre besoin."
+    texttwo: |
+      Parce que parfois aucune solution connue n'est adaptée à votre besoin, il peut être bénéfique
+      de consacrer du temps à la conception d'un composant d'interface sur-mesure, accessible et compréhensible
+      pour vos utilisateurs. Je conçois, prototype et teste ces composants sur papier, directement en Html/Css/Js ou
+      grâce à des outils externes (Origami, Invision, Proto.io...) de manière à les optimiser au maximum et
+      à les confronter aux différentes parties prenantes avant leurs mises en place sur votre solution.
   audit:
     imagebig2x: "competences-3-big@2x.jpg"
     imagebig: "competences-3-big.jpg"
@@ -55,17 +83,27 @@ competences:
     imagesmall2x: "competences-3-small@2x.jpg"
     imagesmall: "competences-3-small.jpg"
     imagealt: "Aperçu d'un audit de l'expérience utilisateur"
-    subtitle: "Audit et conseil"
-    firsttitle: "Optimisation, audit et conseil"
-    titleone: "Audits de solution existantes"
-    textone: "Analyse approfondie de solutions existantes selon une grille de critères définis, ciblée par problèmatiques précises (navigation, catalogue, checkout, recherche ...). Pour chacune d’elles est allouée une note de performance UX et un document listant l’ensemble des points à améliorer est rédigé."
-    titletwo: "Préconisations d’évolutions à apporter"
-    texttwo: "Un document proposant un ensemble de chantiers à mettre en place pour améliorer significativement la santé UX de la solution est rédigé, et accompagné de wireframes des évolutions proposées."
-
+    subtitle: "Interventions ponctuelles"
+    firsttitle: "Conseil et audits"
+    titleone: "Analyser vos solutions et vous guider vers des méthodes plus rentables"
+    textone: |
+      Vous êtes désireux d'améliorer votre site, de convertir d'avantage ou de résoudre
+      un problème ciblé ? Je réalise une analyse approfondie de votre solution, basée sur
+      une grille de critères définis du respect des bonnes pratiques, afin de vous donner
+      les clefs nécessaires à son optimisation. Cette analyse, compréhensible par tous,
+      vous présentera les faiblesses et les points forts du site en place, vous guidera
+      sur les optimisations à mener en priorité, vous donnera des solutions concrètes
+      à mettre en place pour en améliorer l'efficacité
+      (<a href="/projets/delcourt.html">Consulter une étude de cas</a>).
+    titletwo: "Suivre vos évolutions et vous accompagner dans votre démarche d'optimisation continue"
+    texttwo: |
+      Je vous accompagne dans l'optimisation de l'expérience utilisateur de votre site en suivant
+      l'évolution des améliorations apportées à votre solution et en vous guidant dans son optimisation
+      continue, en vous apportant de nouvelles pistes de tests à mener ou d'analyses à réaliser.
 profil:
   link: "profil.html"
   button: "Mon profil"
-  description: "Les traits de personnalité, les centres d’intérêts qui constituent mon profil propre."
+  description: "Découvrez les acquis et convictions qui constituent ma personnalité propre"
   title: "Profil"
   profilentry:
     -
@@ -96,7 +134,7 @@ profil:
 references:
   link: "references.html"
   button: "Mes références"
-  description: "Quelques références sélectionnées pour vous donner une idée plus précise de mon travail."
+  description: "Visionnez quelques exemples de projets récents effectués en agence"
   title: "Références"
 
 contact:
