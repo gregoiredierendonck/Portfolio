@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
+	<rect fill="#FFFFFF" width="70" height="70"/>
+	<ellipse fill="none" stroke="#4990E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="34.603" cy="23.382" rx="13.154" ry="17.538"/>
+	<path fill="none" stroke="#4990E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M43.719,48.385c-1.007,3.625-5.279,5.41-9.164,5.41c-3.844,0-8.378-2.16-9.067-5.285"/>
+	<path fill="none" stroke="#4990E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M25.308,48.395c2.045,0,3.718-1.973,3.718-4.385v-4.577"/>
+	<path fill="none" stroke="#4990E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M40.18,39.433v4.577c0,2.412,1.673,4.385,3.718,4.385"/>
+	<polyline fill="none" stroke="#4990E2" stroke-width="2" stroke-miterlimit="10" points="43,48 58,50 58,61 11,61 11,50 26,48 "/>
+	<polyline fill="none" stroke="#4990E2" stroke-width="2" stroke-miterlimit="10" points="42.24,18.49 33.031,27.698 27.916,22.584
+		"/>
+</svg>
