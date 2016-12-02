@@ -1,9 +1,12 @@
 ---
-title: "404"
+title: "404&nbsp;&#45;&nbsp;erreur"
 description: ""
 keywords: ""
 changefreq: "monthly"
 priority: "0.4"
 ---
 
-h1 404
+div class="quatrecentquatre"
+  h1 = data.content.quatrecentquatre.title
+  p class="center" = data.content.quatrecentquatre.text
+  =link_to "#{data.content.quatrecentquatre.linktext}", "#{data.content.quatrecentquatre.linkpath}", class:"button--primary"

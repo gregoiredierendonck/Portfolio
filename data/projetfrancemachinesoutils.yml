@@ -22,9 +22,8 @@ introimgsmall2x: "fmo-intro-small@2x.jpg"
 introimgsmall: "fmo-intro-small.jpg"
 introimgalt: "Aperçu de 3 pages de l'interface d'administration de France Machines Outils"
 intro: |
-  Le groupe France Machines Outils, grande entreprise de vente de machines outils, avec plus
-  de 3800 machines en stock et 5 sites physiques en France et en Belgique, a souhaité mettre
-  en place un outil interne permettant de manager son site web, de communiquer en interne,
+  Le groupe France Machines Outils, grande entreprise de vente de machines outils, a souhaité
+  mettre en place un outil interne permettant de manager son site web, de communiquer en interne,
   de gérer ses stocks ou de suivre les processus de vente et les échanges avec ses clients.
 
 titleone: "Gestion des stocks et management du site web"

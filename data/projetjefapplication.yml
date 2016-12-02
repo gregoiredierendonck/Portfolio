@@ -22,10 +22,10 @@ introimgsmall2x: "jefapp-intro-small@2x.jpg"
 introimgsmall: "jefapp-intro-small.jpg"
 introimgalt: "Aperçu de l'interface de la borne interactive de Jef Chaussures"
 intro: |
-  La borne interactive de JEF Chaussures, installée au sein de ses boutiques physiques,
-  a pour but d'étendre l'offre présente en magasin. Ainsi, les clients ont la possibilité
-  de consulter et de commander via l'application un modèle indisponible en magasin.
-
+  La borne interactive de JEF Chaussures, installée au sein de boutiques physiques,
+  a pour but d'étendre l'offre présente en magasin en donnant la possibilité
+  aux clients de consulter et de commander via l'application un modèle indisponible
+  en magasin.
 titleone: "Définition du périmètre et des fonctionnalitées"
 textone:  |
   Le périmètre du projet a été étudié avec les différentes parties prenantes afin de définir les objectifs

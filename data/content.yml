@@ -1,5 +1,5 @@
 contactbox:
-  p: "Intéressé par mon profil&nbsp;? Des idées de collaboration&nbsp;?"
+  p: "Intéressé par mon profil&nbsp;? Prêt pour une collaboration&nbsp;?"
   cvlinktext: "Téléchargez mon CV"
   contactlinktext: "Contactez-moi"
   contactlinkpath: "contact.html"
@@ -62,7 +62,7 @@ competences:
     titleone: "Concevoir des interfaces plus efficaces et mieux adaptées à vos utilisateurs"
     textone: |
       En mettant à profit mes connaissances techniques, ma culture et mon goût de l'interface web,
-      j'étudie la meilleure manière d'agencer vos fonctionnalités et de naviguer au sein de vos solutions
+      j'étudie la meilleure manière d'agencer vos fonctionnalités et d'intéragir au sein de vos solutions
       grâce à des wireframes papiers ou interactifs (UXPin, Axure...). Ces wireframes, prenant en compte
       les versions desktop, tablette et mobile de votre site, permettent ainsi l'étude approfondie de
       l'organisation de vos pages sans être perturbé par des notions d'esthétiques étudiées dans un
@@ -103,7 +103,7 @@ competences:
 profil:
   link: "profil.html"
   button: "Mon profil"
-  description: "Découvrez les acquis et convictions qui constituent ma personnalité propre"
+  description: "Découvrez les forces et convictions qui constituent ma personnalité propre"
   title: "Profil"
   profilentry:
     -
@@ -122,8 +122,8 @@ profil:
     -
       title: "Une connaissance technique approfondie"
       text: |
-        Apprises de manière autodidacte, je maîtrise parfaitement les techniques Html/Css/Js,
-        qui me passionnent réellement. Ces connaissances me permettent chaque jour de concevoir
+        Je maîtrise parfaitement et suis passionné par les techniques Html, Css
+        et Javascript. Ces connaissances me permettent chaque jour de concevoir
         des solutions plus modernes et évolutives.
       icon: "icon-technique.svg"
     -
@@ -131,21 +131,22 @@ profil:
       text: |
         Possédant une motivation constante pour les projets auxquels je participe, je possède
         un goût et des capacités naturelles à échanger, à partager et à organiser le travail
-        en équipe afin que chacun puisse apporter avec passion sa pierre à l'édifice.
+        en équipe afin que chacun puisse y apporter son expertise propre.
       icon: "icon-organisation.svg"
     -
       title: "Un besoin de découverte et d’ouverture des compétences"
       text: |
         Je possède une soif de connaissances sans cesse grandissante, et n'envisage pas mon
-        avenir sans enrichir celle-ci d'expériences nouvelles. Bien qu'étant très rigoureux
-        dans l'atteinte de mes objectifs, je me plaît à m'imaginer un avenir plein de nouveaux défits.
+        avenir sans enrichir celle-ci d'expériences nouvelles. Très rigoureux et désireux
+        d'atteindre toujours mes objectifs, je me plaît également à m'imaginer un avenir
+        plein de nouveaux défits.
       icon: "icon-decouverte.svg"
     -
       title: "Un profil social, dynamique et constamment motivé"
       text: |
         Je partage avec conviction mon dynamisme et ma motivation au quotidien, j'apporte
-        beaucoup d'importance et possède un goût prononcé pour les échanges humains, parce que mon métier
-        est pour moi avant tout une passion que j'aime transmettre et partager.
+        beaucoup d'importance et possède un goût prononcé pour les échanges humains, parce que
+        mon métier est une passion que j'aime transmettre et partager.
       icon: "icon-motivation.svg"
 
 references:
@@ -165,3 +166,10 @@ contact:
   cv:
     title: "Vous voulez en apprendre plus sur moi&nbsp;?"
     button: "Téléchargez mon CV"
+
+quatrecentquatre:
+  title: "Oupsssss&nbsp!"
+  text: |
+    La page demandée n'existe plus...
+  linktext: "Retourner à l'accueil du site"
+  linkpath: "index.html"
