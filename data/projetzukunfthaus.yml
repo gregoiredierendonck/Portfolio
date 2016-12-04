@@ -24,11 +24,11 @@ introimgalt: "Aperçu d'une page de l'application Zukunfthaus d'Innovation City 
 intro: |
   Zukunfthaus est le nom d'une application tablette développée par l'entreprise Innovation
   City Ruhr, distribuée aux visiteurs d'un salon de l'habitat écologique en Allemagne,
-  présentant au public les technologies utilisées dans des habitats types sélectionnés.
+  présentant au public les technologies utilisées dans des habitats-types sélectionnés.
 
 titleone: "Conception de l'interface"
 textone: |
-  L'interface a été pensée pour pouvoir naviguer de manière ludique au travers de vues 3D de
+  L'interface a été conçue pour pouvoir naviguer de manière ludique au travers de vues 3D de
   bâtiments sur lesquels sont représentés les différentes technologies utilisées.
   Un simple clic sur ces points permet d'obtenir des informations sur la nature de la technologie,
   mais également sur la manière de l'installer et de se la procurer.

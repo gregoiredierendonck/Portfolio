@@ -23,8 +23,8 @@ introimgsmall: "mco-intro-small.jpg"
 introimgalt: "Aperçu de la page produit de Montres & Co"
 intro: |
   Dans le cadre de l'optimisation continue du site ecommerce Montres&nbsp;&#38;&nbsp;Co,
-  une attention particulière a été apportée à la page produit.
-  Plusieurs améliorations y ont été apportées successivement
+  une attention particulière a été portée à la page produit.
+  Plusieurs améliorations y ont été ajoutées successivement
   et évaluées grâce à la mise en place de tests A/B.
 
 titleone: "Analyse de la solution existante"
@@ -49,15 +49,15 @@ texttwo: |
   Afin de pallier ces problèmes, un certain nombre d’améliorations à été proposée&nbsp;:
   <ol class="list">
     <li>Les coloris disponibles sont placés au-dessus du bouton d’ajout au panier
-    et la présentation sous forme de miniature est conservée.</li>
+    et la présentation sous forme de miniatures est conservée.</li>
     <li>Les tailles disponibles, pour plus de clarté, sont présentées sous forme de texte (diamètre en mm),
     au-dessus du bouton d’ajout au panier.</li>
-    <li>Un lien permettant d’accéder directement au détail des caractéristiques et de la description
+    <li>Un lien permettant d’accéder directement au détail des caractéristiques
     est mis en avant avant le bouton d’ajout au panier.</li>
     <li>Le cross-selling est remonté directement sous le bouton d’ajout au panier,
-    en pleine largeure, à la place des éléments déplacés.</li>
+    en pleine largeur, à la place des éléments déplacés.</li>
     <li>Puisque repoussée dans la page, la zone de la description et des caractéristiques sont redesignées
-    pour en simplifier la lecture, et un bouton d’ajout au panier est ajouté à la zone.</li>
+    pour en simplifier la lecture, et un bouton d’ajout au panier y est ajouté.</li>
   </ol>
 imagetwobig2x: "mco-2-big@2x.jpg"
 imagetwobig: "mco-2-big.jpg"
@@ -67,9 +67,10 @@ imagetwoalt: "Aperçu de la nouvelle page produit optimisée du site Montres & C
 
 titlethree: "Évaluation des optimisations avec des tests A/B"
 textthree: |
-  Un roadmap a été rédigé de manière à mettre en place successivement et dans un ordre logique les différentes améliorations,
-  dont les résultats ont été évalués grâce à la mise en place de tests A/B. Il a ainsi été possible d'apprécier au fur
-  et à mesure l'impact des modifications, et de réévaluer la cohérence des tests suivants.
+  Un roadmap a été rédigé de manière à mettre en œuvre successivement et dans un ordre logique
+  les différentes améliorations, dont les résultats ont été évalués grâce aux tests A/B.
+  Il a ainsi été possible d'apprécier au fur et à mesure l'impact de ces modifications, 
+  et de réévaluer la cohérence des tests suivants.
   <br/><br/>
   Pour chacun des tests, plusieurs KPI ont été définis afin d’observer le résultat des tests
   sous différents angles et de cibler leurs effets de bords éventuels.

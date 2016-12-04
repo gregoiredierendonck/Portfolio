@@ -22,16 +22,16 @@ introimgsmall2x: "delcourt-intro-small@2x.jpg"
 introimgsmall: "delcourt-intro-small.jpg"
 introimgalt: "Aperçu du document d'audit de l'expérience utilisateur du site de Delcourt"
 intro: |
-  L'entreprise Delcourt, vendeur en ligne de produits d'entretiens pour les professionnels,
+  L'entreprise Delcourt, vendeur en ligne de produits d'entretien pour les professionnels,
   a souhaité être conseillé dans l'optimisation de l'expérience utilisateur de son site web.
   Un audit a été mené sur la solution pour en déceler les points faibles et les prioriser
   selon l'impact négatif sur l'utilisateur.
 
 titleone: "Analyse de la solution existante"
 textone: |
-  Une analyse du site en place a été menée grâce à un outil développé en interne.
+  Une analyse du site a été menée grâce à un outil développé en interne.
   Cette analyse, basée sur un ensemble de questions regroupant bon sens et bonnes pratiques,
-  a été découpée en thèmes disctincts afin de déceler les principaux points d'accroches à optimiser
+  a été découpée en thèmes disctincts, afin de déceler les principaux points d'accroche à optimiser
   en priorité. Une note globale a été apporté au site, permettant ainsi une comparaison
   directe avec ses concurrents.
 imageonebig2x: "delcourt-1-big@2x.jpg"
@@ -43,13 +43,13 @@ imageonealt: "Aperçu de l'analyse globale du site de Delcourt"
 titletwo: "Priorisation des problèmes"
 texttwo: |
   Un travail plus approfondi a ensuite été mené sur chaque grand thème abordé dans l'analyse
-  globale du site. Ainsi, les différents points d'accroches ont été identifiés précisemments, expliqués
-  et accompagnés d'une note selon son impact sur l'expérience utilisateur du site, de manière à pouvoir
-  prioriser les chantiers à mener dans le futur.
+  globale du site. Ainsi, les différents points d'accroche ont été identifiés précisemment, expliqués
+  et accompagnés d'une note selon leur impact sur l'expérience utilisateur, de manière à pouvoir
+  prioriser les chantiers à mener.
   <br/>
   <br/>
-  Le document de compte rendu de l'audit fourni a notre client contenait donc une priorisation des chantiers
-  par thèmes ainsi qu'une priorisation globale, transverse à l'ensemble du site.
+  Le document de compte-rendu de l'audit fourni à notre client contenait donc une priorisation des chantiers
+  par thèmes ainsi qu'une priorisation globale, transversale à l'ensemble du site.
 imagetwobig2x: "delcourt-2-big@2x.jpg"
 imagetwobig: "delcourt-2-big.jpg"
 imagetwosmall2x: "delcourt-2-small@2x.jpg"

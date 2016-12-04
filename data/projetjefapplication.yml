@@ -23,17 +23,16 @@ introimgsmall: "jefapp-intro-small.jpg"
 introimgalt: "Aperçu de l'interface de la borne interactive de Jef Chaussures"
 intro: |
   La borne interactive de JEF Chaussures, installée au sein de boutiques physiques,
-  a pour but d'étendre l'offre présente en magasin en donnant la possibilité
+  a pour but d'étendre l'offre présente, en donnant la possibilité
   aux clients de consulter et de commander via l'application un modèle indisponible
   en magasin.
-titleone: "Définition du périmètre et des fonctionnalitées"
+titleone: "Définition du périmètre et des fonctionnalités"
 textone:  |
   Le périmètre du projet a été étudié avec les différentes parties prenantes afin de définir les objectifs
-  de l'application. Le but premier étant bien entendu la possibilité de consulter l'ensemble du catalogue
-  de notre client, y compris les modèles indisponibles en magasin. Le but second étant de pouvoir commander
+  de l'application. Le but premier a été bien entendu la possibilité de consulter l'ensemble du catalogue
+  du client, y compris les modèles indisponibles en magasin. Le but second a été de pouvoir commander
   en ligne un modèle directement via l'application, sans pour autant empiéter sur le rôle de conseil des
-  vendeurs en magasin, plus apte à orienter efficacement un client. Cette dernière option a donc été intégrée
-  au projet sans être significativement mise en avant.
+  vendeurs en magasin.
 imageonebig2x: "jefapp-1-big@2x.jpg"
 imageonebig: "jefapp-1-big.jpg"
 imageonesmall2x: "jefapp-1-small@2x.jpg"
@@ -43,11 +42,11 @@ imageonealt: "Aperçu des wireframes de l'application de la borne interactive de
 titletwo: "Conception de l'interface"
 texttwo:  |
   Les interfaces du projet ont été étudiées pour une manipulation publique dans un contexte d'utilisation au
-  confort amoindri, en prenant soin de mettre en place des systèmes de navigation compréhensibles par tous, avec
+  confort amoindri, en prenant soin d'instaurer des systèmes de navigation compréhensibles par tous, avec
   des éléments cliquables faciles d'accès et rapidement repérables.
   <br/>
   <br/>
-  Un effort particulier a été apportée à la possibilité de réaliser une sélection de produits qui pourra être retrouvée
+  Un effort particulier a été apporté à la possibilité de réaliser une sélection de produits qui pourra être retrouvée
   après qu'un autre utilisateur ait utilisé l'application.
 
 imagetwobig2x: "jefapp-2-big@2x.jpg"

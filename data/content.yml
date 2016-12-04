@@ -32,22 +32,21 @@ competences:
     titleone: "Vous aider à comprendre vos utilisateurs pour mieux convertir"
     textone: |
       Afin de connaître précisemment la nature, les besoins, les attentes et les comportements de
-      vos utilisateurs, j'effectue sur vos solutions, par le biais d'outils externe (Solutions sur-mesure,
+      vos utilisateurs, j'effectue sur vos solutions, par le biais d'outils externes (Solutions sur-mesure,
       Google Analytics, AB Tasty, Clicktale, Kissmetrics...) un ensemble d'analyses permettant de déceler
       les points de satisfaction et de friction rencontrés par des profils disctincts d'utilisateurs.
       <br/>
       <br/>
       Pour chacun de ces points, je réalise un ensemble de tests A/B permettant de proposer des
-      solutions alternatives, en mesurant précisemment leurs efficacités ainsi que les impacts
+      solutions alternatives, en mesurant précisemment leur efficacité ainsi que les impacts
       collatéraux qu'elles pourraient éventuellement engendrer.
     titletwo: "Organiser vos contenus et agencer votre message pour clarifier votre offre"
     texttwo: |
-      Grâce à ma connaissance approfondie du web et du comportement des utilisateurs à son
-      encontre, je vous guide et vous conseille dans l'organisation de vos contenus et dans
-      la présentation de votre message, dans le but de permettre à chacun une expérience
-      plus positive sur vos solutions. De l'établissement de sitemaps (plans du site) à la
+      Grâce à ma connaissance approfondie du web et du comportement des utilisateurs,
+      je vous guide et vous conseille dans l'organisation de vos contenus et dans
+      la présentation de votre message. De l'établissement de sitemaps (plans du site) à la
       manière d'évoluer entre les différentes sections de votre site, de nombreux moyens sont
-      envisageables pour mieux guider vos utilisateurs
+      envisagés pour mieux guider vos utilisateurs
       (<a href="/projets/laredoute.html">Consulter une étude de cas</a>).
   ui:
     imagebig2x: "competences-2-big@2x.jpg"
@@ -62,19 +61,18 @@ competences:
     titleone: "Concevoir des interfaces plus efficaces et mieux adaptées à vos utilisateurs"
     textone: |
       En mettant à profit mes connaissances techniques, ma culture et mon goût de l'interface web,
-      j'étudie la meilleure manière d'agencer vos fonctionnalités et d'intéragir au sein de vos solutions
+      j'étudie la meilleure manière d'agencer vos fonctionnalités et d'interagir au sein de vos solutions
       grâce à des wireframes papiers ou interactifs (UXPin, Axure...). Ces wireframes, prenant en compte
       les versions desktop, tablette et mobile de votre site, permettent ainsi l'étude approfondie de
       l'organisation de vos pages sans être perturbé par des notions d'esthétiques étudiées dans un
       second temps sur la base du travail effectué
       (<a href="/projets/laredoute.html">Consulter une étude de cas</a>).
-    titletwo: "Expérimenter des composants d'interfaces sur mesure, faciles d'accès et réellement adaptés à votre besoin."
+    titletwo: "Expérimenter des composants d'interface sur mesure, faciles d'accès et réellement adaptés à votre besoin."
     texttwo: |
-      Parce que parfois aucune solution connue n'est adaptée à votre besoin, il peut être bénéfique
-      de consacrer du temps à la conception d'un composant d'interface sur-mesure, accessible et compréhensible
+      Parce que parfois aucune solution connue n'est adaptée à votre besoin, il peut être efficace
+      de consacrer du temps à la conception d'un composant d'interface, accessible et compréhensible
       pour vos utilisateurs. Je conçois, prototype et teste ces composants sur papier, directement en Html/Css/Js ou
-      grâce à des outils externes (Origami, Invision, Proto.io...) de manière à les optimiser au maximum et
-      à les confronter aux différentes parties prenantes avant leurs mises en place sur votre solution.
+      grâce à des outils externes (Origami, Invision, Proto.io...).
   audit:
     imagebig2x: "competences-3-big@2x.jpg"
     imagebig: "competences-3-big.jpg"
@@ -87,29 +85,29 @@ competences:
     firsttitle: "Conseil et audits"
     titleone: "Analyser vos solutions et vous guider vers des méthodes plus rentables"
     textone: |
-      Vous êtes désireux d'améliorer votre site, de convertir d'avantage ou de résoudre
+      Vous êtes désireux d'améliorer votre site, de convertir davantage ou de résoudre
       un problème ciblé ? Je réalise une analyse approfondie de votre solution, basée sur
       une grille de critères définis du respect des bonnes pratiques, afin de vous donner
       les clefs nécessaires à son optimisation. Cette analyse, compréhensible par tous,
-      vous présentera les faiblesses et les points forts du site en place, vous guidera
-      sur les optimisations à mener en priorité, vous donnera des solutions concrètes
-      à mettre en place pour en améliorer l'efficacité
+      vous présentera les faiblesses et les points forts du site en place, vous présentera
+      les optimisations à mener en priorité et vous donnera des solutions concrètes
+      à mettre en œuvre pour en améliorer l'efficacité
       (<a href="/projets/delcourt.html">Consulter une étude de cas</a>).
     titletwo: "Suivre vos évolutions et vous accompagner dans votre démarche d'optimisation continue"
     texttwo: |
-      Je vous accompagne dans l'optimisation de l'expérience utilisateur de votre site en suivant
-      l'évolution des améliorations apportées à votre solution et en vous guidant dans son optimisation
-      continue, en vous apportant de nouvelles pistes de tests à mener ou d'analyses à réaliser.
+      Je vous accompagne dans l'optimisation de l'expérience utilisateur de votre site : je suis
+      l'évolution des améliorations apportées à votre solution, vous guide dans son optimisation
+      continue en vous apportant de nouvelles pistes de tests à mener ou d'analyses à réaliser.
 profil:
   link: "profil.html"
   button: "Mon profil"
-  description: "Découvrez les forces et convictions qui constituent ma personnalité propre"
+  description: "Découvrez les forces et convictions qui me caractérisent"
   title: "Profil"
   profilentry:
     -
       title: "Une passion dévorante pour le web"
       text: |
-        J'ai toujours voué une grande passion au web, domaine dans lequel j'évolue avec ferveur
+        Je voue depuis toujours une grande passion pour le web, domaine dans lequel j'évolue avec ferveur
         depuis plus de 7 annèes à des postes divers en agence, chez l'annonceur ou en tant
         qu'indépendant.
       icon: "icon-passion.svg"
@@ -117,36 +115,34 @@ profil:
       title: "Un intérêt constant pour l'expérience utilisateur"
       text: |
         Passionné d'étude des comportements, d'ergonomie, d'accessibilité et de design d'interface,
-        j'ai toujours pensé mon métier en plaçant l'utilisateur au cœur même de la conception.
+        je pense mon métier en plaçant l'utilisateur au cœur même de la conception.
       icon: "icon-ux.svg"
     -
-      title: "Une connaissance technique approfondie"
+      title: "Une expertise technique approfondie"
       text: |
-        Je maîtrise parfaitement et suis passionné par les techniques Html, Css
+        J'ai développé une expertise des techniques Html, Css
         et Javascript. Ces connaissances me permettent chaque jour de concevoir
         des solutions plus modernes et évolutives.
       icon: "icon-technique.svg"
     -
-      title: "Des capacités d’organisation et de travail en équipe"
+      title: "Des capacités de travail en équipe et de management"
       text: |
-        Possédant une motivation constante pour les projets auxquels je participe, je possède
-        un goût et des capacités naturelles à échanger, à partager et à organiser le travail
-        en équipe afin que chacun puisse y apporter son expertise propre.
+        Toujours motivé par les projets auxquels je participe, j'ai le goût et
+        les capacités pour échanger, pour partager et pour organiser le travail
+        en équipe.
       icon: "icon-organisation.svg"
     -
-      title: "Un besoin de découverte et d’ouverture des compétences"
+      title: "Un besoin de découverte et d’évolution"
       text: |
-        Je possède une soif de connaissances sans cesse grandissante, et n'envisage pas mon
-        avenir sans enrichir celle-ci d'expériences nouvelles. Très rigoureux et désireux
-        d'atteindre toujours mes objectifs, je me plaît également à m'imaginer un avenir
-        plein de nouveaux défits.
+        J'ai soif de nouvelles découvertes et n'envisage pas mon avenir sans enrichir
+        celui-ci d'expériences nouvelles. Je me plaît à m'imaginer un futur plein de
+        nouveaux défits.
       icon: "icon-decouverte.svg"
     -
-      title: "Un profil social, dynamique et constamment motivé"
+      title: "Un profil sociable, dynamique et constamment motivé"
       text: |
-        Je partage avec conviction mon dynamisme et ma motivation au quotidien, j'apporte
-        beaucoup d'importance et possède un goût prononcé pour les échanges humains, parce que
-        mon métier est une passion que j'aime transmettre et partager.
+        Je possède un goût prononcé pour les échanges humains. Je transmet à tous
+        mon dynamisme et ma motivation au quotidien.
       icon: "icon-motivation.svg"
 
 references:
