@@ -22,7 +22,7 @@ introimgsmall2x: "mco-intro-small@2x.jpg"
 introimgsmall: "mco-intro-small.jpg"
 introimgalt: "Aperçu de la page produit de Montres & Co"
 intro: |
-  Dans le cadre de l'optimisation continue du site ecommerce Montres&nbsp;&#38;&nbsp;Co,
+  Dans le cadre de l'optimisation continue du site e-commerce Montres&nbsp;&#38;&nbsp;Co,
   une attention particulière a été portée à la page produit.
   Plusieurs améliorations y ont été ajoutées successivement
   et évaluées grâce à la mise en place de tests A/B.
@@ -69,7 +69,7 @@ titlethree: "Évaluation des optimisations avec des tests A/B"
 textthree: |
   Un roadmap a été rédigé de manière à mettre en œuvre successivement et dans un ordre logique
   les différentes améliorations, dont les résultats ont été évalués grâce aux tests A/B.
-  Il a ainsi été possible d'apprécier au fur et à mesure l'impact de ces modifications, 
+  Il a ainsi été possible d'apprécier au fur et à mesure l'impact de ces modifications,
   et de réévaluer la cohérence des tests suivants.
   <br/><br/>
   Pour chacun des tests, plusieurs KPI ont été définis afin d’observer le résultat des tests

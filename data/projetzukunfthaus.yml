@@ -29,7 +29,7 @@ intro: |
 titleone: "Conception de l'interface"
 textone: |
   L'interface a été conçue pour pouvoir naviguer de manière ludique au travers de vues 3D de
-  bâtiments sur lesquels sont représentés les différentes technologies utilisées.
+  bâtiments sur lesquels sont représentées les différentes technologies utilisées.
   Un simple clic sur ces points permet d'obtenir des informations sur la nature de la technologie,
   mais également sur la manière de l'installer et de se la procurer.
   <br/>

@@ -34,7 +34,7 @@ competences:
       Afin de connaître précisemment la nature, les besoins, les attentes et les comportements de
       vos utilisateurs, j'effectue sur vos solutions, par le biais d'outils externes (Solutions sur-mesure,
       Google Analytics, AB Tasty, Clicktale, Kissmetrics...) un ensemble d'analyses permettant de déceler
-      les points de satisfaction et de friction rencontrés par des profils disctincts d'utilisateurs.
+      les points de satisfaction et de friction rencontrés par des profils distincts d'utilisateurs.
       <br/>
       <br/>
       Pour chacun de ces points, je réalise un ensemble de tests A/B permettant de proposer des
@@ -135,13 +135,13 @@ profil:
       title: "Un besoin de découverte et d’évolution"
       text: |
         J'ai soif de nouvelles découvertes et n'envisage pas mon avenir sans enrichir
-        celui-ci d'expériences nouvelles. Je me plaît à m'imaginer un futur plein de
-        nouveaux défits.
+        celui-ci d'expériences nouvelles. Je me plais à m'imaginer un futur plein de
+        nouveaux défis.
       icon: "icon-decouverte.svg"
     -
       title: "Un profil sociable, dynamique et constamment motivé"
       text: |
-        Je possède un goût prononcé pour les échanges humains. Je transmet à tous
+        Je possède un goût prononcé pour les échanges humains. Je transmets à tous
         mon dynamisme et ma motivation au quotidien.
       icon: "icon-motivation.svg"
 
