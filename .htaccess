@@ -2,8 +2,8 @@
    # Enable URL rewriting
    Options +FollowSymlinks
    RewriteEngine On
-   RewriteCond %{REQUEST_URI} ^(.*)\.html$
-   RewriteRule ^.*\.html$ %1.php [L]
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteRule ^([^\.]+)$ $1.html [NC,L]
    RewriteCond %{HTTP_HOST} ^gregoiredierendonck.fr$ [OR]
    RewriteCond %{HTTP_HOST} ^www.gregoiredierendonck.fr$
 </IfModule>
