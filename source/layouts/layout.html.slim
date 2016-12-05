@@ -8,6 +8,10 @@ html lang="#{data.settings.site.i18n}"
         title="#{current_page.data.title}"
         meta name="description" content="#{current_page.data.description}"
         meta name="keywords" content="#{current_page.data.keywords}"
+        - if current_page.data.index_options == 'no_follow'
+          meta name="robots" content="noindex, nofollow"
+        - else
+          meta name="robots" content="index, follow"
 
         = partial 'views/global/favicon'
         = stylesheet_link_tag 'application'

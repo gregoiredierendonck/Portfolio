@@ -8,7 +8,7 @@ header id="header" class="header--top"
     nav class="header--navigation"
       h1 class="visuallyhidden" = data.navigation.title
       ul id="header-menu-list"
-        li class="header--menu-forsmall" = link_to "Accueil", "index.html"
+        li class="header--menu-forsmall" = link_to "Accueil", "../index.html"
         - data.navigation.nav.each_with_index do |entry|
           li class="#{entry.name}" = link_to "#{entry.title}", "../#{entry.link}"
     button type="button" class="menu-button" id="header-menu-button" Menu

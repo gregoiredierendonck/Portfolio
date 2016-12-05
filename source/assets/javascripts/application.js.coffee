@@ -2,3 +2,4 @@
 #= require "picturefill.js"
 #= require "header"
 #= require "footer"
+#= require "analytics"
