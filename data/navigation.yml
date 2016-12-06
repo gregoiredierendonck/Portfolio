@@ -2,17 +2,17 @@ title: "Navigation principale"
 nav:
   -
     title: "Compétences"
-    link: "/competences"
+    link: "competences"
     name: "competences"
   -
     title: "Profil"
-    link: "/profil"
+    link: "profil"
     name: "profil"
   -
     title: "Références"
-    link: "/references"
+    link: "references"
     name: "references"
   -
     title: "Contact"
-    link: "/contact"
+    link: "contact"
     name: "contact"
