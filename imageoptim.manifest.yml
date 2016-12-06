@@ -1,542 +1,375 @@
 ---
-build/android-chrome-192x192-aea6f5d1.png: 2016-12-06 13:56:40.000000000 +01:00
-build/android-chrome-512x512-a2139ae6.png: 2016-12-06 13:56:45.000000000 +01:00
-build/apple-touch-icon.png: 2016-12-06 13:56:22.000000000 +01:00
-build/assets/images/big-9f8e60a5.jpg: 2016-12-06 13:56:40.000000000 +01:00
-build/assets/images/big2x-76255a79.jpg: 2016-12-06 13:56:41.000000000 +01:00
-build/assets/images/competences-1-big-2c369fe5.jpg: 2016-12-06 13:56:22.000000000
+build/android-chrome-192x192.png: 2016-12-06 14:36:38.000000000 +01:00
+build/android-chrome-512x512.png: 2016-12-06 14:36:44.000000000 +01:00
+build/apple-touch-icon.png: 2016-12-06 14:36:29.000000000 +01:00
+build/assets/images/big.jpg: 2016-12-06 14:36:38.000000000 +01:00
+build/assets/images/big2x.jpg: 2016-12-06 14:36:39.000000000 +01:00
+build/assets/images/competences-1-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-1-big@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/competences-1-medium.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/competences-1-medium@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-1-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-1-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-2-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-2-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-2-medium.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-2-medium@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-2-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-2-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-3-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-3-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-3-medium.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-3-medium@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-3-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/competences-3-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/laredoute-1-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/laredoute-1-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/laredoute-1-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/laredoute-1-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/medium.jpg: 2016-12-06 14:36:46.000000000 +01:00
+build/assets/images/medium2x.jpg: 2016-12-06 14:36:46.000000000 +01:00
+build/assets/images/projets/caps-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-1-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-1-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-1-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-1-small@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-2-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-2-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-2-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-2-small@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-3-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-3-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-3-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-3-small@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-caps-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-caps-big@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-intro-big.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-intro-big@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-intro-medium.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-intro-medium@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-intro-small.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-intro-small@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-ref-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/delcourt-ref-big@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-ref-medium.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-ref-medium@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-ref-small.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/delcourt-ref-small@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/fmo-1-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-1-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-1-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-1-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-2-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-2-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-2-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-2-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-3-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-3-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-3-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-3-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-caps-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-caps-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-intro-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-intro-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-intro-medium.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-intro-medium@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/fmo-intro-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-intro-small@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/fmo-ref-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-ref-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-ref-medium.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-ref-medium@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-ref-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/fmo-ref-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-1-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-1-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-1-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-1-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-2-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-2-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-2-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-2-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-3-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-3-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-3-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-3-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-4-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-4-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-4-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-4-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-5-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-5-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-5-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-5-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-6-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-6-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-6-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-6-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-caps-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-caps-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-intro-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-intro-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-intro-medium.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-intro-medium@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/icr-intro-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-intro-small@2x.jpg: 2016-12-06 14:36:33.000000000
+  +01:00
+build/assets/images/projets/icr-ref-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-ref-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-ref-medium.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-ref-medium@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-ref-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/icr-ref-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-1-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-1-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-1-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-1-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-2-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-2-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-2-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-2-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-3-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-3-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-3-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-3-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-4-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-4-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-4-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-4-small@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-5-big.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-5-big@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-5-small.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/jefapp-5-small@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-6-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-6-big@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-6-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-6-small@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-7-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-7-big@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-7-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-7-small@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-caps-big.jpg: 2016-12-06 14:37:11.000000000 +01:00
+build/assets/images/projets/jefapp-caps-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-1-big@2x-6d6a8286.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefapp-intro-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-intro-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-1-medium-eb59e1b1.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefapp-intro-medium.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-1-medium@2x-e3e5bbf1.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefapp-intro-medium@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-1-small-252aa144.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefapp-intro-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-1-small@2x-5659891c.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefapp-intro-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-2-big-0894c00e.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefapp-ref-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-ref-big@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-ref-medium.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-ref-medium@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-2-big@2x-f1d3d7d9.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefapp-ref-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefapp-ref-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-2-medium-a7ced64c.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-1-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefcheckout-1-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-2-medium@2x-836cb5a9.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-1-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-2-small-e15b56c0.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-1-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-2-small@2x-9a62a3d4.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-2-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefcheckout-2-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-3-big-78826e2a.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-2-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-3-big@2x-c4c01812.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-2-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-3-medium-a146098a.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-3-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/jefcheckout-3-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-3-medium@2x-666990bd.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-3-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-3-small-45779ba9.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-3-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/competences-3-small@2x-01153fdc.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-caps-big.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/laredoute-1-big-5f55c3a8.jpg: 2016-12-06 13:56:22.000000000 +01:00
-build/assets/images/laredoute-1-big@2x-6aaee150.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-caps-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/laredoute-1-small-5056e544.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-intro-big.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/laredoute-1-small@2x-3329845f.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-intro-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/medium-bda6b960.jpg: 2016-12-06 13:56:47.000000000 +01:00
-build/assets/images/medium2x-1a2a89d0.jpg: 2016-12-06 13:56:48.000000000 +01:00
-build/assets/images/projets/caps-small-450ff679.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-intro-medium.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-1-big-01adc48e.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-intro-medium@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-1-big@2x-eef2c466.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-intro-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-1-small-271a6359.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-intro-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-1-small@2x-6d987216.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-ref-big.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-2-big-f6b446f5.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-ref-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-2-big@2x-50ad184c.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-ref-medium.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-2-small-09aa383e.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-ref-medium@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-2-small@2x-26db5930.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-ref-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-3-big-cae852ae.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/jefcheckout-ref-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-3-big@2x-00f5c14e.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-1-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-1-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-3-small-2e5edbf0.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-1-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-1-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-3-small@2x-3de892bf.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-2-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-2-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-caps-big-b94a192e.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-2-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-2-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-caps-big@2x-3eaac6a5.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-3-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-3-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-intro-big-a196bfb8.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-3-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-3-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-intro-big@2x-45a478a6.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-4-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-4-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-intro-medium-496d4c9d.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-4-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-4-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-intro-medium@2x-48d0c79b.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-5-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-5-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-intro-small-5d19d6e5.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-5-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-5-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-intro-small@2x-604fb912.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-caps-big.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-ref-big-719d8227.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-caps-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-ref-big@2x-1ca268b9.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-intro-big.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-ref-medium-20975714.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-intro-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-ref-medium@2x-65dbb2dd.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-intro-medium.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-ref-small-a4e93cf4.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-intro-medium@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/delcourt-ref-small@2x-4f36b381.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-intro-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-1-big-8e43dd81.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-intro-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-1-big@2x-6afb3efd.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-ref-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/laredoute-ref-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-1-small-06fc769c.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-ref-medium.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-1-small@2x-430279a4.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-ref-medium@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-2-big-5005e45a.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-ref-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-2-big@2x-9d463e6b.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/laredoute-ref-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-2-small-d7ba0743.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/mco-1-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-1-big@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-1-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-1-small@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-2-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-2-big@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-2-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-2-small@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-3-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-3-big@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-3-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-3-small@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-caps-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-caps-big@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-intro-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-intro-big@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-intro-medium.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-intro-medium@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-2-small@2x-3b0c04d8.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/mco-intro-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-intro-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-3-big-a6755158.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/mco-ref-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-ref-big@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-ref-medium.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-ref-medium@2x.jpg: 2016-12-06 14:36:33.000000000 +01:00
+build/assets/images/projets/mco-ref-small.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/mco-ref-small@2x.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/planeteoui-1-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/planeteoui-1-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-3-big@2x-fd9c7843.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-1-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-3-small-35571c5f.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-1-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-3-small@2x-faf6794b.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-2-big.jpg: 2016-12-06 14:36:34.000000000 +01:00
+build/assets/images/projets/planeteoui-2-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-caps-big-52f339e3.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-2-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-caps-big@2x-37dd7dfe.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-2-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-intro-big-28a401c3.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-caps-big.jpg: 2016-12-06 14:37:39.000000000
   +01:00
-build/assets/images/projets/fmo-intro-big@2x-8c7fa030.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-caps-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-intro-medium-52cce7e3.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-intro-big.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-intro-medium@2x-82fe0c64.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-intro-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-intro-small-74b85d5f.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-intro-medium.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-intro-small@2x-04b303bf.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-intro-medium@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-ref-big-b7e62e0f.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-intro-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-ref-big@2x-b1e1eca0.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-intro-small@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-ref-medium-4c8fe6cb.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-ref-big.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-ref-medium@2x-1a7c490c.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-ref-big@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/fmo-ref-small-4047b1f4.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-ref-medium.jpg: 2016-12-06 14:36:33.000000000
   +01:00
-build/assets/images/projets/fmo-ref-small@2x-c7fc1f1e.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-ref-medium@2x.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/icr-1-big-06807373.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-ref-small.jpg: 2016-12-06 14:36:34.000000000
   +01:00
-build/assets/images/projets/icr-1-big@2x-17a55933.jpg: 2016-12-06 13:56:22.000000000
+build/assets/images/projets/planeteoui-ref-small@2x.jpg: 2016-12-06 14:36:33.000000000
   +01:00
-build/assets/images/projets/icr-1-small-718385e1.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-1-small@2x-1444935e.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-2-big-e72e5831.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-2-big@2x-23369b69.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-2-small-6d698484.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-2-small@2x-a60cd6c8.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-3-big-bead5784.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-3-big@2x-fa379e9b.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-3-small-5a99086b.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-3-small@2x-d7f043c5.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-4-big-cfd7a1e4.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-4-big@2x-7c091fcb.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-4-small-51a650fc.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-4-small@2x-77b8a6e3.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-5-big-da240aa5.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-5-big@2x-d764822d.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-5-small-11c8e7c1.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-5-small@2x-f0343e74.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-6-big-4c70272e.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-6-big@2x-469d72f1.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-6-small-9d72139b.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-6-small@2x-e0560f4f.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-caps-big-ee6694f2.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-caps-big@2x-336f7f81.jpg: 2016-12-06 13:56:22.000000000
-  +01:00
-build/assets/images/projets/icr-intro-big-35c3df86.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-intro-big@2x-dd8f3bf6.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-intro-medium-828da269.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-intro-medium@2x-46f5cc8d.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-intro-small-fb9da5c1.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-intro-small@2x-dc2b95cb.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-ref-big-bba75363.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-ref-big@2x-3ba05fe1.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-ref-medium-ce841d3a.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-ref-medium@2x-8d4d7372.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-ref-small-e7a05a65.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/icr-ref-small@2x-907efa21.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-1-big-9c89b6e9.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-1-big@2x-002a2485.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-1-small-6e90ce91.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-1-small@2x-9d9c9715.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-2-big-b19e4a8e.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-2-big@2x-f4af6114.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-2-small-01dddc99.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-2-small@2x-61a8432e.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-3-big-627111d6.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-3-big@2x-e8a4a0d9.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-3-small-2d18d9c4.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-3-small@2x-e7f980e7.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-4-big-81472398.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-4-big@2x-c71c2e21.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-4-small-f2f602ee.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-4-small@2x-202c1343.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-5-big-ae4751f7.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-5-big@2x-a81c59bf.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-5-small-f53a83ca.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-5-small@2x-e3b3c4de.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-6-big-49fd9a24.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-6-big@2x-41a28dac.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-6-small-5ac58028.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-6-small@2x-abb8832e.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-7-big-ae18f564.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-7-big@2x-5dc81ec1.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-7-small-46229dd1.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-7-small@2x-29b20706.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-caps-big-e2472081.jpg: 2016-12-06 13:57:15.000000000
-  +01:00
-build/assets/images/projets/jefapp-caps-big@2x-f782dc82.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-intro-big-bd2d7bb8.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-intro-big@2x-218501d1.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-intro-medium-75309ecb.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-intro-medium@2x-415e713e.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-intro-small-f59f4401.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-intro-small@2x-2e2278ae.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-ref-big-4606732c.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-ref-big@2x-c22f1285.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-ref-medium-7e6613a4.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-ref-medium@2x-c1f2a18c.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-ref-small-5aee2164.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefapp-ref-small@2x-87efe6e1.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-1-big-7e5e79ea.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-1-big@2x-26c51aaa.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-1-small-d612a300.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-1-small@2x-46eaeab7.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-2-big-72c42f5d.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-2-big@2x-53e176f9.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-2-small-8d7f2c61.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-2-small@2x-22484792.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-3-big-e1a387d0.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-3-big@2x-0fc7d5cc.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-3-small-449cc373.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-3-small@2x-f4f638f8.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-caps-big-61f3201a.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-caps-big@2x-8e5a6468.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-intro-big-a0e27787.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-intro-big@2x-60d6897a.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-intro-medium-2c53bb41.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-intro-medium@2x-07800ac7.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-intro-small-93e1f40c.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-intro-small@2x-eeb55969.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-ref-big-481c4ec0.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-ref-big@2x-cd2c571b.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-ref-medium-0a37148b.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-ref-medium@2x-26fb9f6f.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-ref-small-5abf6451.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/jefcheckout-ref-small@2x-d7c0bb46.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-1-big-fb8ea155.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-1-big@2x-1962c94e.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-1-small-7c33484c.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-1-small@2x-da5476c6.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-2-big-66b38b83.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-2-big@2x-516f32f2.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-2-small-beea2f03.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-2-small@2x-7122e5fa.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-3-big-6c3959b3.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-3-big@2x-6d71680e.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-3-small-374e8eba.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-3-small@2x-19433764.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-4-big-01a23edd.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-4-big@2x-e994056c.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-4-small-c1996f41.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-4-small@2x-2a1c7588.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-5-big-df32bc80.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-5-big@2x-c32141eb.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-5-small-fcabdefe.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-5-small@2x-1e6d2f8b.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-caps-big-c91f45d1.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-caps-big@2x-1ec963f3.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-intro-big-b1a2dd6e.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-intro-big@2x-65ea8366.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-intro-medium-1ab13fa3.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-intro-medium@2x-1861b530.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-intro-small-91905c61.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-intro-small@2x-2f44d7fa.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-ref-big-7fae3ce0.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-ref-big@2x-bb3565f1.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-ref-medium-edf35df9.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-ref-medium@2x-3104624d.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-ref-small-79e6de04.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/laredoute-ref-small@2x-95cacf14.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-1-big-1a480c00.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-1-big@2x-5bc83e9e.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-1-small-8058d5e0.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-1-small@2x-5d9865fa.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-2-big-e8b0a74d.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-2-big@2x-40561264.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-2-small-c48cba10.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-2-small@2x-0ae6a5c0.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-3-big-ed2e8fc7.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-3-big@2x-6777b246.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-3-small-0c33d7d7.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-3-small@2x-cca77149.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-caps-big-5a61ac7f.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-caps-big@2x-ae1a1e5d.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-intro-big-43d82a83.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-intro-big@2x-6c813614.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-intro-medium-d8cb3292.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-intro-medium@2x-72cc8a55.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-intro-small-0fa2f946.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-intro-small@2x-e6c83e41.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-ref-big-7a792929.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-ref-big@2x-6bc14c1d.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-ref-medium-e00db6d3.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-ref-medium@2x-4d4658a0.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-ref-small-8b96cc39.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/mco-ref-small@2x-1f2eaf7a.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-1-big-b629682f.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-1-big@2x-b4cd299b.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-1-small-5a636fce.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-1-small@2x-997d44e5.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-2-big-d43208c0.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-2-big@2x-7eef1623.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-2-small-6d221b7c.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-2-small@2x-b1e0421a.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-caps-big-d1660728.jpg: 2016-12-06 13:57:43.000000000
-  +01:00
-build/assets/images/projets/planeteoui-caps-big@2x-d41af017.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-intro-big-cb2fcf89.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-intro-big@2x-0b7599d4.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-intro-medium-124b573e.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-intro-medium@2x-278b3050.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-intro-small-f8d4ac12.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-intro-small@2x-c8965309.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-ref-big-47cf3e68.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-ref-big@2x-5d291a1e.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-ref-medium-bb22b805.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-ref-medium@2x-3867b4cb.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-ref-small-b8279c3d.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/projets/planeteoui-ref-small@2x-dccb1e66.jpg: 2016-12-06 13:56:23.000000000
-  +01:00
-build/assets/images/small-08e40be2.jpg: 2016-12-06 13:57:48.000000000 +01:00
-build/assets/images/small2x-7df77f16.jpg: 2016-12-06 13:57:48.000000000 +01:00
-build/favicon-16x16-a004e4e8.png: 2016-12-06 13:57:47.000000000 +01:00
-build/favicon-32x32-75fa25f4.png: 2016-12-06 13:57:48.000000000 +01:00
-build/mstile-144x144-44cc8a9d.png: 2016-12-06 13:57:48.000000000 +01:00
-build/mstile-150x150-ebee03ec.png: 2016-12-06 13:57:49.000000000 +01:00
-build/mstile-310x150-9b136f5c.png: 2016-12-06 13:57:49.000000000 +01:00
-build/mstile-310x310-de9c0c61.png: 2016-12-06 13:57:50.000000000 +01:00
-build/mstile-70x70-a0f1806a.png: 2016-12-06 13:57:48.000000000 +01:00
+build/assets/images/small.jpg: 2016-12-06 14:37:43.000000000 +01:00
+build/assets/images/small2x.jpg: 2016-12-06 14:37:43.000000000 +01:00
+build/favicon-16x16.png: 2016-12-06 14:37:43.000000000 +01:00
+build/favicon-32x32.png: 2016-12-06 14:37:43.000000000 +01:00
+build/mstile-144x144.png: 2016-12-06 14:37:43.000000000 +01:00
+build/mstile-150x150.png: 2016-12-06 14:37:44.000000000 +01:00
+build/mstile-310x150.png: 2016-12-06 14:37:44.000000000 +01:00
+build/mstile-310x310.png: 2016-12-06 14:37:45.000000000 +01:00
+build/mstile-70x70.png: 2016-12-06 14:37:44.000000000 +01:00

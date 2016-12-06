@@ -5,50 +5,6 @@
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>http://www.gregoiredierendonck.fr/test.html</loc>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>http://www.gregoiredierendonck.fr/references.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.gregoiredierendonck.fr/projets/zukunfthaus.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://www.gregoiredierendonck.fr/projets/planeteoui.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://www.gregoiredierendonck.fr/projets/montresandco.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://www.gregoiredierendonck.fr/projets/laredoute.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://www.gregoiredierendonck.fr/projets/jef-checkout.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://www.gregoiredierendonck.fr/projets/jef-borne-interactive.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://www.gregoiredierendonck.fr/projets/francemachinesoutils.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://www.gregoiredierendonck.fr/projets/delcourt.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://www.gregoiredierendonck.fr/profil.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://www.gregoiredierendonck.fr/competences.html</loc>
     <priority>0.8</priority>
   </url>
@@ -63,5 +19,49 @@
   <url>
     <loc>http://www.gregoiredierendonck.fr/index.html</loc>
     <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/profil.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/projets/delcourt.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/projets/francemachinesoutils.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/projets/jef-borne-interactive.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/projets/jef-checkout.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/projets/laredoute.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/projets/montresandco.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/projets/planeteoui.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/projets/zukunfthaus.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/references.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.gregoiredierendonck.fr/test.html</loc>
+    <priority>0.2</priority>
   </url>
 </urlset>
