@@ -11,6 +11,8 @@ set :js_dir, 'assets/javascripts'
 set :css_dir, 'assets/stylesheets'
 set :images_dir, 'assets/images'
 set :layouts_dir, 'layouts'
+activate :directory_indexes
+set :relative_links, true
 
 # Remove the layout on specific pages
 page "/sitemap.xml", :layout => false
@@ -40,4 +42,10 @@ configure :build do
 	activate :cache_buster
 	set :relative_links, true
 	ignore 'imageoptim.manifest.yml'
+end
+
+# rename file after build
+# View : http://coderwall.com/p/daflfq/generate-htaccess-in-middleman
+after_build do
+  File.rename 'build/.htaccess.apache', 'build/.htaccess'
 end
