@@ -15,18 +15,16 @@ section class="nav--projects"
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetjefapplication.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
-        source srcset="../assets/images/projets/#{data.projetjefapplication.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
-        img srcset="../assets/images/projets/#{data.projetjefapplication.refimgsmall}" alt="#{data.projetjefapplication.refimgalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetjefapplication.refimgbig} 1x, ../assets/images/projets/#{data.projetjefapplication.refimgbig2x} 2x" media="(min-width: 750px)"
+        img src="../assets/images/projets/#{data.projetjefapplication.refimgsmall}" alt="#{data.projetjefapplication.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetjefapplication.client
   = link_to "#{data.projetplaneteoui.link}" do
     div class="arrow"
     div class="content"
       picture
-        source srcset="../assets/images/projets/#{data.projetplaneteoui.refimgbig}" media="only screen and ( min-width: 750px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( max-device-pixel-ratio: 1.25)" class="img"
-        source srcset="../assets/images/projets/#{data.projetplaneteoui.refimgbig2x}" media="only screen and ( min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 750px) and ( min-device-pixel-ratio: 1.25)" class="img"
-        img srcset="../assets/images/projets/#{data.projetplaneteoui.refimgsmall}" alt="#{data.projetplaneteoui.refimgalt}" class="img"
+        source srcset="../assets/images/projets/#{data.projetplaneteoui.refimgbig} 1x, ../assets/images/projets/#{data.projetplaneteoui.refimgbig2x} 2x" media="(min-width: 750px)"
+        img src="../assets/images/projets/#{data.projetplaneteoui.refimgsmall}" alt="#{data.projetplaneteoui.refimgalt}" class="img"
       div class="text"
         p class="subtitle" = data.projetplaneteoui.client
         
@@ -42,12 +40,10 @@ section class="content"
 
       div class="projects--primaryimg image-full" id="content"
         picture
-          source srcset="../assets/images/projets/#{data.projetdelcourt.introimgbig}" media="only screen and ( min-width: 950px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 950px) and ( max-device-pixel-ratio: 1.25)" class="img"
-          source srcset="../assets/images/projets/#{data.projetdelcourt.introimgbig2x}" media="only screen and ( min-width: 950px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 950px) and ( min-device-pixel-ratio: 1.25)" class="img"
-          source srcset="../assets/images/projets/#{data.projetdelcourt.introimgmedium}" media="only screen and ( min-width: 600px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 600px) and ( max-device-pixel-ratio: 1.25)" class="img"
-          source srcset="../assets/images/projets/#{data.projetdelcourt.introimgmedium2x}" media="only screen and ( min-width: 600px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 600px) and ( min-device-pixel-ratio: 1.25)" class="img"
-          source srcset="../assets/images/projets/#{data.projetdelcourt.introimgsmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
-          img srcset="../assets/images/projets/#{data.projetdelcourt.introimgsmall}" alt="#{data.projetdelcourt.introimgalt}" class="img"    
+          source srcset="../assets/images/projets/#{data.projetdelcourt.introimgbig} 1x, ../assets/images/projets/#{data.projetdelcourt.introimgbig2x} 2x" media="(min-width: 950px)"
+          source srcset="../assets/images/projets/#{data.projetdelcourt.introimgmedium} 1x, ../assets/images/projets/#{data.projetdelcourt.introimgmedium2x} 2x" media="(min-width: 600px)"
+          source srcset="../assets/images/projets/#{data.projetdelcourt.introimgsmall} 1x, ../assets/images/projets/#{data.projetdelcourt.introimgsmall2x} 2x"
+          img src="../assets/images/projets/#{data.projetdelcourt.introimgsmall}" alt="#{data.projetdelcourt.introimgalt}" class="img"    
       
       div class="grid panel--white big--padding no--border"
         h2 class="subtitle center" Contexte
@@ -56,10 +52,9 @@ section class="content"
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
           picture
-            source srcset="../assets/images/projets/#{data.projetdelcourt.imageonebig}" media="only screen and ( min-width: 470px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 470px) and ( max-device-pixel-ratio: 1.25)" class="img"
-            source srcset="../assets/images/projets/#{data.projetdelcourt.imageonebig2x}" media="only screen and ( min-width: 470px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 470px) and ( min-device-pixel-ratio: 1.25)" class="img"
-            source srcset="../assets/images/projets/#{data.projetdelcourt.imageonesmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
-            img srcset="../assets/images/projets/#{data.projetdelcourt.imageonesmall}" alt="#{data.projetdelcourt.imageonealt}" class="img" 
+            source srcset="../assets/images/projets/#{data.projetdelcourt.imageonebig} 1x, ../assets/images/projets/#{data.projetdelcourt.imageonebig2x} 2x" media="(min-width: 470px)"
+            source srcset="../assets/images/projets/#{data.projetdelcourt.imageonesmall} 1x, ../assets/images/projets/#{data.projetdelcourt.imageonesmall2x} 2x"
+            img src="../assets/images/projets/#{data.projetdelcourt.imageonesmall}" alt="#{data.projetdelcourt.imageonealt}" class="img" 
         div class="grid--two grid--margin grid--center"
           h2 = data.projetdelcourt.titleone
           p = data.projetdelcourt.textone
@@ -67,10 +62,9 @@ section class="content"
       div class="grid panel--white big--padding no--border"
         div class="grid--two grid--margin"
           picture
-            source srcset="../assets/images/projets/#{data.projetdelcourt.imagetwobig}" media="only screen and ( min-width: 470px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 470px) and ( max-device-pixel-ratio: 1.25)" class="img"
-            source srcset="../assets/images/projets/#{data.projetdelcourt.imagetwobig2x}" media="only screen and ( min-width: 470px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 470px) and ( min-device-pixel-ratio: 1.25)" class="img"
-            source srcset="../assets/images/projets/#{data.projetdelcourt.imagetwosmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
-            img srcset="../assets/images/projets/#{data.projetdelcourt.imagetwosmall}" alt="#{data.projetdelcourt.imagetwoalt}" class="img"
+            source srcset="../assets/images/projets/#{data.projetdelcourt.imagetwobig} 1x, ../assets/images/projets/#{data.projetdelcourt.imagetwobig2x} 2x" media="(min-width: 470px)"
+            source srcset="../assets/images/projets/#{data.projetdelcourt.imagetwosmall} 1x, ../assets/images/projets/#{data.projetdelcourt.imagetwosmall2x} 2x"
+            img src="../assets/images/projets/#{data.projetdelcourt.imagetwosmall}" alt="#{data.projetdelcourt.imagetwoalt}" class="img"
         div class="grid--two grid--margin grid--center"
           h2 = data.projetdelcourt.titletwo
           p = data.projetdelcourt.texttwo
@@ -78,10 +72,9 @@ section class="content"
       div class="grid panel--white big--padding no--border" 
         div class="grid--two grid--margin"
           picture
-            source srcset="../assets/images/projets/#{data.projetdelcourt.imagethreebig}" media="only screen and ( min-width: 470px) and (-webkit-max-device-pixel-ratio: 1.25), only screen and ( min-width: 470px) and ( max-device-pixel-ratio: 1.25)" class="img"
-            source srcset="../assets/images/projets/#{data.projetdelcourt.imagethreebig2x}" media="only screen and ( min-width: 470px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 470px) and ( min-device-pixel-ratio: 1.25)" class="img"
-            source srcset="../assets/images/projets/#{data.projetdelcourt.imagethreesmall2x}" media="only screen and ( min-width: 10px) and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-width: 10px) and ( min-device-pixel-ratio: 1.25)" class="img"
-            img srcset="../assets/images/projets/#{data.projetdelcourt.imagethreesmall}" alt="#{data.projetdelcourt.imagethreealt}" class="img"
+            source srcset="../assets/images/projets/#{data.projetdelcourt.imagethreebig} 1x, ../assets/images/projets/#{data.projetdelcourt.imagethreebig2x} 2x" media="(min-width: 470px)"
+            source srcset="../assets/images/projets/#{data.projetdelcourt.imagethreesmall} 1x, ../assets/images/projets/#{data.projetdelcourt.imagethreesmall2x} 2x"
+            img src="../assets/images/projets/#{data.projetdelcourt.imagethreesmall}" alt="#{data.projetdelcourt.imagethreealt}" class="img"
         div class="grid--two grid--margin grid--center"
           h2 = data.projetdelcourt.titlethree
           p = data.projetdelcourt.textthree

@@ -1,0 +1,12 @@
+/* Webfont: Poppins-Medium */@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('Poppins-Medium.eot'); /* IE9 Compat Modes */
+    src: url('Poppins-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Poppins-Medium.woff') format('woff'), /* Modern Browsers */
+         url('Poppins-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Poppins-Medium.svg#Poppins-Medium') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
