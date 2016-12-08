@@ -59,30 +59,38 @@ section class="content"
           h2 = data.projetlaredoute.titleone
           p = data.projetlaredoute.textone
           
-      div class="grid panel--white big--padding no--border" 
-        div class="grid--one grid--margin center"
-          h2 class="center" = data.projetlaredoute.titletwo
-        div class="grid--one grid--margin grid--marginbottom"
-          picture
-            source srcset="../assets/images/projets/#{data.projetlaredoute.imagetwobig} 1x, ../assets/images/projets/#{data.projetlaredoute.imagetwobig2x} 2x" media="(min-width: 900px)"
-            source srcset="../assets/images/projets/#{data.projetlaredoute.imagetwosmall} 1x, ../assets/images/projets/#{data.projetlaredoute.imagetwosmall2x} 2x"
-            img src="../assets/images/projets/#{data.projetlaredoute.imagetwosmall}" alt="#{data.projetlaredoute.imagetwoalt}" class="img"
-        div class="grid--one grid--margin grid--marginbottom"
-          picture
-            source srcset="../assets/images/projets/#{data.projetlaredoute.imagethreebig} 1x, ../assets/images/projets/#{data.projetlaredoute.imagethreebig2x} 2x" media="(min-width: 900px)"
-            source srcset="../assets/images/projets/#{data.projetlaredoute.imagethreesmall} 1x, ../assets/images/projets/#{data.projetlaredoute.imagethreesmall2x} 2x"
-            img src="../assets/images/projets/#{data.projetlaredoute.imagethreesmall}" alt="#{data.projetlaredoute.imagethreealt}" class="img"
-        div class="grid grid--margin grid--marginbottom"
+        div class="grid panel--white big--padding no--border grid--image"    
           div class="grid--two grid--margin"
             picture
-              source srcset="../assets/images/projets/#{data.projetlaredoute.imagefourbig} 1x, ../assets/images/projets/#{data.projetlaredoute.imagefourbig2x} 2x" media="(min-width: 900px)"
+              source srcset="../assets/images/projets/#{data.projetlaredoute.imagetwobig} 1x, ../assets/images/projets/#{data.projetlaredoute.imagetwobig2x} 2x" media="(min-width: 470px)"
+              source srcset="../assets/images/projets/#{data.projetlaredoute.imagetwosmall} 1x, ../assets/images/projets/#{data.projetlaredoute.imagetwosmall2x} 2x"
+              img src="../assets/images/projets/#{data.projetlaredoute.imagetwosmall}" alt="#{data.projetlaredoute.imagetwoalt}" class="img"  
+          div class="grid--two grid--margin"
+            picture
+              source srcset="../assets/images/projets/#{data.projetlaredoute.imagethreebig} 1x, ../assets/images/projets/#{data.projetlaredoute.imagethreebig2x} 2x" media="(min-width: 470px)"
+              source srcset="../assets/images/projets/#{data.projetlaredoute.imagethreesmall} 1x, ../assets/images/projets/#{data.projetlaredoute.imagethreesmall2x} 2x"
+              img src="../assets/images/projets/#{data.projetlaredoute.imagethreesmall}" alt="#{data.projetlaredoute.imagethreealt}" class="img"  
+          div class="grid--two grid--margin"
+            picture
+              source srcset="../assets/images/projets/#{data.projetlaredoute.imagefourbig} 1x, ../assets/images/projets/#{data.projetlaredoute.imagefourbig2x} 2x" media="(min-width: 470px)"
               source srcset="../assets/images/projets/#{data.projetlaredoute.imagefoursmall} 1x, ../assets/images/projets/#{data.projetlaredoute.imagefoursmall2x} 2x"
               img src="../assets/images/projets/#{data.projetlaredoute.imagefoursmall}" alt="#{data.projetlaredoute.imagefouralt}" class="img" 
           div class="grid--two grid--margin"
             picture
-              source srcset="../assets/images/projets/#{data.projetlaredoute.imagefivebig} 1x, ../assets/images/projets/#{data.projetlaredoute.imagefivebig2x} 2x" media="(min-width: 900px)"
+              source srcset="../assets/images/projets/#{data.projetlaredoute.imagefivebig} 1x, ../assets/images/projets/#{data.projetlaredoute.imagefivebig2x} 2x" media="(min-width: 470px)"
               source srcset="../assets/images/projets/#{data.projetlaredoute.imagefivesmall} 1x, ../assets/images/projets/#{data.projetlaredoute.imagefivesmall2x} 2x"
-              img src="../assets/images/projets/#{data.projetlaredoute.imagefivesmall}" alt="#{data.projetlaredoute.imagefivealt}" class="img" 
+              img src="../assets/images/projets/#{data.projetlaredoute.imagefivesmall}" alt="#{data.projetlaredoute.imagefivealt}" class="img"  
+          div class="grid--two grid--margin"
+            picture
+              source srcset="../assets/images/projets/#{data.projetlaredoute.imagesixbig} 1x, ../assets/images/projets/#{data.projetlaredoute.imagesixbig2x} 2x" media="(min-width: 470px)"
+              source srcset="../assets/images/projets/#{data.projetlaredoute.imagesixsmall} 1x, ../assets/images/projets/#{data.projetlaredoute.imagesixsmall2x} 2x"
+              img src="../assets/images/projets/#{data.projetlaredoute.imagesixsmall}" alt="#{data.projetlaredoute.imagesixalt}" class="img"
+          div class="grid--two grid--margin"
+            picture
+              source srcset="../assets/images/projets/#{data.projetlaredoute.imagesevenbig} 1x, ../assets/images/projets/#{data.projetlaredoute.imagesevenbig2x} 2x" media="(min-width: 470px)"
+              source srcset="../assets/images/projets/#{data.projetlaredoute.imagesevensmall} 1x, ../assets/images/projets/#{data.projetlaredoute.imagesevensmall2x} 2x"
+              img src="../assets/images/projets/#{data.projetlaredoute.imagesevensmall}" alt="#{data.projetlaredoute.imagesevenalt}" class="img"
+                 
         div class="grid--one grid--margin center"
           p = data.projetlaredoute.texttwo
           = link_to "#{data.projetlaredoute.texttwolinktext}", "#{data.projetlaredoute.texttwolinkpath}", target:"_blank", class:"button--primary button--end"

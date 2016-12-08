@@ -3,18 +3,13 @@ img {
   max-width: 100%;
   vertical-align: bottom;
   align-self: flex-start;
-  &.img {
-    box-shadow: 0 0 0 1px $grey-light;
-  }
+  &.img {box-shadow: 0 0 0 1px $grey-light;}
 }
 
 picture {
   display: flex;
   width: auto;
   max-width: 100%;
-  &.img {
-    box-shadow: 0 0 0 1px $grey-light;
-  }
 }
 
 .panel--white {
