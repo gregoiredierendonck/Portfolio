@@ -22,22 +22,22 @@ introimgsmall2x: "planeteoui-intro-small@2x.jpg"
 introimgsmall: "planeteoui-intro-small.jpg"
 introimgalt: "Aperçu du page d'accueil du site Planète Oui"
 intro: |
-  Planète Oui, fournisseur d'éléctricité renouvelable, nous a confié l'optimisation
-  de sa page d'accueil ainsi que de son formulaire de souscription en ligne.
+  Planète Oui, fournisseur d'électricité renouvelable, nous a confié l'optimisation
+  de sa page d'accueil et de son formulaire de souscription en ligne.
   Le formulaire a été complètement repensé, des tests A/B ont été menés
   sur la page d'accueil... Pour une augmentation de +180% du taux de transformation.
 
 titleone: "Optimisation de la page d'accueil grâce aux tests A/B"
 textone: |
   Une étude a été menée sur le site afin de déceler les différents profils-types
-  d'utilisateurs concernés par le service ainsi que leurs attentes respectives.
+  d'utilisateurs concernés par le service, ainsi que leurs attentes respectives.
   Plusieurs axes de communication ont alors été conçus et testés à l'aide de tests A/B
   mis en place en deux temps distincts&nbsp;:
   <ul class="list">
     <li>Temps 1&nbsp;: différents axes de positionnement ont été rédigés et testés, dans le but
-    de cibler l'approche de l'offre qui séduira le plus l'ensemble des utilisateurs.</li>
+    de cibler l'approche de l'offre qui séduira le plus d'utilisateurs.</li>
     <li>Temps 2&nbsp;: sur la base de l'approche gagnante, différents visuels et mises en page
-    ont été testés, en variant les ambiances, l'âge des personnes représentées, en proposant
+    ont été testés en variant les ambiances, l'âge des personnes représentées, en proposant
     de simples photos ou des vidéos.</li>
   </ul>
   <p>L'optimisation de cette page d'accueil a permis à notre client d'enregistrer une augmentation de
@@ -50,12 +50,12 @@ imageonealt: "Aperçu des documents de travail des tests A/B de Planète Oui"
 
 titletwo: "Optimisation du formulaire de souscription"
 texttwo: |
-  Une optimisation du formulaire de souscription a également été entreprise dans le but de
+  Une optimisation du formulaire de souscription a été entreprise dans le but de
   simplifier, de réorganiser, de rassurer et de mieux accompagner l'utilisateur. Les points
-  de distractions ont été supprimés, les formulaires ont été repensés pour en simplifier la complétion,
-  de nombreux aides contextuelles y ont été ajoutées. Le déroulement des étapes a également été optimisé
-  pour perdre le moins possible d'utilisateurs en cours de route mais également pour laisser la possibilité
-  de finaliser une inscription débutée dans un temps second. L'optimisation de ce formulaire a permis de
+  de distraction ont été supprimés, les formulaires ont été repensés pour en simplifier la complétion,
+  de nombreux aides contextuelles y ont été ajoutées. Le déroulement des étapes a été optimisé
+  pour perdre le moins d'utilisateurs possible en cours de route mais également pour laisser la possibilité
+  de finaliser une inscription débutée dans un second temps. L'optimisation de ce formulaire a permis de
   faire évoluer le taux de transformation des visites en souscriptions effectives de plus de 67%.
 imagetwobig2x: "planeteoui-2-big@2x.jpg"
 imagetwobig: "planeteoui-2-big.jpg"
